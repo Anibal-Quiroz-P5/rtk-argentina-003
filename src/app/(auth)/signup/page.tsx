@@ -152,6 +152,7 @@ const Signup = () => {
   };
 
   const handleSubmit = async (e: any) => {
+    console.log("ESTOY ADENTRO DEL ASYNC  DE PAGE DE SIGNUP  APENAS ENTRA AL ASYNC !!!!!!");
     e.preventDefault();
     const email = e.target[0].value;
     const password = e.target[1].value;
@@ -167,6 +168,8 @@ const Signup = () => {
     }
 
     try {
+      console.log("ESTOY ADENTRO DEL TRY   DE    SIGNUP  APENAS ENTRA AL TRY  y proximo paso hacer el   FETCH  A  /API/REGISTER   !!!!!!");
+      
       const res = await fetch("/api/register", {
         method: "POST",
         headers: {
@@ -177,6 +180,9 @@ const Signup = () => {
           password,
         }),
       });
+      console.log("ESTOY DENTRO  DE  SIGNUPPPP ADENTRO DEL TRY PERO AFUERA DEL AWAIT ...FETCH     DESPUES DE HACER  EL  FETCH    !!!!!!");
+      console.log("VALORES RECIBIDOS DEL RES.STATUS" , res.status);
+      
       if (res.status === 400) {
         setError(
           "La dirección de correo electrónico ya está registrada, ingresá otra dirección por favor!"

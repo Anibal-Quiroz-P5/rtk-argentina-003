@@ -4,6 +4,7 @@
 import mongoose from "mongoose";
 
 const connect = async () => {
+  console.log("ENTRÉ LA FUNCION  CONNECTTT  !!!!");
   if (mongoose.connections[0].readyState) return;
 
   try {
