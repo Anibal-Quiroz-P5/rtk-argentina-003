@@ -2,7 +2,7 @@
   "name": "rtk-argentina-001",
   "version": "0.1.0",
   "private": true,
-    "scripts": {
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -13,6 +13,7 @@
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
