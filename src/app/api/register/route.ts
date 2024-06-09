@@ -130,19 +130,27 @@ function generateVerificationToken(): string {
 }
 
 async function sendVerificationEmail(email: string, verificationToken: string) {
+  // const transporter = nodemailer.createTransport({
+  //   host: 'smtp-mail.outlook.com',
+  //   port: 587,
+  //   auth: {
+  //     user: process.env.EMAIL_USER,
+  //     pass: process.env.EMAIL_PASS
+  //   }
+  // });
   const transporter = nodemailer.createTransport({
-    host: 'smtp-mail.outlook.com',
-    port: 587,
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS
-    }
-  });
+      host: "smtp.gmail.com",
+      port: 465,
+      auth: {
+        user: process.env.NEXT_PUBLIC_ADMIN_EMAIL,
+        pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD
+      }
+    });
 
   const verificationLink = `${process.env.NEXT_PUBLIC_BASE_URL}/verify?token=${verificationToken}`;
 
   await transporter.sendMail({
-    from: process.env.EMAIL_USER,
+    from: process.env.NEXT_PUBLIC_ADMIN_EMAI,
     to: email,
     subject: 'Verifica tu cuenta',
     text: `Haz clic en el siguiente enlace para verificar tu cuenta: ${verificationLink}`
