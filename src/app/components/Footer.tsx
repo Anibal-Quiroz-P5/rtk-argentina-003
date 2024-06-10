@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <div className='pt-[80px] pb-[40px]'>
       <div className='flex items-center justify-center gap-x-[12px] '>
-        <Image src={Logo} alt='Logo' />
+        <Image src={Logo} alt='Logo' width={30}/>
         <p className='font-bold text-[#36485C] text-[17px]'>RTK-Argentina</p>
       </div>
 

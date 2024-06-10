@@ -132,7 +132,7 @@ const Navbar = () => {
   return (
     <nav className="flex w-full items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20">
       <div className="flex items-center">
-        <Image src={Logo} alt="Logo" />
+        <Image src={Logo} alt="Logo" width={30}  />
 
         <div className="hidden lg:flex pl-[74px] gap-x-[56px] ">
           {navLinks.map((item, index) => (

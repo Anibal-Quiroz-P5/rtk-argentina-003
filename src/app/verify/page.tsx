@@ -287,16 +287,18 @@ const VerifyClient = () => {
   };
 
   return (
-    <div>
-      <p> ACA ENTRO A LA PAGINA DE VERIFY</p>
-      {verificationStatus === 'pending' && <h1>Verificando token...</h1>}
-      {/* {verificationStatus === 'success' && <h1>¡Verificación exitosa! Ahora te redirigiremos automáticamente al sitio para que puedas continuar navegando</h1>} */}
+    <div className="flex flex-col items-center justify-center h-screen">
+      {/* <p> ACA ENTRO A LA PAGINA DE VERIFY</p> */}
+      {verificationStatus === 'pending' && <h1 className="text-center">Verificando token...</h1>}
+      {/* {verificationStatus === 'success' && <h1>¡Verificación exitosa Ahora te redirigiremos automáticamente al sitio para que puedas continuar navegando</h1>} */}
 
       {verificationStatus === 'success' && (
-        <div>
-          <h1>¡Verificación exitosa!</h1>
-          <Link href={process.env.NEXT_PUBLIC_BASE_URL ?? '/'} className="bg-blue-600 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded text-lg">
-            <button >Ya podés continuar navegando por el sitio de RTK-Argentina</button>
+        <div className="flex flex-col items-center">
+          <h1 className="text-center">¡Verificación exitosa!</h1>
+          <Link href={process.env.NEXT_PUBLIC_BASE_URL ?? '/'} className="bg-blue-600 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded text-lg mt-6">
+            <button className="text-center">¡Ahora sí estás registrado!
+            <br />
+            Volver al sitio de RTK-Argentina</button>
           </Link>
         </div>
       )}
