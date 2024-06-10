@@ -113,11 +113,15 @@ const Signup = () => {
       {showPopup && (
         <div className="flex w-full  flex-col items-center justify-between px-[20px] py-[16px]">
           <div className="bg-[#212121] p-8 rounded shadow-md w-96">
-            <h2 className="text-2xl font-bold mb-4">¡Registro exitoso!</h2>
+            {/* <h2 className="text-2xl font-bold mb-4">¡Registro exitoso!</h2>
             <p>
               Te registraste con éxito !! Nos contactaremos con vos dentro de
               las siguientes 24 horas. Mientras tanto continuá disfrutando de la
               navegación en nuestro sitio
+            </p> */}
+            <h2 className="text-2xl font-bold mb-4">¡Ya estás a un paso completar tu registro!</h2>
+            <p>
+              Recién te enviamos un codigo de seguridad al correo con el cual te registraste. Por favor, revisá tu casilla y dale click al link para completar tu registro.
             </p>
             <div className="flex justify-end mt-4 items-center">
               <button
