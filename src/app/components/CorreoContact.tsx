@@ -115,14 +115,14 @@ const handleSubmit = async (e: { preventDefault: () => void }) => {
         </div>
       </div>
       <div className="flex gap-x-4 sm:col-span-2">
-        <div className="flex h-6 items-center">
+{/*         <div className="flex h-6 items-center">
           
           <button type="button" className="bg-gray-200 flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="false" aria-labelledby="switch-1-label">
             <span className="sr-only">Agree to policies</span>
             
             <span aria-hidden="true" className="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
           </button>
-        </div>
+        </div> */}
         <label className="text-sm leading-6 text-gray-600" id="switch-1-label">
         Si además de tu consulta deseas probar gratis por un mes nuestro servicio, por favor  
           <Link href="/signup" className="font-semibold text-indigo-600">  registrate &nbsp;aquí </Link>

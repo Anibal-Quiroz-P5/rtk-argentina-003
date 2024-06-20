@@ -30,15 +30,18 @@ const Faq = () => {
   return (
     <div className='flex flex-col w-full py-[48px]'>
       <div>
-        <h3 className='text-[#EB2891] text-[14px] font-medium'>
-        Preguntas Frecuentes {/* Frequently Asked Questions */}
+        <div >
+
+        <h3 className="text-center text-[32px] leading-[40px] font-medium text-[#8144f3] lg:text-[64px] lg:leading-[72px]">
+        Preguntas Frecuentes 
            </h3>
-           <h1 className='py-4 text-2xl font-medium text-[#172026]'> Aclaremos algunas de las dudas frecuentes{/* Let's clarify some of your questions */}</h1>
+        </div>
+           <h1 className='py-4 text-2xl font-medium text-[#172026] pt-12'> Aclaremos algunas de las dudas frecuentes{/* Let's clarify some of your questions */}</h1>
            <p className='text-whi'>
             Este es un extracto de algunas de las preguntas elegidas al azar que nos hicieron nuestros clientes:
            </p>
       </div>
-      <div>
+      <div className='pt-8'>
         <Accordion.Root
           type="single"
           defaultValue={""}

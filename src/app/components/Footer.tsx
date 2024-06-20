@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from '../../../public/assets/Logo.svg'
+/* import Logo from '../../../public/assets/Logo.svg' */
+import Logo from '../../../public/assets/Logo.png'
 import Facebook from '../../../public/assets/Facebook.svg'
 import X2 from '../../../public/assets/X2.svg'
 import Instagram from '../../../public/assets/Instagram.svg'
@@ -11,7 +12,7 @@ export const Footer = () => {
   return (
     <div className='pt-[80px] pb-[40px]'>
       <div className='flex items-center justify-center gap-x-[12px] '>
-        <Image src={Logo} alt='Logo' width={30}/>
+        <Image src={Logo} alt='Logo' width={40}/>
         <p className='font-bold text-[#36485C] text-[17px]'>RTK-Argentina</p>
       </div>
 

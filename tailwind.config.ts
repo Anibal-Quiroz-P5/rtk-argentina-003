@@ -4,6 +4,7 @@ const flowbite = require("flowbite-react/tailwind");
 const config = {
   darkMode: ["class"],
   content: [
+    ".src/app/prueba/page.ts",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -36,6 +37,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      spacing: {
+        '42':'16px',
+    },
     },
   },
   plugins: [require("tailwindcss-animate")],
