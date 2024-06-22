@@ -57,7 +57,7 @@ const Hero = () => {
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
             <Link href="/signup">
               <span className=" font-medium text-white lg:block">
-                RTK gratis
+                RTK "a tu alcance" o "a la gorra" o "tiene algo pa que me dea"
               </span>
             </Link>
           </button>
@@ -82,12 +82,12 @@ const Hero = () => {
       </div> */}
 
       <div className="relative flex h-full w-full justify-center">
-        <Image
+{/*         <Image
           src={Gradient}
           alt="Gradient"
-          /* className="min-h-[500px] w-full object-cover lg:h-auto" */
+          //className="min-h-[500px] w-full object-cover lg:h-auto"
           className="min-h-[300px] w-full object-cover lg:h-auto"
-        />
+        /> */}
 
 {/*         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">

@@ -10,9 +10,11 @@ import AboutUs from "./components/AboutUs";
 export default function Home() {
   return (
    <>
-    <Navbar />
+    {/* <Navbar /> */}
     <Hero />
-        <div className="px-[20px] lg:container lg:px-20 mx-auto">
+        <div className="px-[20px] lg:container  mx-auto border border-red-500">
+    {/* <div className="px-[20px]  mx-auto border border-red-500 w-full h-20"> */}
+    {/* <div className="px-[20px]   mx-auto border border-red-500 w-full h-20"> */}
       <Features />
       <AboutUs />
       <Faq />

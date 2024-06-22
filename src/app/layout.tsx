@@ -5,6 +5,7 @@ import "./globals.css";
 import { Footer } from "./components/Footer";
 import Image from 'next/image'
 import Logo from '../../public/assets/Logo.png'
+import Navbar from "./components/Navbar";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {/* <h1>ESTE TITULOOOOOOOOOO</h1> */}
+        <Navbar /> 
         {children}
         {/* <Footer/> */}
 {/*         <footer>

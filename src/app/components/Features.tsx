@@ -15,16 +15,18 @@ import Gradient from "../../../public/assets/Gradient.svg";
 
 const Features = () => {
   return (
-    <div
-      id="aplicaciones"
-      className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]"
-    >
-      <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#8144f3] lg:text-[64px] lg:leading-[72px]"> Aplicaciones</h1>
-      <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse">
+    <div id="aplicaciones" className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
+      <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#8144f3] lg:text-[64px] lg:leading-[72px]">
+        {" "}
+        Aplicaciones
+      </h1>
+      
+      {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
+      <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse bg-orange-50">
         <Image
           src={agrimensora}
           alt="Feature 1 image"
-          className="hidden w-1/2 h-1/2 sm:block"
+          className="hidden w-1/2 h-1/2 sm:block pr-8 "
         />
 
         <div className="sm:w-1/2 lg:py-[56px]">
@@ -111,7 +113,6 @@ const Features = () => {
               <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full">
                 <p className="flex items-center gap-x-2  font-medium text-[#4a47f3] lg:text-[18px] hover:text-white">
                   Mas información{" "}
-
                 </p>
               </button>
             </Link>
@@ -246,7 +247,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-{/*       <div className="relative flex h-full w-full justify-center">
+      {/*       <div className="relative flex h-full w-full justify-center">
         <Image
           src={Gradient}
           alt="Gradient"
