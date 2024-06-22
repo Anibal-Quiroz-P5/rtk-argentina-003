@@ -57,7 +57,7 @@ const Hero = () => {
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
             <Link href="/signup">
               <span className=" font-medium text-white lg:block">
-                RTK "a tu alcance" o "a la gorra" o "tiene algo pa que me dea"
+                RTK aquí
               </span>
             </Link>
           </button>
