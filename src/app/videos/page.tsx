@@ -17,7 +17,7 @@ const HomePage = () => {
 
 export default HomePage; */
 
-'use client'
+/* 'use client'
 import React, { useEffect, useState } from 'react';
 import Player from 'react-player';
 
@@ -43,4 +43,4 @@ const VideoComponent = () => {
   );
 };
 
-export default VideoComponent;
+export default VideoComponent; */
