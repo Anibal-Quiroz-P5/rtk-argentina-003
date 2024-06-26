@@ -336,12 +336,9 @@ const Features = () => {
               </ul>
             </div>
 
-            <div
-              className="pt-8 px-12
-          "
-            >
+            <div className="pt-8 px-12 flex justify-center lg:justify-start">
               <Link href="/moreInfo/agrimensura">
-              <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
                   <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">
                     Mas información
                   </p>
@@ -392,10 +389,10 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12">
+            <div className="pt-8 px-12 flex justify-center lg:justify-start">
               <Link href="/moreInfo/drones">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
-                <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">
+                  <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">
                     Mas información{" "}
                   </p>
                 </button>
@@ -440,11 +437,12 @@ const Features = () => {
                   pesticidas).
                 </li>
                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
-                  Mayor eficiencia: Reduce el desperdicio de insumos {/* (semillas,
+                  Mayor eficiencia: Reduce el desperdicio de insumos{" "}
+                  {/* (semillas,
                   fertilizantes, pesticidas) y optimiza el uso del agua y otros
                   recursos */}
                 </li>
-{/*                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
+                {/*                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
                   Aumento de la Productividad: Mejora la gestión de los cultivos
                   y del suelo, lo que puede llevar a mayores rendimientos.
                   Sostenibilidad: Promueve prácticas agrícolas más sostenibles
@@ -459,9 +457,9 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12">
+            <div className="pt-8 px-12 flex justify-center lg:justify-start">
               <Link href="/moreInfo/agricultura">
-              <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
                   <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">
                     Mas información
                   </p>
