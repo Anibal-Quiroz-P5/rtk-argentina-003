@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 const flowbite = require("flowbite-react/tailwind");
 
 const config = {
@@ -38,11 +38,14 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       spacing: {
-        '42':'16px',
-    },
+        "42": "16px",
+      },
+      fontFamily: {
+        rubik: ['Rubik', 'sans-serif', 'inter'],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
-export default config
+export default config;

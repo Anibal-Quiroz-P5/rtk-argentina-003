@@ -60,7 +60,6 @@ export const Footer = () => {
     <div className="pt-[0px] pb-[40px]">
       {/* <div className='flex items-center justify-center gap-x-[76px] pt-[40px] '> */}
 
-
       {/* <div className="flex flex-row  justify-center gap-x-40  ">
         <div>
           <div className="flex gap-4 items-center">
@@ -84,46 +83,45 @@ export const Footer = () => {
         </div>
       </div> */}
 
-
-<div className="lg:flex lg:flex-row justify-center items-center lg:gap-x-40 ">
-  <a
-    /* href="https://www.whatsapp.com" */
-    href="https://wa.me/5491141747989"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
-  >
-    <Image src={Whatsapp} alt="Whatsapp" width={42} height={42} />
-    <span>+54911-41724420</span>
-  </a>
-  <a
-    href="https://www.facebook.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
-  >
-    <Image src={Facebook} alt="Facebook" width={42} height={42} />
-    <span>@rtk-argentina</span>
-  </a>
-  <a
-    href="https://www.twitter.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
-  >
-    <Image src={X2} alt="Twitter" width={60} height={42} />
-    <span>@rtk-argentina</span>
-  </a>
-  <a
-    href="https://www.instagram.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
-  >
-    <Image src={Instagram} alt="Instagram" width={35} height={21} />
-    <span>@rtk-argentina</span>
-  </a>
-</div>
+      <div className="flex flex-col lg:flex lg:flex-row justify-center items-center lg:gap-x-40 ">
+        <a
+          /* href="https://www.whatsapp.com" */
+          href="https://wa.me/5491141747989"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
+        >
+          <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
+          <span>+54911-41747989</span>
+        </a>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
+        >
+          <Image src={Facebook} alt="Facebook" width={42} height={42} />
+          <span>@rtk-argentina</span>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
+        >
+          <Image src={X2} alt="Twitter" width={55} height={42} />
+          <span>@rtk-argentina</span>
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
+        >
+          <Image src={Instagram} alt="Instagram" width={35} height={21} />
+          <span>@rtk-argentina</span>
+        </a>
+      </div>
 
       {/* <div className='flex flex-col items-center justify-center gap-y-[40px] pt-[40px]'>
   <div className='flex items-center gap-x-4'>
@@ -140,10 +138,28 @@ export const Footer = () => {
   </div>
 </div> */}
 
+      {/* ----------------------------------------------------------------------------------
+
       <div className="flex items-center justify-center gap-x-[12px] pt-14">
         <Image src={Logo} alt="Logo" width={40} />
         <p className="font-bold text-[#36485C] text-[17px]">RTK-Argentina</p>
       </div>
+
+    ---------------------------------------------------------------------------------- */}
+
+      <nav>
+        <Link
+          href="/"
+          className="font-semibold text-white hover:text-gray-300 "
+        >
+          <div className="flex items-center justify-center gap-x-[12px] justify-start pt-8">
+            <Image src={Logo} alt="Logo" width={40} />
+            <p className="font-bold text-[#36485C] text-[17px]">
+              RTK-Argentina
+            </p>
+          </div>
+        </Link>
+      </nav>
 
       {/* <ul className="flex flex-col items-center gap-y-[32px] pt-[56px] text-[#36485C] sm:flex-row sm:justify-center sm:gap-x-5 sm:pt-5">
         <Link href="#servicio">
