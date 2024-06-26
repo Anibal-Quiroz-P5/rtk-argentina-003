@@ -218,6 +218,12 @@ const Hero = () => {
           </div>
         </div> */}
       </div>
+      <div className="border border-red-700 h-[942px] bg-[#BCD7FF]">
+        <div className="bg-[#4328EB]">
+          NUESTRO SERVICIO
+        </div>
+
+      </div>
     </div>
   );
 };
