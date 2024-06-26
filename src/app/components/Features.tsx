@@ -288,7 +288,7 @@ const Features = () => {
         </h1>
 
         {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
-        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-[523px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto lg:h-[523px] bg-[#FFFEF0]">
           <Image
             src={agrimensora}
             alt="Feature 1 image"
@@ -351,7 +351,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-[523px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto lg:h-[523px] bg-[#FFFEF0]">
           <Image
             src={drone}
             alt="Feature 1 image"
@@ -404,7 +404,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-[523px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto lg:h-[523px] bg-[#FFFEF0]">
           <Image
             src={agricolas}
             alt="Feature 1 image"
