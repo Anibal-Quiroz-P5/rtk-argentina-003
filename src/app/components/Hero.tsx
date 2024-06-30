@@ -137,9 +137,15 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div id="servicio" className="pt-4 lg:pt-10 2xl">
-      <div className="px-[20px] lg:px-[280px]">
+    // <div id="servicio" className="pt-4 lg:pt-10 2xl  ">
+    <div
+      id="servicio"
+      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl  "
+    >
+      <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div>
+      <div className="px-[20px] lg:px-[280px] pb-[20px]">
         <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
+          {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]"> */}
           {/* Máxima precisión en tu posicionamiento con RTK-Argentina! */}
           RTK- Argentina:
           <br />
@@ -162,7 +168,11 @@ const Hero = () => {
         </Carousel>
         {/* </div> */}
 
-        <div className="flex w-full pt-8 justify-center gap-x-6">
+        {/* ------------------------------------------------------------------------------------------------------------ */}
+        {/* ---  NO BORRAR  BOTONES DE RTK AQUÍ (LLEVA AL REGISTRO Y PRECIOS NO LLEVA A NINGUN LADO) --- */}
+        {/* ------------------------------------------------------------------------------------------------------------ */}
+
+        {/* <div className="flex w-full pt-8 justify-center gap-x-6 ">
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
             <Link href="/signup">
               <span className=" font-medium text-white lg:block">RTK aquí</span>
@@ -174,16 +184,28 @@ const Hero = () => {
               <Image src={Arrow} alt="Learn more" />
             </span>
           </button>
-        </div>
+        </div> */}
+
+        {/* ------------------------------------------------------------------------------------------------------------ */}
+                               {/* ------------------------------------------------------------ */}
+        {/* ------------------------------------------------------------------------------------------------------------ */}
+
+        
       </div>
-      <div className="relative flex h-full w-full justify-center">
-        {/*         <Image
+
+
+
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+      {/* ---  NO BORRAR  FONDO CELESTE Y OBTENÉ SERVICIO  ANCHO Y CON LA CARD BLANCA SEPARADA  --- */}
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+      {/*       <div className="relative flex h-full w-full justify-center ">
+                <Image
           src={Gradient}
           alt="Gradient"
           //className="min-h-[500px] w-full object-cover lg:h-auto"
           className="min-h-[300px] w-full object-cover lg:h-auto"
-        /> */}
-      </div>
+        />
+      </div> */}
       {/* <div className="flex flex-col  items-center justify-around border border-red-700 lg:h-[942px] bg-[#BCD7FF]">
         <div className="bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl">
           <h3 className="font-monserrat  text-center text-[18px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] ">
@@ -199,7 +221,21 @@ const Hero = () => {
           <h1>HOLLLLAAAAA</h1>
         </div>
       </div> */}
-      <div className="flex flex-col  items-center justify-around border border-red-700 lg:h-[942px] bg-[#BCD7FF]">
+
+
+
+        {/* ------------------------------------------------------------------------------------------------------------ */}
+                               {/* ------------------------------------------------------------ */}
+        {/* ------------------------------------------------------------------------------------------------------------ */}
+
+
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+      {/* ---  NO BORRAR  FONDO CELESTE Y OBTENÉ SERVICIO  ANCHO Y SUPERPUESTO CON LA CARD BLANCA DEBAJO  --- */}
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+
+
+      {/*  <div className="flex flex-col  items-center justify-around border border-red-700 lg:h-[942px] bg-[#BCD7FF]"> */}
+      {/* <div className="flex flex-col  items-center justify-around border border-red-700 lg:h-[942px] lg:w-[1335px]  bg-[#BCD7FF] ">
         <div className="bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl">
           <h3 className="font-monserrat   text-justify-center text-[18px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] ">
             NUESTRO SERVICIO
@@ -213,47 +249,60 @@ const Hero = () => {
         <div className="pb-[40px] pt-[40px] pl-[80px] pr-[80px] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-[#FFFFFF]">
           <h1>PRUEBA RTK ARGENTINA</h1>
         </div>
-      </div>
-      -----------------------------------------------
-      <div className="border border-red-700 lg:h-[942px] bg-[#BCD7FF]">
+      </div> */}
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+      <div className="flex flex-col items-center lg:h-[942px] bg-[#BCD7FF]  lg:w-[1335px] pt-[30px] lg:pt-[80px]">
         {/* <div className="flex flex-col justify-center items-center max-w-sm mx-auto my-8"> */}
-        <div className=" flex flex-col   bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl ">
+        {/* <div className=" flex flex-col   bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl lg:h-[450px]"> */}
+        <div className=" flex flex-col   bg-[#4328EB] h-[200px] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] lg:rounded-3xl lg:h-[450px]">
           <div></div>
-          <h3 className="font-monserrat  text-center text-[18px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] ">
+          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] ">
             NUESTRO SERVICIO
           </h3>
-          <hr className="border-t-1 border-white mt-[20px] pb-[40px]" />
-          <h5 className="font-rubik font-bold text-[16px] text-[#FFFFFF] text-center">
-            Obtendrás posicionamientos con una precisión de centímetros
-            <div className="text-center pb-[40px]">en tus dispositivos.</div>
+          <hr className="border-t-1 border-white mt-[20px] pb-[10px] lg:pb-[40px] " />
+          <h5 className="font-rubik font-bold pl-[10px] pr-[10px] text-[16px] text-[#FFFFFF] text-center ">
+            Obtendrás posicionamientos con una precisión de centímetros en tus dispositivos
+            {/* <div className="text-center pb-[40px]">en tus dispositivos.</div> */}
           </h5>
         </div>
-
-        <div className="flex flex-col items-center justify-center w-56 md:w-[597px] md:h-[397px] bg-white -mt-10 shadow-lg rounded-lg overflow-hidden ">
+        <Link href="#contacto">
+        <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[397px] bg-white -mt-[60px] lg:-mt-24 shadow-lg rounded-lg overflow-hidden ">
           <div className="py-2 pl-[40px]text-center font-rubik font-medium text-[20px] uppercase tracking-wide text-[#2E65CF]">
             PRUEBA RTK ARGENTINA
           </div>
-          <hr className="border-t-1 border border-[#868686] w-[470px]" />
+          <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
 
           <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
-            <div >
-
-            <h1 className="text-gray-800 font-bold pb-[20px] pt-[10px]">
-              Contactate con nosotros para que podamos brindarte mas información
-            </h1>
+            <div>
+              <h1 className="text-gray-800 font-bold pb-[20px] pt-[10px] text-center lg:pl-[40px]">
+                Contactate {/* con nosotros */} para que podamos brindarte mas
+                información
+              </h1>
             </div>
-            <hr className="border-t-1 border border-[#868686] w-[470px]" />
+            <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
+
+            
             <div className="pt-[20px]">
-
-            <button className=" bg-[#2E65CF] text-xs text-white px-4 py-4 pt-5font-semibold rounded  hover:bg-[#3E65CF] ">
-              Obtener prueba
-            </button>
+            
+              <button className=" bg-[#2E65CF] text-xs px-4 py-4   rounded  hover:bg-[#3E65CF] ">
+                
+                  {/* <span className="  font-semibold text-white lg:block"> */}
+                  <span className="  font-semibold text-white lg:block">
+                    Obtener prueba
+                  </span>
+                
+              </button>
+              
             </div>
+            
           </div>
           {/* </div> */}
         </div>
+        </Link>
       </div>
-      ------------------------------------------------
+      
     </div>
   );
 };
