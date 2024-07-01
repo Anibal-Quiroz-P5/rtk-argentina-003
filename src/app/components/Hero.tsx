@@ -140,17 +140,23 @@ const Hero = () => {
     // <div id="servicio" className="pt-4 lg:pt-10 2xl  ">
     <div
       id="servicio"
-      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl  "
+      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl lg:pb-[181px] "
     >
       <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div>
-      <div className="px-[20px] lg:px-[280px] pb-[20px]">
-        <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
+      <div className="px-[20px] lg:px-[280px] pb-[20px] ">
+        {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]"> */}
+        <h1 className="text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[92px] lg:leading-[72px] ">
           {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]"> */}
           {/* Máxima precisión en tu posicionamiento con RTK-Argentina! */}
-          RTK- Argentina:
+          RTK ARGENTINA
           <br />
-          Despliega tus alas hacia un futuro preciso...
+          
+          
         </h1>
+        
+
+        <h1 className="lg:text-center font-rubik font-semibold text-[30px] lg:pt-[28px]">Despliega tus alas hacia un futuro preciso...</h1>
+       
         {/*         <h2 className="text-center pt-6 text-[#36485C] text-[20px] pb-8 lg:leading-7">
           Con nuestro servicio tendrás un posicionamiento con una presición de
           centímetros en tus dispositivos
@@ -158,7 +164,9 @@ const Hero = () => {
 
         {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 pt-6"> */}
         {/* <Carousel className="h-56  2xl:h-[800px]"> */}
-        <Carousel className="h-56  2xl:h-[800px]">
+        <div className="pt-[86px] lg:pb-[162px]">
+
+        <Carousel className="h-56  2xl:w-[1920px] 2xl:h-[800px] ">
           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
@@ -166,6 +174,7 @@ const Hero = () => {
           <Image src={carousel5} alt="..." />
           <Image src={carousel6} alt="..." />
         </Carousel>
+        </div>
         {/* </div> */}
 
         {/* ------------------------------------------------------------------------------------------------------------ */}
@@ -253,23 +262,23 @@ const Hero = () => {
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ------------------------------------------------------------ */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
-      <div className="flex flex-col items-center lg:h-[942px] bg-[#BCD7FF]  lg:w-[1335px] pt-[30px] lg:pt-[80px]">
+      <div className="flex flex-col items-center lg:h-[600px] bg-[#FFFFFF]  lg:w-[1325px] pt-[30px] lg:pt-[0px]  ">
         {/* <div className="flex flex-col justify-center items-center max-w-sm mx-auto my-8"> */}
         {/* <div className=" flex flex-col   bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl lg:h-[450px]"> */}
-        <div className=" flex flex-col   bg-[#4328EB] h-[200px] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] lg:rounded-3xl lg:h-[450px]">
-          <div></div>
-          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] ">
+        <div className=" flex flex-col   bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-64   w-full  lg:pt-[18px] lg:rounded-3xl lg:h-[438px]">
+          
+          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] lg:pt-[58px] lg:pb-[10px]">
             NUESTRO SERVICIO
           </h3>
-          <hr className="border-t-1 border-white mt-[20px] pb-[10px] lg:pb-[40px] " />
-          <h5 className="font-rubik font-bold pl-[10px] pr-[10px] text-[16px] text-[#FFFFFF] text-center ">
+          <hr className="border-t-1 border-white mt-[20px] pb-[10px] lg:pb-[20px] lg:ml-[410px] lg:mr-[410px]" />
+          <h5 className="font-rubik font-bold pl-[10px] pr-[10px] text-[16px] text-[#FFFFFF] text-center lg:text-[20px] ">
             Obtendrás posicionamientos con una precisión de centímetros en tus dispositivos
             {/* <div className="text-center pb-[40px]">en tus dispositivos.</div> */}
           </h5>
         </div>
         <Link href="#contacto">
-        <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[397px] bg-white -mt-[60px] lg:-mt-24 shadow-lg rounded-lg overflow-hidden ">
-          <div className="py-2 pl-[40px]text-center font-rubik font-medium text-[20px] uppercase tracking-wide text-[#2E65CF]">
+        <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[315px] bg-white  -mt-[60px] lg:-mt-[140px] lg:pb-[137px] lg:shadow-2xl lg:rounded-3xl overflow-hidden ">
+          <div className="py-2 pl-[40px]  text-center font-rubik font-medium text-[20px] uppercase tracking-wide text-[#2E65CF] lg:mt-[120px] ">
             PRUEBA RTK ARGENTINA
           </div>
           <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
@@ -277,8 +286,9 @@ const Hero = () => {
           <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
             <div>
               <h1 className="text-gray-800 font-bold pb-[20px] pt-[10px] text-center lg:pl-[40px]">
-                Contactate {/* con nosotros */} para que podamos brindarte mas
-                información
+                Contactate {/* con nosotros */} para que podamos brindarte 
+                <br /> 
+                mas información
               </h1>
             </div>
             <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
@@ -286,7 +296,7 @@ const Hero = () => {
             
             <div className="pt-[20px]">
             
-              <button className=" bg-[#2E65CF] text-xs px-4 py-4   rounded  hover:bg-[#3E65CF] ">
+              <button className=" bg-[#F95901] text-xs px-4 py-4   rounded  hover:bg-[#f7793f] ">
                 
                   {/* <span className="  font-semibold text-white lg:block"> */}
                   <span className="  font-semibold text-white lg:block">

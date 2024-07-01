@@ -149,63 +149,107 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav
-      className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-80 bg-[#BCD7FF]`}
-    >
-      <div className="flex items-center">
-        <Image src={Logo} alt="Logo" width={40} />
+//     <nav
+//       className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-80 bg-[#002E1E] `}
+//     >
+//       <div className="flex flex-row items-center ">
+//         <div>
 
-        <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
-          {navLinks.map((item, index) => (
-            <div key={index} className="group relative">
-              <p
-                onClick={() => handleNavLinkClick(item.link)}
-                className="text-[#0D0D0D] font-medium cursor-pointer"
-              >
-                {item.name}
-              </p>
-              <div className="absolute left-0 right-0 h-[2px] bg-[#0D0D0D] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
-            </div>
-          ))}
-        </div>
+//         <Image src={Logo} alt="Logo" width={40} />
+//         </div>
+
+//         <div className="  hidden lg:flex pl-[74px] gap-x-[56px] ">
+//           {navLinks.map((item, index) => (
+//             <div key={index} className="group relative ">
+//               <p
+//                 onClick={() => handleNavLinkClick(item.link)}
+//                 className=" font-medium cursor-pointer text-[#FFFFFF] "
+//               >
+//                 {item.name}
+//               </p>
+//               <div className="absolute left-0 right-0 h-[2px] bg-[#FFFFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+
+// {/*       ---------------------------------------------------------------------------------------------------------------
+//       ---------------------------------------------------------------------------------------------------------------
+//       --------------------------------------------------------------------------------------------------------------- */}
+
+//       {/* {NO BORRAR ES EL BOTÓN DE "REGISTRATE" QUE ESTABA A LA DERECHA EN NAVBAR} */}
+//       <div className="flex gap-x-5 ">
+// {/*         <div className="flex items-center gap-x-2">
+//           <Link href="/signup">
+//             <span className="hidden font-medium text-[#36485C] lg:flex gap-x-4 flex-row-reverse">
+//               <div>
+//                 <Image src={User} alt="User Profile" />
+//               </div>
+//               <div>Registrate</div>
+//             </span>
+//           </Link>
+//         </div> */}
+//         <Image
+//           src={Menu}
+//           alt="Menu Button"
+//           className="lg:hidden"
+//           onClick={handleMenuClick}
+//         />
+//       </div>
+
+// {/*   ---------------------------------------------------------------------------------------------------------------
+//       ---------------------------------------------------------------------------------------------------------------
+//       --------------------------------------------------------------------------------------------------------------- */}
+
+//       {showMenu && (
+//         <HamburguerMenu
+//           showMenu={showMenu}
+//           handleNavLinkClick={handleNavLinkClick}
+//           setShowMenu={setShowMenu}
+//         />
+//       )}
+//     </nav>
+
+
+
+<nav className="sticky top-0 z-50 flex items-center justify-between w-full bg-[#002E1E] px-4 py-4 lg:px-[282px]">
+  {/* Ícono a la izquierda */}
+  <div className="flex items-center lg:ml-[6px]">
+    <Image src={Logo} alt="Logo" width={40} />
+  </div>
+
+  {/* Opciones de navegación a la derecha */}
+  <div className="hidden gap-x-14 lg:flex lg:mr-[6px]">
+    {navLinks.map((item, index) => (
+      <div key={index} className="relative group">
+        <p
+          onClick={() => handleNavLinkClick(item.link)}
+          className="font-medium text-[#FFFFFF] cursor-pointer"
+        >
+          {item.name}
+        </p>
+        <div className="absolute left-0 right-0 h-[2px] bg-[#FFFFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
       </div>
+    ))}
+  </div>
 
-{/*       ---------------------------------------------------------------------------------------------------------------
-      ---------------------------------------------------------------------------------------------------------------
-      --------------------------------------------------------------------------------------------------------------- */}
+  {/* Botón de menú (visible solo en pantallas pequeñas) */}
+  <div className="flex items-center gap-x-5 lg:hidden">
+    <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} />
+  </div>
 
-      {/* {NO BORRAR ES EL BOTÓN DE "REGISTRATE" QUE ESTABA A LA DERECHA EN NAVBAR} */}
-      <div className="flex gap-x-5">
-{/*         <div className="flex items-center gap-x-2">
-          <Link href="/signup">
-            <span className="hidden font-medium text-[#36485C] lg:flex gap-x-4 flex-row-reverse">
-              <div>
-                <Image src={User} alt="User Profile" />
-              </div>
-              <div>Registrate</div>
-            </span>
-          </Link>
-        </div> */}
-        <Image
-          src={Menu}
-          alt="Menu Button"
-          className="lg:hidden"
-          onClick={handleMenuClick}
-        />
-      </div>
+  {showMenu && (
+    <HamburguerMenu
+      showMenu={showMenu}
+      handleNavLinkClick={handleNavLinkClick}
+      setShowMenu={setShowMenu}
+    />
+  )}
+</nav>
 
-{/*   ---------------------------------------------------------------------------------------------------------------
-      ---------------------------------------------------------------------------------------------------------------
-      --------------------------------------------------------------------------------------------------------------- */}
 
-      {showMenu && (
-        <HamburguerMenu
-          showMenu={showMenu}
-          handleNavLinkClick={handleNavLinkClick}
-          setShowMenu={setShowMenu}
-        />
-      )}
-    </nav>
+
+
   );
 };
 

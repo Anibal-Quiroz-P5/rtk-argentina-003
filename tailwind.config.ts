@@ -23,6 +23,12 @@ const config = {
       },
     },
     extend: {
+      colors: {
+        'custom-orange-start': '#FF9142',
+        'custom-orange-end': '#FF361B',
+        'custom-green-start': '#002E1E',
+        'custom-green-end': '#6D2700',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

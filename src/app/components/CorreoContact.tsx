@@ -200,8 +200,8 @@ const CorreoContact = () => {
   return (
     <div className="pt-24 pb-14">
 
-    <div id="contacto" className="bg-purple-100 pt-14 pb-14">
-      <div className="isolate  px-6 py-24 lg:py-12 lg:px-8 bg-purple-50 ">
+    <div id="contacto" className="bg-[purple-100] pt-14 pb-14">
+      <div className="isolate  px-6 py-24 lg:py-12 lg:px-8 bg-[#E3F6E7] ">
         <div
           className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
           aria-hidden="true"
@@ -210,10 +210,10 @@ const CorreoContact = () => {
            */}{" "}
         </div>
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight  text-gray-900 sm:text-4xl">
-            Contacto
+          <h2 className="text-3xl font-extrabold text-[#111827] lg:text-[64px] tracking-tight  sm:text-4xl">
+            CONTACTO
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+          <p className="mt-2 lg:text-[18px] leading-8 text-[#111827] lg:pt-[25px]">
             Escribinos tu mensaje, te contestaremos por mail a la brevedad.
           </p>
         </div>
@@ -329,7 +329,7 @@ const CorreoContact = () => {
             <span aria-hidden="true" className="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
           </button>
         </div> */}
-              <label
+{/*               <label
                 className="text-sm leading-6 text-gray-600"
                 id="switch-1-label"
               >
@@ -339,15 +339,15 @@ const CorreoContact = () => {
                   {" "}
                   registrate &nbsp;aquí{" "}
                 </Link>
-              </label>
+              </label> */}
             </div>
           </div>
-          <div className="mt-10">
+          <div className="flex justify-center mt-10  ">
             <button
               type="submit"
-              className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="block lg:w-[176px] lg:h-[50px] rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Enviá tu mensaje
+              Enviar
             </button>
           </div>
 {/*           <div className="font-bold">

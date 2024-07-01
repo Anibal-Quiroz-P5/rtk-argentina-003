@@ -105,22 +105,17 @@ const items = [
 const Faq = () => {
   return (
     
-  <div className='pt-24'>
+  <div className='pt-24 '>
 
-    <div className='flex flex-col w-full py-[48px] bg-green-50 '>
+    <div className='flex flex-col w-full py-[48px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start border-[3px]  border-[#F95901] rounded-3xl '>
       <div>
         <div >
 
-        <h3 className="text-center text-[32px] leading-[40px] font-medium text-[#8144f3] lg:text-[64px] lg:leading-[72px]">
-        Preguntas Frecuentes 
+        <h3 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]">
+        PREGUNTAS FRECUENTES 
            </h3>
         </div>
-           {/* <h1 className='py-4 text-2xl font-medium text-[#172026] pt-12 pl-80 '> Aclaremos algunas de las dudas frecuentes</h1> */}
-           <h1 className='py-4 text-2xl font-medium text-[#172026] pt-12  '> Aclaremos algunas de las dudas frecuentes</h1> 
-           {/* <p className='text-whi pl-80'> */}
-           <p className='text-whi lg:pl-80'>
-            Este es un extracto de algunas de las preguntas elegidas al azar que nos hicieron nuestros clientes:
-           </p>
+
       </div>
       <div className='pt-8'>
         <Accordion.Root
