@@ -140,7 +140,7 @@ const Hero = () => {
     // <div id="servicio" className="pt-4 lg:pt-10 2xl  ">
     <div
       id="servicio"
-      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl lg:pb-[181px]  "
+      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl pb-[30px] lg:pb-[181px]  "
     >
       {/* <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div> */}
       <div className=" lg:pb-[60px] lg:pt-[90px] ">
@@ -155,7 +155,7 @@ const Hero = () => {
         </h1>
         
 
-        <h1 className="lg:text-center font-rubik font-semibold text-[30px] lg:pt-[28px]">Despliega tus alas hacia un futuro preciso...</h1>
+        <h1 className=" text-center  font-rubik font-semibold text-[30px] lg:pt-[28px]">Despliega tus alas hacia un futuro preciso...</h1>
        
         {/*         <h2 className="text-center pt-6 text-[#36485C] text-[20px] pb-8 lg:leading-7">
           Con nuestro servicio tendrás un posicionamiento con una presición de
@@ -265,19 +265,19 @@ const Hero = () => {
       <div className="flex flex-col items-center lg:h-[600px] bg-[#FFFFFF]  lg:w-[1325px] pt-[30px] lg:pt-[0px]  ">
         {/* <div className="flex flex-col justify-center items-center max-w-sm mx-auto my-8"> */}
         {/* <div className=" flex flex-col   bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl lg:h-[450px]"> */}
-        <div className=" flex flex-col   bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-64   w-full  lg:pt-[18px] lg:rounded-3xl lg:h-[438px]">
+        <div className=" flex flex-col   bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-64 w-[340px]  lg:w-full  lg:pt-[18px] rounded-3xl lg:rounded-3xl lg:h-[438px]">
           
-          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] lg:pt-[58px] lg:pb-[10px]">
+          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] lg:pt-[58px] pb-[10px]">
             NUESTRO SERVICIO
           </h3>
-          <hr className="border-t-1 border-white mt-[20px] pb-[10px] lg:pb-[20px] lg:ml-[410px] lg:mr-[410px]" />
+          <hr className="border-t-1 border-white lg:mt-[20px] pb-[10px] lg:pb-[20px] lg:ml-[410px] lg:mr-[410px]" />
           <h5 className="font-rubik font-bold pl-[10px] pr-[10px] text-[16px] text-[#FFFFFF] text-center lg:text-[20px] ">
             Obtendrás posicionamientos con una precisión de centímetros en tus dispositivos
             {/* <div className="text-center pb-[40px]">en tus dispositivos.</div> */}
           </h5>
         </div>
         <Link href="#contacto">
-        <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[315px] bg-white  -mt-[60px] lg:-mt-[140px] lg:pb-[137px] lg:shadow-2xl lg:rounded-3xl overflow-hidden ">
+        <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[315px] bg-white  -mt-[100px] lg:-mt-[140px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
           <div className="py-2 pl-[40px]  text-center font-rubik font-medium text-[20px] uppercase tracking-wide text-[#2E65CF] lg:mt-[120px] ">
             PRUEBA RTK ARGENTINA
           </div>

@@ -277,7 +277,7 @@ import Gradient from "../../../public/assets/Gradient.svg";
 const Features = () => {
   return (
     // <div className="bg-blue-300">
-    <div  className="bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
+    <div  className="  bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
       <div
         id="aplicaciones"
         className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] px-[20px] lg:container  mx-auto "
@@ -297,7 +297,7 @@ const Features = () => {
           />
 
           <div className="sm:w-1/2 lg:py-[56px] ">
-            <h3 className=" text-2xl lg:px-12 font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
+            <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
               {" "}
               Aplicación en Agrimensura
             </h3>
@@ -336,7 +336,7 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 flex justify-center lg:justify-start">
+            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start">
               <Link href="/moreInfo/agrimensura">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
                   <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">
@@ -355,7 +355,7 @@ const Features = () => {
             className="hidden w-1/2  sm:block pr-12"
           />
           <div className="sm:w-1/2 lg:py-[56px]">
-            <h3 className=" text-2xl lg:px-12 font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
+            <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[8px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
               Drones y Tecnología RTK
             </h3>
 
@@ -389,7 +389,7 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 flex justify-center lg:justify-start">
+            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start">
               <Link href="/moreInfo/drones">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
                   <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">
@@ -409,7 +409,7 @@ const Features = () => {
           />
 
           <div className="sm:w-1/2 lg:py-[56px]">
-            <h3 className=" text-2xl lg:px-12 font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
+            <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
               Aplicación en Agricultura
             </h3>
 
@@ -457,7 +457,7 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 flex justify-center lg:justify-start">
+            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start">
               <Link href="/moreInfo/agricultura">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
                   <p className="flex items-center gap-x-2 font-bold font-inter text-[#000000] lg:text-[18px] hover:text-white ">

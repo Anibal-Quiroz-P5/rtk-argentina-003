@@ -117,7 +117,7 @@ const Faq = () => {
         </div>
 
       </div>
-      <div className='pt-8'>
+      <div className='pt-8 pl-[20px] pr-[20px]'>
         <Accordion.Root
           type="single"
           defaultValue={""}
