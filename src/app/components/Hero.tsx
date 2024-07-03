@@ -140,12 +140,12 @@ const Hero = () => {
     // <div id="servicio" className="pt-4 lg:pt-10 2xl  ">
     <div
       id="servicio"
-      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl lg:pb-[181px] "
+      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl lg:pb-[181px]  "
     >
-      <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div>
-      <div className="px-[20px] lg:px-[280px] pb-[20px] ">
+      {/* <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div> */}
+      <div className=" lg:pb-[60px] lg:pt-[90px] ">
         {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]"> */}
-        <h1 className="text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[92px] lg:leading-[72px] ">
+        <h1 className=" text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[92px] lg:leading-[72px] ">
           {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]"> */}
           {/* Máxima precisión en tu posicionamiento con RTK-Argentina! */}
           RTK ARGENTINA
@@ -166,7 +166,7 @@ const Hero = () => {
         {/* <Carousel className="h-56  2xl:h-[800px]"> */}
         <div className="pt-[86px] lg:pb-[162px]">
 
-        <Carousel className="h-56  2xl:w-[1920px] 2xl:h-[800px] ">
+        <Carousel className="h-56  lg:w-[1560px] 2xl:h-[800px] ">
           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
