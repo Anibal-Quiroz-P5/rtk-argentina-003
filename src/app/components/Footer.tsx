@@ -152,7 +152,7 @@ export const Footer = () => {
           href="/"
           className="font-semibold text-white hover:text-gray-300 "
         >
-          <div className="flex items-center justify-center gap-x-[12px] justify-start pt-8">
+          <div className="flex items-center justify-center gap-x-[12px]  pt-8">
             <Image src={Logo} alt="Logo" width={40} />
             <p className="font-bold text-[#36485C] text-[17px]">
               RTK-Argentina

@@ -50,7 +50,7 @@
 //       className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20 bg-[#e0e0f5] opacity-${scrollPosition > 100 ? '50' : '100'}`}
 //     > */
 //           <nav
-//       className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-80 bg-[#BCD7FF]  `}  
+//       className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-80 bg-[#BCD7FF]  `}
 //     >
 //       <div className="flex items-center">
 //         <Image src={Logo} alt="Logo" width={40} />
@@ -71,7 +71,7 @@
 //       <div className="flex gap-x-5">
 //         <div className="flex items-center gap-x-2">
 //           <Link href="/signup">
-//             <span className="hidden font-medium text-[#36485C]  lg:flex gap-x-4 flex-row-reverse">   
+//             <span className="hidden font-medium text-[#36485C]  lg:flex gap-x-4 flex-row-reverse">
 //               <div>
 //                 <Image src={User} alt="User Profile" />
 //               </div>
@@ -100,11 +100,10 @@
 
 // export default Navbar;
 
+"use client";
 
-'use client'
-
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import Logo from "../../../public/assets/Logo.png";
 import User from "../../../public/assets/User.svg";
 import Menu from "../../../public/assets/Menu.svg";
@@ -141,115 +140,122 @@ const Navbar = () => {
       setScrollPosition(window.scrollY);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-//     <nav
-//       className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-80 bg-[#002E1E] `}
-//     >
-//       <div className="flex flex-row items-center ">
-//         <div>
+    //     <nav
+    //       className={`sticky top-0 z-50 flex w-full items-center justify-between px-[20px] py-[16px]  lg:mx-auto lg:px-80 bg-[#002E1E] `}
+    //     >
+    //       <div className="flex flex-row items-center ">
+    //         <div>
 
-//         <Image src={Logo} alt="Logo" width={40} />
-//         </div>
+    //         <Image src={Logo} alt="Logo" width={40} />
+    //         </div>
 
-//         <div className="  hidden lg:flex pl-[74px] gap-x-[56px] ">
-//           {navLinks.map((item, index) => (
-//             <div key={index} className="group relative ">
-//               <p
-//                 onClick={() => handleNavLinkClick(item.link)}
-//                 className=" font-medium cursor-pointer text-[#FFFFFF] "
-//               >
-//                 {item.name}
-//               </p>
-//               <div className="absolute left-0 right-0 h-[2px] bg-[#FFFFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
+    //         <div className="  hidden lg:flex pl-[74px] gap-x-[56px] ">
+    //           {navLinks.map((item, index) => (
+    //             <div key={index} className="group relative ">
+    //               <p
+    //                 onClick={() => handleNavLinkClick(item.link)}
+    //                 className=" font-medium cursor-pointer text-[#FFFFFF] "
+    //               >
+    //                 {item.name}
+    //               </p>
+    //               <div className="absolute left-0 right-0 h-[2px] bg-[#FFFFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
+    //             </div>
+    //           ))}
+    //         </div>
+    //       </div>
 
-// {/*       ---------------------------------------------------------------------------------------------------------------
-//       ---------------------------------------------------------------------------------------------------------------
-//       --------------------------------------------------------------------------------------------------------------- */}
+    // {/*       ---------------------------------------------------------------------------------------------------------------
+    //       ---------------------------------------------------------------------------------------------------------------
+    //       --------------------------------------------------------------------------------------------------------------- */}
 
-//       {/* {NO BORRAR ES EL BOTÓN DE "REGISTRATE" QUE ESTABA A LA DERECHA EN NAVBAR} */}
-//       <div className="flex gap-x-5 ">
-// {/*         <div className="flex items-center gap-x-2">
-//           <Link href="/signup">
-//             <span className="hidden font-medium text-[#36485C] lg:flex gap-x-4 flex-row-reverse">
-//               <div>
-//                 <Image src={User} alt="User Profile" />
-//               </div>
-//               <div>Registrate</div>
-//             </span>
-//           </Link>
-//         </div> */}
-//         <Image
-//           src={Menu}
-//           alt="Menu Button"
-//           className="lg:hidden"
-//           onClick={handleMenuClick}
-//         />
-//       </div>
+    //       {/* {NO BORRAR ES EL BOTÓN DE "REGISTRATE" QUE ESTABA A LA DERECHA EN NAVBAR} */}
+    //       <div className="flex gap-x-5 ">
+    // {/*         <div className="flex items-center gap-x-2">
+    //           <Link href="/signup">
+    //             <span className="hidden font-medium text-[#36485C] lg:flex gap-x-4 flex-row-reverse">
+    //               <div>
+    //                 <Image src={User} alt="User Profile" />
+    //               </div>
+    //               <div>Registrate</div>
+    //             </span>
+    //           </Link>
+    //         </div> */}
+    //         <Image
+    //           src={Menu}
+    //           alt="Menu Button"
+    //           className="lg:hidden"
+    //           onClick={handleMenuClick}
+    //         />
+    //       </div>
 
-// {/*   ---------------------------------------------------------------------------------------------------------------
-//       ---------------------------------------------------------------------------------------------------------------
-//       --------------------------------------------------------------------------------------------------------------- */}
+    // {/*   ---------------------------------------------------------------------------------------------------------------
+    //       ---------------------------------------------------------------------------------------------------------------
+    //       --------------------------------------------------------------------------------------------------------------- */}
 
-//       {showMenu && (
-//         <HamburguerMenu
-//           showMenu={showMenu}
-//           handleNavLinkClick={handleNavLinkClick}
-//           setShowMenu={setShowMenu}
-//         />
-//       )}
-//     </nav>
+    //       {showMenu && (
+    //         <HamburguerMenu
+    //           showMenu={showMenu}
+    //           handleNavLinkClick={handleNavLinkClick}
+    //           setShowMenu={setShowMenu}
+    //         />
+    //       )}
+    //     </nav>
 
-
-
-<nav className="sticky top-0 z-50 flex items-center justify-between w-full bg-[#002E1E] px-4 py-4 lg:px-[282px]">
-  {/* Ícono a la izquierda */}
-  <div className="flex items-center lg:ml-[6px]">
+    <nav className="sticky top-0 z-50 flex items-center justify-between w-full bg-[#002E1E] px-4 py-4 lg:px-[282px]">
+      {/* <div className="flex items-center lg:ml-[6px]">
     <Image src={Logo} alt="Logo" width={40} />
-  </div>
+  </div> */}
 
-  {/* Opciones de navegación a la derecha */}
-  <div className="hidden gap-x-14 lg:flex lg:mr-[6px]">
-    {navLinks.map((item, index) => (
-      <div key={index} className="relative group">
-        <p
-          onClick={() => handleNavLinkClick(item.link)}
-          className="font-medium text-[#FFFFFF] cursor-pointer"
+      <nav>
+        <Link
+          href="/"
+          className="font-semibold text-white hover:text-gray-300 "
         >
-          {item.name}
-        </p>
-        <div className="absolute left-0 right-0 h-[2px] bg-[#FFFFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
+          <div className="flex items-center lg:ml-[6px]">
+            <Image src={Logo} alt="Logo" width={40} />
+            <p className=" text-[#FFFFFF] text-[15px] font-medium pl-2">
+              RTK Argentina
+            </p>
+          </div>
+        </Link>
+      </nav>
+
+      {/* Opciones de navegación a la derecha */}
+      <div className="hidden gap-x-14 lg:flex lg:mr-[6px]">
+        {navLinks.map((item, index) => (
+          <div key={index} className="relative group">
+            <p
+              onClick={() => handleNavLinkClick(item.link)}
+              className="font-medium text-[#FFFFFF] cursor-pointer"
+            >
+              {item.name}
+            </p>
+            <div className="absolute left-0 right-0 h-[2px] bg-[#FFFFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out origin-left"></div>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
 
-  {/* Botón de menú (visible solo en pantallas pequeñas) */}
-  <div className="flex items-center gap-x-5 lg:hidden">
-    <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} />
-  </div>
+      {/* Botón de menú (visible solo en pantallas pequeñas) */}
+      <div className="flex items-center gap-x-5 lg:hidden">
+        <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} />
+      </div>
 
-  {showMenu && (
-    <HamburguerMenu
-      showMenu={showMenu}
-      handleNavLinkClick={handleNavLinkClick}
-      setShowMenu={setShowMenu}
-    />
-  )}
-</nav>
-
-
-
-
+      {showMenu && (
+        <HamburguerMenu
+          showMenu={showMenu}
+          handleNavLinkClick={handleNavLinkClick}
+          setShowMenu={setShowMenu}
+        />
+      )}
+    </nav>
   );
 };
 

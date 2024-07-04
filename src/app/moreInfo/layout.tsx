@@ -7,9 +7,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <section>
       {/* <Divisiones /> */}
-      <div className=" h-[495px] bg-gradient-to-b from-custom-green-start to-custom-green-end"></div>
+      <div className=" lg:h-[495px] bg-gradient-to-b from-custom-green-start to-custom-green-end"></div>
       
-      
+      <nav>
+
+      </nav>
 
     
       

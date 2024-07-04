@@ -8,6 +8,8 @@ const config = {
     "src/app/page.tsx",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/moreInfo/agrimensura/page.tsx",
+    "./src/app/moreInfo/layout.tsx",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/flowbite/**/*.js",
     "./node_modules/flowbite-react/lib/**/*.js",
@@ -46,6 +48,8 @@ const config = {
       },
       spacing: {
         "42": "16px",
+        "650": "650px",
+        
       },
       fontFamily: {
         rubik: ['Rubik', 'sans-serif', 'inter'],
