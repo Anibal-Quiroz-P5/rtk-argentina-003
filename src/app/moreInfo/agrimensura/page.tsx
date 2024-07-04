@@ -6,10 +6,15 @@ import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
 
 const page = () => {
   return (
-    <div className="">
-      <div className="container grid grid-cols-1 lg:grid-cols-2 lg:gap-20   lg:-mt-[160px] pb-32">
-        <div className="container flex  pt-4 ">
-          <div className=" w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
+    <div className=" ">
+      <div className=" flex lg:h-[495px] bg-gradient-to-b from-custom-green-start to-custom-green-end text-center items-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]">  
+        <div className="lg:-mt-[120px] pb-6">
+        APLICACIONES EN AGRICULTURA 
+          </div> 
+      </div>
+      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[160px]  pb-10 lg:pb-32">
+        <div className="lg:container flex  pt-4 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
             <div>
               <Image
                 src={MaqAgric}
@@ -23,7 +28,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
-              <ul className="list-disc px-4">
+            <ul className="list-disc px-0 lg:px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
                   Permite la <span className="font-bold">siembra precisa</span>{" "}
                   de semillas con un espaciamiento exacto. Esto asegura una
@@ -43,8 +48,8 @@ const page = () => {
           </div>
         </div>
 
-        <div className="container flex  pt-4 ">
-          <div className=" w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl ">
+        <div className="lg:container flex  pt-4 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl ">
             <div>
               <Image
                 src={MaqAgric}
@@ -58,7 +63,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
-              <ul className="list-disc px-4">
+              <ul className="list-disc px-0 lg:px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
                   Facilita la planificación y ejecución de{" "}
                   <span className="font-bold">sistemas de riego precisos,</span>{" "}
@@ -79,8 +84,8 @@ const page = () => {
           </div>
         </div>
 
-        <div className="container flex  pt-4 ">
-          <div className=" w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl ">
+        <div className="lg:container flex  pt-4 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
             <div>
               <Image
                 src={MaqAgric}
@@ -113,8 +118,8 @@ const page = () => {
           </div>
         </div>
 
-        <div className="container flex  pt-4 ">
-          <div className=" w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
+        <div className="lg:container flex  pt-4 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
             <div>
               <Image
                 src={MaqAgric}
@@ -145,8 +150,8 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="container flex  pt-4 ">
-          <div className=" w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
+        <div className="lg:container flex  pt-4 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
             <div>
               <Image
                 src={MaqAgric}
@@ -180,14 +185,20 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className="flex justify-center  bg-[#002E1E] pt-16">
+      <div className="lg:pb-32">
+
+      <div className=" bg-[#002E1E] p-9 lg:p-16 ">
+        <div className="pb-6 text-center items-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]">
+          FUNCIONAMIENTO
+        </div>
+        <div className="flex justify-center  ">
           <Image
             src={AgricolaNtrip}
             alt="Feature 1 image"
-            className=" border border-red-400"
+            className="  lg:p-10"
           />
         </div>
+      </div>
       </div>
     </div>
   );
