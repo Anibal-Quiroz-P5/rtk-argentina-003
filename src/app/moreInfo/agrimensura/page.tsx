@@ -9,7 +9,11 @@ const page = () => {
     <div className=" ">
       <div className=" flex lg:h-[495px] pb-16 bg-gradient-to-b from-custom-green-start to-custom-green-end text-center items-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]">  
         <div className="lg:-mt-[120px] pb-6 pt-11">
-        APLICACIONES EN AGRICULTURA 
+{/*         APLICACIONES 
+        <br />
+        EN AGRICULTURA  */}
+            <span className="lg:inline block">APLICACIONES</span>
+    <span className="lg:inline block">EN AGRICULTURA</span>
           </div> 
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[180px]  pb-10 lg:pb-32">
