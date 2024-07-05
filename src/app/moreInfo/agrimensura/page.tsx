@@ -8,11 +8,11 @@ const page = () => {
   return (
     <div className=" ">
       <div className=" flex lg:h-[495px] bg-gradient-to-b from-custom-green-start to-custom-green-end text-center items-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]">  
-        <div className="lg:-mt-[120px] pb-6">
+        <div className="lg:-mt-[120px] pb-6 pt-11">
         APLICACIONES EN AGRICULTURA 
           </div> 
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[160px]  pb-10 lg:pb-32">
+      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[180px]  pb-10 lg:pb-32">
         <div className="lg:container flex  pt-8 ">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
             <div>
@@ -84,7 +84,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-4 ">
+        <div className="lg:container flex  pt-8 ">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
             <div>
               <Image
@@ -118,7 +118,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-4 ">
+        <div className="lg:container flex  pt-8 ">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
             <div>
               <Image
@@ -150,7 +150,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="lg:container flex  pt-4 ">
+        <div className="lg:container flex  pt-8 ">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
             <div>
               <Image
