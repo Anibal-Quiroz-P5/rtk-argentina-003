@@ -7,7 +7,7 @@ import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
 const page = () => {
   return (
     <div className=" ">
-      <div className=" flex lg:h-[495px] bg-gradient-to-b from-custom-green-start to-custom-green-end text-center items-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]">  
+      <div className=" flex lg:h-[495px] pb-16 bg-gradient-to-b from-custom-green-start to-custom-green-end text-center items-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]">  
         <div className="lg:-mt-[120px] pb-6 pt-11">
         APLICACIONES EN AGRICULTURA 
           </div> 
