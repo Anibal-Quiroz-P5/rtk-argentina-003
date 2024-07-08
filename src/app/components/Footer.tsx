@@ -49,9 +49,11 @@ import Image from "next/image";
 /* import Logo from '../../../public/assets/Logo.svg' */
 import Logo from "../../../public/assets/Logo.png";
 import Facebook from "../../../public/assets/Facebook.svg";
-import X2 from "../../../public/assets/X2.svg";
+/* import X2 from "../../../public/assets/X2.svg"; */
+import X2 from "../../../public/assets/Email.svg";
 import Instagram from "../../../public/assets/Instagram.svg";
 import Whatsapp from "../../../public/assets/Whatsapp.svg";
+import Linkedin from "../../../public/assets/Linkedin.svg";
 /* import Feed from '../../public/assets/Feed.svg' */
 import Link from "next/link";
 
@@ -100,8 +102,8 @@ export const Footer = () => {
           rel="noopener noreferrer"
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
-          <Image src={Facebook} alt="Facebook" width={42} height={42} />
-          <span>@rtk-argentina</span>
+          <Image src={Facebook} alt="Facebook" width={34} height={42} />
+          <span>@rtk-argentina---</span>
         </a>
         <a
           href="https://www.twitter.com"
@@ -109,8 +111,8 @@ export const Footer = () => {
           rel="noopener noreferrer"
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
-          <Image src={X2} alt="Twitter" width={55} height={42} />
-          <span>@rtk-argentina</span>
+          <Image src={X2} alt="Twitter" width={34} height={42} />
+          <span>@rtk-argentina---</span>
         </a>
         <a
           href="https://www.instagram.com"
@@ -118,8 +120,18 @@ export const Footer = () => {
           rel="noopener noreferrer"
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
-          <Image src={Instagram} alt="Instagram" width={35} height={21} />
-          <span>@rtk-argentina</span>
+          <Image src={Instagram} alt="Instagram" width={32} height={42} />
+          <span>@rtk-argentina---</span>
+        </a>
+        <a
+          /* href="https://www.whatsapp.com" */
+          href="https://www.linkedin.com/in/anibal-quiroz-full-stack-javascript/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
+        >
+          <Image src={Linkedin} alt="Linkedin" width={34} height={42} />
+          <span>@rtk-argentina---</span>
         </a>
       </div>
 

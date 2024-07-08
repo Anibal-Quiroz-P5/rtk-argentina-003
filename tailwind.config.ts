@@ -6,6 +6,7 @@ const config = {
   content: [
     ".src/app/prueba/page.ts",
     "src/app/page.tsx",
+    "src/app/components/Hero.tsx",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/moreInfo/agrimensura/page.tsx",
@@ -31,6 +32,9 @@ const config = {
         'custom-orange-end': '#FF361B',
         'custom-green-start': '#002E1E',
         'custom-green-end': '#6D2700',
+      },
+      width: {
+        '80p': '100%', // Definimos una clase para 80%
       },
       keyframes: {
         "accordion-down": {

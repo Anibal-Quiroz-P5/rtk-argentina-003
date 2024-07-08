@@ -106,7 +106,8 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Logo from "../../../public/assets/Logo.png";
 import User from "../../../public/assets/User.svg";
-import Menu from "../../../public/assets/Menu.svg";
+/* import Menu-orig from "../../../public/assets/Menu.svg"; */
+import Menu from "../../../public/assets/Menu.png";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import HamburguerMenu from "./HamburguerMenu";
@@ -245,7 +246,7 @@ const Navbar = () => {
 
       {/* Botón de menú (visible solo en pantallas pequeñas) */}
       <div className="flex items-center gap-x-5 lg:hidden">
-        <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} />
+        <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} className="w-4/5 h-10"/>
       </div>
 
       {showMenu && (

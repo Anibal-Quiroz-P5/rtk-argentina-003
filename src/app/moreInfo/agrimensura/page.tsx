@@ -2,7 +2,20 @@
 import React from "react";
 import Image from "next/image";
 import MaqAgric from "../../../../public/assets/Maq-Agric.jpg";
+import MaqRiego from "../../../../public/assets/Maq-Riego.jpg";
+import MaqDrone from "../../../../public/assets/Maq-Drone.jpg";
+import MaqTeodolito from "../../../../public/assets/Maq-Teodolito.jpg";
 import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
+
+import Agrim001 from "../../../../public/assets/Agrim-001.png";
+import Agrim002 from "../../../../public/assets/Agrim-002.jpg";
+import Agrim003 from "../../../../public/assets/Agrim-003.png";
+import Agrim004 from "../../../../public/assets/Agrim-004.jpg";
+import Agrim005 from "../../../../public/assets/Agrim-005.jpg";
+import Agrim006 from "../../../../public/assets/Agrim-006.jpg";
+import Agrim007 from "../../../../public/assets/Agrim-007.jpg";
+import Agrim008 from "../../../../public/assets/Agrim-008.jpg";
+
 
 const page = () => {
   return (
@@ -13,7 +26,7 @@ const page = () => {
         <br />
         EN AGRICULTURA  */}
             <span className="lg:inline block">APLICACIONES</span>
-    <span className="lg:inline block">EN AGRICULTURA</span>
+    <span className="lg:inline block"> EN AGRIMENSURA</span>
           </div> 
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[180px]  pb-10 lg:pb-32">
@@ -21,32 +34,30 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
             <div>
               <Image
-                src={MaqAgric}
+                src={Agrim001}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />
             </div>
 
             <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
-              Manejo de cultivos de precisión
+              Relevantamientos Topográficos
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
             <ul className="list-disc px-0 lg:px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                  Permite la <span className="font-bold">siembra precisa</span>{" "}
-                  de semillas con un espaciamiento exacto. Esto asegura una
-                  densidad de plantas óptima y reduce el desperdicio de
-                  semillas.
+                  Los drones y equipos de agrimensura equipados con RTK pueden realizar levantamientos topográficos con <span  className="font-bold">precisión centimétrica</span>, lo que es esencial para la elaboración de planos detallados del terreno. Esto es útil para proyectos de construcción, planificación urbana, y diseño de infraestructuras.
+
                 </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+{/*                 <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
                   Los tractores y equipos de aplicación pueden seguir rutas
                   precisas, asegurando una{" "}
                   <span className="font-bold">
                     distribución uniforme de fertilizantes y pesticidas,
                   </span>{" "}
                   lo que mejora la eficiencia y reduce costos.
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -56,33 +67,30 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl ">
             <div>
               <Image
-                src={MaqAgric}
+                src={Agrim002}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />
             </div>
 
             <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
-              Manejo del agua
+            Georreferenciación de Puntos de Control
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                  Facilita la planificación y ejecución de{" "}
-                  <span className="font-bold">sistemas de riego precisos,</span>{" "}
-                  mejorando la eficiencia del uso del agua y garantizando que
-                  todas las áreas del campo reciban la cantidad adecuada de
-                  agua.
+                Los sistemas RTK se utilizan para establecer y georreferenciar puntos de control terrestres con alta precisión. Estos puntos de control son fundamentales para alinear y corregir los datos recolectados por drones y otros sensores, garantizando que todos los datos geoespaciales estén correctamente referenciados.
+
                 </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+                {/* <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
                   Permite diseñar y construir{" "}
                   <span className="font-bold">
                     sistemas de drenaje precisos
                   </span>{" "}
                   para evitar la acumulación de agua y mejorar la salud del
                   suelo.
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -92,31 +100,27 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl">
             <div>
               <Image
-                src={MaqAgric}
+                src={Agrim003}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />
             </div>
 
             <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
-              Mapeo y monitoreo de cultivos
+            Creación de Modelos Digitales del Terreno (DTM)
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
               <ul className="list-disc px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                  Los drones pueden generar{" "}
-                  <span className="font-bold">
-                    mapas de alta resolución de los campos,
-                  </span>{" "}
-                  identificando variaciones en el terreno y condiciones del
-                  cultivo.
+                Con RTK, los agrimensores pueden generar modelos digitales del terreno con gran exactitud. Estos modelos son esenciales para estudios de impacto ambiental, diseño de obras civiles, y gestión de recursos naturales.
+
                 </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+{/*                 <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
                   Permite realizar monitoreos de salud de los cultivos
                   detectando problemas en los cultivos, como enfermedades o
                   deficiencias nutricionales, de manera temprana y precisa.
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -126,30 +130,28 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
             <div>
               <Image
-                src={MaqAgric}
+                src={Agrim004}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />
             </div>
 
             <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
-              Manejo del suelo
+            Cálculo de Volúmenes
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
               <ul className="list-disc px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                  Se utiliza para realizar{" "}
-                  <span className="font-bold">relevamientos topográficos</span>{" "}
-                  detallados que ayudan a entender la topografía del campo y
-                  planificar las operaciones agrícolas de manera más eficiente.
+                La tecnología RTK permite medir con precisión los volúmenes de material en proyectos de construcción y minería, como pilas de tierra, grava y otros materiales. Esto ayuda a calcular el movimiento de tierras y a gestionar inventarios de manera eficiente.
+
                 </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+{/*                 <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
                   Al combinar datos de RTK con{" "}
                   <span className="font-bold">análisis del suelo,</span> los
                   agricultores pueden entender mejor las propiedades del suelo y
                   tomar decisiones informadas sobre la gestión del campo.
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -158,36 +160,100 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl  ">
             <div>
               <Image
-                src={MaqAgric}
+                src={Agrim005}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />
             </div>
 
             <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
-              Automatización de maquinaria agrícola
+            Monitoreo y Control de Obras
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
               <ul className="list-disc px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                  Se utiliza para{" "}
-                  <span className="font-bold">guiar tractores</span> y
-                  maquinaria agrícola de manera automática y precisa, reduciendo
-                  la fatiga del operador y aumentando la eficiencia de las
-                  operaciones.
+                En proyectos de construcción, la precisión de RTK es utilizada para el control y monitoreo del progreso de las obras. Esto incluye la verificación de la correcta colocación de elementos constructivos y el seguimiento de las excavaciones y rellenos.
+
                 </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+                {/* <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
                   Permite que varias máquinas{" "}
                   <span className="font-bold">
                     trabajen juntas en el campo de manera sincronizada 
                   </span>,
                   optimizando el uso de recursos y tiempo.
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
         </div>
+
+        <div className="lg:container flex  pt-8 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl ">
+            <div>
+              <Image
+                src={Agrim006}
+                alt="Feature 1 image"
+                className="w-full  sm:block rounded-t-2xl"
+              />
+            </div>
+
+            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
+            Agricultura de Precisión
+            </div>
+
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
+              <ul className="list-disc px-0 lg:px-4">
+                <li className="flex-col  text-[#36485C] lg:text-[18px] ">
+                Aunque más directamente relacionada con la agricultura, los principios de agrimensura se aplican en la agricultura de precisión mediante el uso de RTK para delinear parcelas, planificar sistemas de riego y drenes, y realizar estudios del suelo y cultivos.
+
+                </li>
+                {/* <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+                  Permite diseñar y construir{" "}
+                  <span className="font-bold">
+                    sistemas de drenaje precisos
+                  </span>{" "}
+                  para evitar la acumulación de agua y mejorar la salud del
+                  suelo.
+                </li> */}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:container flex  pt-8 ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl ">
+            <div>
+              <Image
+                src={Agrim007}
+                alt="Feature 1 image"
+                className="w-full  sm:block rounded-t-2xl"
+              />
+            </div>
+
+            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center ">
+            Cartografía y GIS (Sistemas de Información Geográfica)
+            </div>
+
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
+              <ul className="list-disc px-0 lg:px-4">
+                <li className="flex-col  text-[#36485C] lg:text-[18px] ">
+                Los datos obtenidos mediante RTK son integrados en sistemas GIS para crear mapas detallados y precisos. Estos mapas son utilizados para la gestión del territorio, planificación urbana, y diversas aplicaciones de análisis geoespacial.
+                </li>
+                {/* <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
+                  Permite diseñar y construir{" "}
+                  <span className="font-bold">
+                    sistemas de drenaje precisos
+                  </span>{" "}
+                  para evitar la acumulación de agua y mejorar la salud del
+                  suelo.
+                </li> */}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
       </div>
       <div className="lg:pb-32">
 
@@ -197,7 +263,7 @@ const page = () => {
         </div>
         <div className="flex justify-center  ">
           <Image
-            src={AgricolaNtrip}
+            src={Agrim008}
             alt="Feature 1 image"
             className="  lg:p-10"
           />

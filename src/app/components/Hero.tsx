@@ -166,7 +166,9 @@ const Hero = () => {
         {/* <Carousel className="h-56  2xl:h-[800px]"> */}
         <div className="pt-[86px] lg:pb-[162px]">
 
-        <Carousel className="h-56  lg:w-[1560px] 2xl:h-[800px] ">
+        {/* <Carousel className="h-56  lg:w-[1560px] 2xl:h-[800px] "> */}
+        <Carousel className="h-56  lg:w-[1460px] lg:h-[600px] 2xl:h-[800px] ">
+        {/* <Carousel className="h-56  lg:w-80p 2xl:h-[800px] "> */}
           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />

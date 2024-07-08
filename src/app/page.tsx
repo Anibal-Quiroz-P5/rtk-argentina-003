@@ -46,9 +46,10 @@ export default function Home() {
     
     <Features />
 
-        <div className="px-[20px] lg:container  mx-auto ">
+        {/* <div className="px-[20px] lg:container  mx-auto "> */}
 
-      
+        <div className="px-[20px] container  mx-auto ">
+          
       <AboutUs />
       <Faq />
       <CorreoContact />
