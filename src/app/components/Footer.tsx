@@ -85,7 +85,7 @@ export const Footer = () => {
         </div>
       </div> */}
 
-      <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-28 2xl:gap-x-40 ">
+      <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-10 ">
         <a
           /* href="https://www.whatsapp.com" */
           href="https://wa.me/5491141747989"

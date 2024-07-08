@@ -220,7 +220,7 @@ const Navbar = () => {
           href="/"
           className="font-semibold text-white hover:text-gray-300 "
         >
-          <div className="flex items-center lg:ml-[6px]">
+          <div className="flex items-center lg:ml-[6px] hover:bg-[#004A3A] p-2 rounded">
             <Image src={Logo} alt="Logo" width={40} />
             <p className=" text-[#FFFFFF] text-[15px] font-medium pl-2">
               RTK Argentina
