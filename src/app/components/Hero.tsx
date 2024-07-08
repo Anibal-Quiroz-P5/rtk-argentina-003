@@ -140,7 +140,7 @@ const Hero = () => {
     // <div id="servicio" className="pt-4 lg:pt-10 2xl  ">
     <div
       id="servicio"
-      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl pb-[30px] lg:pb-[181px]  "
+      className=" flex flex-col  items-center pt-4 lg:pt-10 2xl pb-[30px] lg:pb-[181px] "
     >
       {/* <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div> */}
       <div className=" lg:pb-[60px] lg:pt-[90px] ">
@@ -167,8 +167,7 @@ const Hero = () => {
         <div className="pt-[86px] lg:pb-[162px]">
 
         {/* <Carousel className="h-56  lg:w-[1560px] 2xl:h-[800px] "> */}
-        <Carousel className="h-56  lg:w-[1460px] lg:h-[600px] 2xl:h-[800px] ">
-        {/* <Carousel className="h-56  lg:w-80p 2xl:h-[800px] "> */}
+        <Carousel className="h-56 lg:w-full sm:w-[1020px] sm:h-[400px] 2xl:w-[1920px] 2xl:h-[800px] ">
           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
@@ -264,12 +263,13 @@ const Hero = () => {
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ------------------------------------------------------------ */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
-      <div className="flex flex-col items-center lg:h-[600px] bg-[#FFFFFF]  lg:w-[1325px] pt-[30px] lg:pt-[0px]  ">
+      {/* <div className="flex flex-col items-center lg:h-[600px] bg-[#FFFFFF]  lg:w-[1325px] pt-[30px] lg:pt-[0px]  "> */}
+      <div className="flex flex-col items-center lg:h-[600px] bg-[#FFFFFF]  lg:w-[825px] 2xl:w-[1325px] pt-[30px] lg:pt-[0px]  ">
         {/* <div className="flex flex-col justify-center items-center max-w-sm mx-auto my-8"> */}
         {/* <div className=" flex flex-col   bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl lg:h-[450px]"> */}
         <div className=" flex flex-col   bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-64 w-[340px]  lg:w-full  lg:pt-[18px] rounded-3xl lg:rounded-3xl lg:h-[438px]">
           
-          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] lg:pt-[58px] pb-[10px]">
+          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] lg:pt-[58px] pb-[10px] ">
             NUESTRO SERVICIO
           </h3>
           <hr className="border-t-1 border-white lg:mt-[20px] pb-[10px] lg:pb-[20px] lg:ml-[410px] lg:mr-[410px]" />

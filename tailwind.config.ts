@@ -34,7 +34,10 @@ const config = {
         'custom-green-end': '#6D2700',
       },
       width: {
-        '80p': '100%', // Definimos una clase para 80%
+        '81p': '150%', // Definimos una clase para 80%
+      },
+      height: {
+        '81p': '150%', // Definimos una clase para 80%
       },
       keyframes: {
         "accordion-down": {

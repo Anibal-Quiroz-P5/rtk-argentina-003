@@ -65,7 +65,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {/* <h1>ESTE TITULOOOOOOOOOO</h1> */}
+       
+
         <Navbar /> 
+        
         {children}
         {/* <Footer/> */}
 {/*         <footer>

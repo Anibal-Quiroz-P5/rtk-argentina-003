@@ -40,7 +40,7 @@ const AboutUs = () => {
           que buscamos mejorar la calidad de vida de las personas.{" "}
         </div>
         <br />
-        <div className="lg:pl-[75px] lg:pr-[75px] lg:w-[1220px]">
+        <div className="lg:pl-[75px] lg:pr-[75px] ">
           <hr className="border-t-1 border border-[#868686]  " />
         </div>
         <div className="lg:flex justify-between gap-[60px]">

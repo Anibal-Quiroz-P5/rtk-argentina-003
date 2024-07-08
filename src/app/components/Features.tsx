@@ -280,7 +280,7 @@ const Features = () => {
     <div  className="  bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
       <div
         id="aplicaciones"
-        className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] px-[20px] lg:container  mx-auto "
+        className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] px-[20px] lg:container  lg:mx-auto "
       >
         <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px] ">
           {" "}
@@ -297,6 +297,7 @@ const Features = () => {
           />
 
           <div className="sm:w-1/2 lg:py-[56px] ">
+          {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
             <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left ">
               {" "}
               Aplicación en Agrimensura
