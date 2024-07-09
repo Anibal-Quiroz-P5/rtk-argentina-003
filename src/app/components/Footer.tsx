@@ -96,7 +96,7 @@ export const Footer = () => {
           <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
           <span>+54911-41747989</span>
         </a>
-        <a
+{/*         <a
           href="https://www.facebook.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -104,7 +104,7 @@ export const Footer = () => {
         >
           <Image src={Facebook} alt="Facebook" width={34} height={42} />
           <span>@rtk-argentina---</span>
-        </a>
+        </a> */}
         <a
           href="https://www.twitter.com"
           target="_blank"
@@ -114,7 +114,7 @@ export const Footer = () => {
           <Image src={X2} alt="Twitter" width={34} height={42} />
           <span>@rtk-argentina---</span>
         </a>
-        <a
+{/*         <a
           href="https://www.instagram.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -122,7 +122,7 @@ export const Footer = () => {
         >
           <Image src={Instagram} alt="Instagram" width={32} height={42} />
           <span>@rtk-argentina---</span>
-        </a>
+        </a> */}
         <a
           /* href="https://www.whatsapp.com" */
           href="https://www.linkedin.com/in/anibal-quiroz-full-stack-javascript/"
@@ -189,7 +189,7 @@ export const Footer = () => {
       </ul> */}
 
       <p className="pt-[56px] text-center text-[14px] font-medium text[#5F7896] sm:pt-5">
-        © Copyright 2024. Your Site. All rights reserved.
+        © Copyright 2024. RTK-Argentina. All rights reserved.
       </p>
     </div>
   );

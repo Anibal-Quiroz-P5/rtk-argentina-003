@@ -20,7 +20,7 @@ const page = () => {
         <br />
         EN AGRICULTURA  */}
             <span className="lg:inline block">APLICACIONES</span>
-    <span className="lg:inline block"> EN DRONES Y TECNOLOGÍA RTK</span>
+    <span className="lg:inline block">     EN    DRONES </span>
           </div> 
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[180px]  pb-10 lg:pb-32">
