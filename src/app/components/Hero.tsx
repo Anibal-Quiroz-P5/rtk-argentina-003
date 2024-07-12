@@ -143,9 +143,9 @@ const Hero = () => {
       className=" flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] "
     >
       {/* <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div> */}
-      <div className=" lg:pb-[30px] lg:pt-[30px] 2xl:pt-[30px] 2xl:pb-[60px]">
+      <div className=" lg:pb-[30px] lg:pt-[30px] 2xl:pt-[10px] 2xl:pb-[60px]">
         {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]"> */}
-        <h1 className=" text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[92px] lg:leading-[72px] ">
+        <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
           {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]"> */}
           {/* Máxima precisión en tu posicionamiento con RTK-Argentina! */}
           RTK ARGENTINA
@@ -155,7 +155,7 @@ const Hero = () => {
         </h1>
         
 
-        <h1 className=" text-center  font-rubik font-semibold text-[30px] lg:pt-[28px] lg:pb-[0px] 2xl:pt-[20px]">Despliega tus alas hacia un futuro preciso...</h1>
+        <h1 className=" text-center  font-rubik font-semibold text-[20px] lg:pt-[28px] lg:pb-[30px] 2xl:pt-[0px]">Despliega tus alas hacia un futuro preciso...</h1>
        
         {/*         <h2 className="text-center pt-6 text-[#36485C] text-[20px] pb-8 lg:leading-7">
           Con nuestro servicio tendrás un posicionamiento con una presición de
@@ -168,7 +168,8 @@ const Hero = () => {
 
         {/* <Carousel className="h-56  lg:w-[1560px] 2xl:h-[800px] "> */}
         {/* <Carousel className="h-56  sm:w-[620px] sm:h-[400px] 2xl:w-[1920px] 2xl:h-[800px] "> */}
-        <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[810px] 2xl:h-[540px] ">
+        {/* <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[810px] 2xl:h-[540px] "> */}
+        <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
 {/*           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
@@ -281,7 +282,7 @@ const Hero = () => {
           </h3>
           <hr className="border-t-1 border-white lg:mt-[20px] pb-[10px] lg:pb-[20px] lg:ml-[410px] lg:mr-[410px]" />
           <h5 className="font-rubik font-bold pl-[10px] pr-[10px] text-[16px] text-[#FFFFFF] text-center lg:text-[20px] ">
-            Obtendrás posicionamientos con una precisión de centímetros en tus dispositivos
+          Con nuestro servicio lograrás una precisión de centímetros en tus dispositivos
             {/* <div className="text-center pb-[40px]">en tus dispositivos.</div> */}
           </h5>
         </div>

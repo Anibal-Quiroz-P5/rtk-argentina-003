@@ -117,7 +117,7 @@ const page = () => {
                 </li>
                 <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
                   Permite realizar monitoreos de salud de los cultivos
-                  detectando problemas en los cultivos, como enfermedades o
+                  detectando problemas en los mismos, como enfermedades o
                   deficiencias nutricionales, de manera temprana y precisa.
                 </li>
               </ul>

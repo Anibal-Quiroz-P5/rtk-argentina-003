@@ -210,7 +210,7 @@ const Navbar = () => {
     //       )}
     //     </nav>
 
-    <nav className="sticky top-0 z-50 flex items-center justify-between w-full  bg-[#002E1E] px-4 py-4 lg:px-[282px] lg:w-full">
+    <nav className="sticky top-0 z-50 flex items-center justify-between w-full  bg-[#002E1E] px-4 py-0 lg:px-[195px] lg:w-full">
       {/* <div className="flex items-center lg:ml-[6px]">
     <Image src={Logo} alt="Logo" width={40} />
   </div> */}

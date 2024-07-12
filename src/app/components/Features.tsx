@@ -331,8 +331,7 @@ const Features = () => {
                 </li>
                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
                   Planificación de infraestructuras y gestión de recursos
-                  naturales. RTK ofrece precisión centimétrica en relevamientos
-                  topográficos en tiempo real, facilitando estas actividades.
+                  naturales.
                 </li>
               </ul>
             </div>
@@ -380,10 +379,6 @@ const Features = () => {
                   agilizando los vuelos.
                 </li>
                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
-                  Permite operar en diferentes entornos y condiciones
-                  climáticas.
-                </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
                   Reduce el tiempo de vuelo y mejora la eficiencia en misiones
                   de inspección y supervisión.
                 </li>
@@ -422,7 +417,7 @@ const Features = () => {
             <p className="py-[24px] px-12 text-[#36485C] lg:text-[18px]">
               La tecnología RTK transforma la agricultura al proporcionar datos
               de posicionamiento precisos que permiten una gestión más eficiente
-              y efectiva de todas las operaciones agrícolas
+              y efectiva de todas las actividades agrícolas.
             </p>
 
             <div className="px-12">
@@ -432,13 +427,13 @@ const Features = () => {
                   agrícolas en tareas de siembra, fumigación y cosecha.
                 </li>
                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
-                  Reducción de costos:Al mejorar la eficiencia y precisión de
-                  las operaciones agrícolas, se pueden reducir los costos
+                  Reducción de costos: Al mejorar la eficiencia y precisión de
+                  las actividades agrícolas, se pueden reducir los costos
                   operativos y de insumos (combustible, semillas, fertilizantes,
                   pesticidas).
                 </li>
                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
-                  Mayor eficiencia: Reduce el desperdicio de insumos{" "}
+                Resguarda la salud de los suelos permitiend un uso eficiente del agua.{" "}
                   {/* (semillas,
                   fertilizantes, pesticidas) y optimiza el uso del agua y otros
                   recursos */}

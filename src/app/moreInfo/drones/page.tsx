@@ -137,7 +137,7 @@ const page = () => {
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
               <ul className="list-disc px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                En estos sectores, la precisión en la medición del terreno y la volumetría es fundamental. Los drones RTK ayudan a realizar levantamientos topográficos precisos, a calcular volúmenes de tierra movida y a monitorear el progreso de la construcción.
+                En estos sectores, la precisión en la medición del terreno y la volumetría es fundamental. Los drones RTK ayudan a realizar relevamientos topográficos precisos, a calcular volúmenes de tierra movida y a monitorear el progreso de la construcción.
 
                 </li>
 {/*                 <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
@@ -199,7 +199,8 @@ const page = () => {
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                Para aplicaciones de drones autónomos, la precisión de navegación es crucial. Los sistemas RTK mejoran significativamente la capacidad de un dron para seguir rutas predeterminadas con gran exactitud, lo que es importante en misiones de entrega, vigilancia y monitoreo. Permite que el aterrizaje de los drones tenga una precisión centimétrica tanto en áreas reducidas como en plataformas móviles.
+                La tendencia actual es que los vehículos se trasladen de un lugar a otro sin la necesidad de control humano.
+En el caso de los drones, la precisión de navegación es crucial. Los sistemas RTK mejoran significativamente la capacidad de un dron para seguir rutas predeterminadas con gran exactitud, lo que es importante en misiones de entrega, vigilancia y monitoreo. Permite que el aterrizaje de los drones tenga una precisión centimétrica tanto en áreas reducidas como en plataformas móviles.
 
                 </li>
                 {/* <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">

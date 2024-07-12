@@ -47,7 +47,7 @@ const page = () => {
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]  font-inter  text-[14px] lg:text-[20px]  text-[#000000]  ">
             <ul className="list-disc px-0 lg:px-4">
                 <li className="flex-col  text-[#36485C] lg:text-[18px] ">
-                  Los drones y equipos de agrimensura equipados con RTK pueden realizar levantamientos topográficos con <span  className="font-bold">precisión centimétrica</span>, lo que es esencial para la elaboración de planos detallados del terreno. Esto es útil para proyectos de construcción, planificación urbana, y diseño de infraestructuras.
+                  Los drones y equipos de agrimensura equipados con RTK pueden realizar relevamientos topográficos con <span  className="font-bold">precisión centimétrica</span>, lo que es esencial para la elaboración de planos detallados del terreno. Esto es útil para proyectos de construcción, planificación urbana, y diseño de infraestructuras.
 
                 </li>
 {/*                 <li className="flex-col text-[#36485C] lg:text-[18px] pt-6">
