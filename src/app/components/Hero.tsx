@@ -137,53 +137,36 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    // <div id="servicio" className="pt-4 lg:pt-10 2xl  ">
-    <div
-      id="servicio"
-      className=" flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] "
-    >
-      {/* <div id="servicio" className="pt-4 lg:pt-10 2xl  "></div> */}
+    <div id="servicio" className=" flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] " >
       <div className=" lg:pb-[30px] lg:pt-[30px] 2xl:pt-[10px] 2xl:pb-[60px]">
-        {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]"> */}
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
-          {/* <h1 className="text-center text-[30px] leading-[40px] font-medium text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]"> */}
-          {/* Máxima precisión en tu posicionamiento con RTK-Argentina! */}
           RTK ARGENTINA
           <br />
-          
-          
         </h1>
-        
 
-        <h1 className=" text-center  font-rubik font-semibold text-[20px] lg:pt-[28px] lg:pb-[30px] 2xl:pt-[0px]">Despliega tus alas hacia un futuro preciso...</h1>
-       
-        {/*         <h2 className="text-center pt-6 text-[#36485C] text-[20px] pb-8 lg:leading-7">
-          Con nuestro servicio tendrás un posicionamiento con una presición de
-          centímetros en tus dispositivos
-        </h2> */}
+        <h1 className=" text-center  font-rubik font-semibold text-[20px] lg:pt-[28px] lg:pb-[30px] 2xl:pt-[0px]">
+          Despliega tus alas hacia un futuro preciso...
+        </h1>
 
-        {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 pt-6"> */}
-        {/* <Carousel className="h-56  2xl:h-[800px]"> */}
         <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]">
+          {/* <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
+          {/* <Carousel className="  h-64 w-full sm:w-[1136px] sm:h-[476px] md:w-[1136px] md:h-[476px] "> */}
 
-        {/* <Carousel className="h-56  lg:w-[1560px] 2xl:h-[800px] "> */}
-        {/* <Carousel className="h-56  sm:w-[620px] sm:h-[400px] 2xl:w-[1920px] 2xl:h-[800px] "> */}
-        {/* <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[810px] 2xl:h-[540px] "> */}
-        {/* <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
-        <Carousel className=" xl:w-[1136px] xl:h-[476px] ">
-{/*           <Image src={Tablero} alt="..." />
+          <Carousel className=" xl:w-[1536px] xl:h-[476px] ">
+            {/*           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
           <Image src={carousel4} alt="..." />
           <Image src={carousel5} alt="..." />
           <Image src={carousel6} alt="..." /> */}
-          <Image src={carousel3} alt="..." />
-          <Image src={carousel3} alt="..." />
-          <Image src={carousel3} alt="..." />
-          <Image src={carousel3} alt="..." />
-          <Image src={carousel3} alt="..." />
-          <Image src={carousel3} alt="..." />
-        </Carousel>
+
+            <Image src={carousel3} alt="..." />
+            <Image src={carousel3} alt="..." />
+            <Image src={carousel3} alt="..." />
+            <Image src={carousel3} alt="..." />
+            <Image src={carousel3} alt="..." />
+            <Image src={carousel3} alt="..." />
+          </Carousel>
         </div>
         {/* </div> */}
 
@@ -206,13 +189,9 @@ const Hero = () => {
         </div> */}
 
         {/* ------------------------------------------------------------------------------------------------------------ */}
-                               {/* ------------------------------------------------------------ */}
+        {/* ------------------------------------------------------------ */}
         {/* ------------------------------------------------------------------------------------------------------------ */}
-
-        
       </div>
-
-
 
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ---  NO BORRAR  FONDO CELESTE Y OBTENÉ SERVICIO  ANCHO Y CON LA CARD BLANCA SEPARADA  --- */}
@@ -241,17 +220,13 @@ const Hero = () => {
         </div>
       </div> */}
 
-
-
-        {/* ------------------------------------------------------------------------------------------------------------ */}
-                               {/* ------------------------------------------------------------ */}
-        {/* ------------------------------------------------------------------------------------------------------------ */}
-
+      {/* ------------------------------------------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------------------------------------ */}
 
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ---  NO BORRAR  FONDO CELESTE Y OBTENÉ SERVICIO  ANCHO Y SUPERPUESTO CON LA CARD BLANCA DEBAJO  --- */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
-
 
       {/*  <div className="flex flex-col  items-center justify-around border border-red-700 lg:h-[942px] bg-[#BCD7FF]"> */}
       {/* <div className="flex flex-col  items-center justify-around border border-red-700 lg:h-[942px] lg:w-[1335px]  bg-[#BCD7FF] ">
@@ -277,53 +252,46 @@ const Hero = () => {
         {/* <div className="flex flex-col justify-center items-center max-w-sm mx-auto my-8"> */}
         {/* <div className=" flex flex-col   bg-[#4328EB] lg:pl-[310px] lg:pr-[310px] lg:pt-[118px] rounded-3xl lg:h-[450px]"> */}
         <div className=" flex flex-col   bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-64 w-[340px]  lg:w-full  lg:pt-[18px] rounded-3xl lg:rounded-3xl lg:h-[438px]">
-          
           <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[50px] lg:leading-[72px] lg:pt-[58px] pb-[10px] ">
             NUESTRO SERVICIO
           </h3>
           <hr className="border-t-1 border-white lg:mt-[20px] pb-[10px] lg:pb-[20px] lg:ml-[410px] lg:mr-[410px]" />
           <h5 className="font-rubik font-bold pl-[10px] pr-[10px] text-[16px] text-[#FFFFFF] text-center lg:text-[20px] ">
-          Con nuestro servicio lograrás una precisión de centímetros en tus dispositivos
+            Con nuestro servicio lograrás una precisión de centímetros en tus
+            dispositivos
             {/* <div className="text-center pb-[40px]">en tus dispositivos.</div> */}
           </h5>
         </div>
         <Link href="#contacto">
-        <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[315px] bg-white  -mt-[100px] lg:-mt-[140px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
-          <div className="py-2 pl-[40px]  text-center font-rubik font-medium text-[20px] uppercase tracking-wide text-[#2E65CF] lg:mt-[120px] ">
-            PRUEBA RTK ARGENTINA
-          </div>
-          <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
-
-          <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
-            <div>
-              <h1 className="text-gray-800 font-bold pb-[20px] pt-[10px] text-center lg:pl-[40px]">
-                Contactate {/* con nosotros */} para que podamos brindarte 
-                <br /> 
-                mas información
-              </h1>
+          <div className="flex flex-col items-center justify-center w-[296px] md:w-[597px] md:h-[315px] bg-white  -mt-[100px] lg:-mt-[140px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
+            <div className="py-2 pl-[40px]  text-center font-rubik font-medium text-[20px] uppercase tracking-wide text-[#2E65CF] lg:mt-[120px] ">
+              PRUEBA RTK ARGENTINA
             </div>
             <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
 
-            
-            <div className="pt-[20px]">
-            
-              <button className=" bg-[#F95901] text-xs px-4 py-4   rounded  hover:bg-[#f7793f] ">
-                
+            <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
+              <div>
+                <h1 className="text-gray-800 font-bold pb-[20px] pt-[10px] text-center lg:pl-[40px]">
+                  Contactate {/* con nosotros */} para que podamos brindarte
+                  <br />
+                  mas información
+                </h1>
+              </div>
+              <hr className="border-t-1 border border-[#868686] w-[260px] lg:w-[470px]" />
+
+              <div className="pt-[20px]">
+                <button className=" bg-[#F95901] text-xs px-4 py-4   rounded  hover:bg-[#f7793f] ">
                   {/* <span className="  font-semibold text-white lg:block"> */}
                   <span className="  font-semibold text-white lg:block">
                     Obtener prueba
                   </span>
-                
-              </button>
-              
+                </button>
+              </div>
             </div>
-            
+            {/* </div> */}
           </div>
-          {/* </div> */}
-        </div>
         </Link>
       </div>
-      
     </div>
   );
 };
