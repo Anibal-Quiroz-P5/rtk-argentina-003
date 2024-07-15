@@ -26,6 +26,14 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '4xl': '1900px',  // Nuevo punto de quiebre a partir de 1900px
+    },
     extend: {
       colors: {
         'custom-orange-start': '#FF9142',

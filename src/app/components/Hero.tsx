@@ -137,22 +137,27 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div id="servicio" className=" flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] " >
+    <div id="servicio" className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px]  xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300" >
       <div className=" lg:pb-[30px] lg:pt-[30px] 2xl:pt-[10px] 2xl:pb-[60px]">
-        <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
-          RTK ARGENTINA
-          <br />
-        </h1>
+          
+          <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
+            RTK ARGENTINA
+            <br />
+          </h1>
 
-        <h1 className=" text-center  font-rubik font-semibold text-[20px] lg:pt-[28px] lg:pb-[30px] 2xl:pt-[0px]">
-          Despliega tus alas hacia un futuro preciso...
-        </h1>
+          <h1 className=" text-center  font-rubik font-semibold text-[20px] lg:pt-[28px] lg:pb-[30px] 2xl:pt-[0px]">
+            Despliega tus alas hacia un futuro preciso...
+          </h1>
 
-        <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]">
+      </div>
+
+          {/* <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]"> */}
           {/* <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
           {/* <Carousel className="  h-64 w-full sm:w-[1136px] sm:h-[476px] md:w-[1136px] md:h-[476px] "> */}
 
-          <Carousel className=" xl:w-[1536px] xl:h-[476px] ">
+         {/*  <Carousel className=" xl:w-[1536px] xl:h-[476px] "> */}
+          {/* <Carousel className=" 2xl:w-[1136px] 2xl:h-[476px] "> */}
+          {/* <Carousel className=" xl:w-[568px] xl:h-[238px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
             {/*           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
@@ -160,13 +165,36 @@ const Hero = () => {
           <Image src={carousel5} alt="..." />
           <Image src={carousel6} alt="..." /> */}
 
+            {/* <Image src={carousel3} alt="..." />
             <Image src={carousel3} alt="..." />
             <Image src={carousel3} alt="..." />
             <Image src={carousel3} alt="..." />
             <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." />
-          </Carousel>
+            <Image src={carousel3} alt="..." /> */}
+
+            {/* <div className="relative h-48 w-48 lg:h-[475px] lg:w-[1136px]">
+              <Image
+                src={carousel3}
+                alt="Logo"
+                width={1136}
+                height={475}
+                className="responsive"
+                
+              /> */}
+
+              <div className="w-4/5 h-auto">
+                    <Image
+                      src={carousel3}
+                      alt="Imagen"
+                      className="w-full h-auto object-contain"
+                      layout="responsive"
+                    />
+    
+
+
+           {/* </div> */}
+
+          {/* </Carousel> */}
         </div>
         {/* </div> */}
 
@@ -191,7 +219,7 @@ const Hero = () => {
         {/* ------------------------------------------------------------------------------------------------------------ */}
         {/* ------------------------------------------------------------ */}
         {/* ------------------------------------------------------------------------------------------------------------ */}
-      </div>
+      
 
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ---  NO BORRAR  FONDO CELESTE Y OBTENÉ SERVICIO  ANCHO Y CON LA CARD BLANCA SEPARADA  --- */}
