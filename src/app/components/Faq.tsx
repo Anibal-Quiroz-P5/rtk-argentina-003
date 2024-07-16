@@ -107,11 +107,11 @@ const Faq = () => {
     
   <div className='pt-24 '>
 
-    <div className='flex flex-col w-full py-[48px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start border-[3px]  border-[#F95901] rounded-3xl '>
+    <div className='flex flex-col items-center justify-center mx-auto w-full py-[48px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] '>
       <div>
         <div >
 
-        <h3 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]">
+        <h3 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]   2xl:text-[43px]">
         PREGUNTAS FRECUENTES 
            </h3>
         </div>
@@ -123,7 +123,7 @@ const Faq = () => {
           defaultValue={""}
           collapsible
           /* className='flex flex-col gap-y-4 pl-80 pr-80' */
-          className='flex flex-col gap-y-4 lg:pl-80 lg:pr-80'
+          className='flex flex-col gap-y-4 lg:pl-80 lg:pr-80 font-inter font-bold  2xl:text-[12px]  2xl:p-0'
         >
           {items.map((item, index) => (
             <div key={index}>
