@@ -235,7 +235,7 @@ const Navbar = () => {
           <div key={index} className="relative group">
             <p
               onClick={() => handleNavLinkClick(item.link)}
-              className="font-medium text-[#FFFFFF] cursor-pointer"
+              className="font-inter font-bold text-[#FFFFFF] cursor-pointer  2xl:text-[16px]"
             >
               {item.name}
             </p>

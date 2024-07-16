@@ -299,33 +299,28 @@ const CorreoContact = () => {
         onClose={() => setAlertVisible(false)}
       />
       <div id="contacto" className="bg-[purple-100] pt-14 pb-14">
-        <div className="isolate  px-6 py-24 lg:py-12 lg:px-8 bg-[#E3F6E7] ">
-          <div
-            className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
-            aria-hidden="true"
-          >
-            {/* <div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"  style={styles}></div>
-             */}{" "}
-          </div>
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-extrabold text-[#111827] lg:text-[64px] tracking-tight  sm:text-4xl">
+        <div className="mx-auto  px-6   lg:px-8 bg-[#E3F6E7] 2xl:w-[898px] 2xl:h-[614px] ">
+          
+
+          <div className=" text-center  ">
+            <h2 className=" font-monserrat font-extrabold text-[#111827] lg:text-[64px]  sm:text-4xl 2xl:text-[43px]   2xl:pt-[30px]">
               CONTACTO
             </h2>
-            <p className="mt-2 lg:text-[18px] leading-8 text-[#111827] lg:pt-[25px]">
+            <p className=" lg:text-[18px]  text-[#111827]  font-inter font-regular 2xl:text-[12px]   2xl:pt-[10px]">
               Escribinos tu mensaje, te contestaremos por mail a la brevedad.
             </p>
           </div>
           <form
             action="#"
             method="POST"
-            className="mx-auto mt-16 max-w-xl sm:mt-10"
+            className="mx-auto  max-w-xl  2xl:pt-[15px]"
             onSubmit={handleSubmit}
           >
-            <div className="grid grid-cols-1 gap-y-6 ">
+            <div className="grid grid-cols-1 gap-y-4   ">
               <div>
                 <label
                   htmlFor="firstName"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm leading-6 text-gray-900   font-inter font-semibold   2xl:text-[11px] "
                 >
                   Nombre
                 </label>
@@ -343,7 +338,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="company"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm  leading-6 text-gray-900    font-inter font-semibold   2xl:text-[11px]"
                 >
                   Area de aplicación de RTK
                 </label>
@@ -361,7 +356,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm  leading-6 text-gray-900   font-inter font-semibold   2xl:text-[11px]"
                 >
                   Email
                 </label>
@@ -379,7 +374,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm leading-6 text-gray-900    font-inter font-semibold   2xl:text-[11px]"
                 >
                   Mensaje
                 </label>
@@ -388,7 +383,7 @@ const CorreoContact = () => {
                     name="message"
                     id="message"
                     rows={4}
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                     onChange={handleInputChange}
                   ></textarea>
                 </div>
