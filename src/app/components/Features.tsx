@@ -386,8 +386,8 @@ const Features = () => {
             <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start">
               <Link href="/moreInfo/drones">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
-                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white  font-inter font-bold 2xl:text-[12px]">
-                    Mas información{" "}
+                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
+                    Mas información
                   </p>
                 </button>
               </Link>
