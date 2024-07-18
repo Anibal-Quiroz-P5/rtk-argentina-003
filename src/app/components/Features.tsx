@@ -278,7 +278,7 @@ const Features = () => {
   return (
     // <div className="bg-blue-300">
     <div  className="  bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
-      <div  id="aplicaciones" className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[54px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[61%]" >
+      <div  id="aplicaciones" className="flex flex-col px-7 gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[54px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[61%]" >
         
         <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]   2xl:text-[46px]">
           {" "}
@@ -286,7 +286,7 @@ const Features = () => {
         </h1>
 
         {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
-        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto  2xl:h-[354px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center  gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto  2xl:h-[354px] bg-[#FFFEF0]">
           <Image
             src={agrimensora}
             alt="Feature 1 image"
