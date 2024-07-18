@@ -37,7 +37,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-bold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Relevantamientos Topográficos
             </div>
 
