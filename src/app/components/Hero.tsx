@@ -137,7 +137,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div id="servicio" className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] bg-violet-300 sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300" >
+    <div id="servicio" className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300" >
       <div className=" lg:pb-[30px] lg:pt-[30px] 2xl:pt-[10px] 2xl:pb-[30px]">
           
           <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
@@ -145,7 +145,7 @@ const Hero = () => {
             <br />
           </h1>
 
-          <h1 className=" text-center  font-rubik font-semibold text-[20px] lg:pt-[28px]  2xl:pt-[0px]">
+          <h1 className=" text-center  font-rubik font-semibold text-[20px] pb-0 lg:pt-[28px]  2xl:pt-[0px]">
             Despliega tus alas hacia un futuro preciso...
           </h1>
 
@@ -155,8 +155,8 @@ const Hero = () => {
           <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
 
 
-          <div className="pt-[86px] lg:pt-[30px]   2xl:pt-[0px]">
-          <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
+          <div className=" lg:pt-[30px]   2xl:pt-[0px]">
+          <Carousel className="w-[300px] h-[300px]   sm:w-[400px]   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
 
           <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
@@ -269,9 +269,9 @@ const Hero = () => {
       {/* ------------------------------------------------------------------------------------------------------------ */}
   
       {/* <div className="flex flex-col items-center   lg:h-[600px] bg-[#FFFFFF]  lg:w-[825px] 2xl:w-[898px] pt-[30px] lg:pt-[0px]  "> */}
-      <div className="flex flex-col items-center justify-center w-full   bg-[#FFFFFF]   pt-[30px]  xl:pt-[100px] ">
-        <div className=" flex flex-col 2xl:w-[58%]  2xl:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl border border-violet-600">
-          <h3 className="font-monserrat  text-center text-[18px] pt-[15px] leading-[40px] font-extrabold text-[#FFFFFF] 2xl:text-[38px] 2xl:pt-[58px] pb-[10px] border border-blue-500">
+      <div className="flex flex-col items-center justify-center w-full   bg-[#FFFFFF]   pt-[0px]  xl:pt-[100px] ">
+        <div className=" flex flex-col w-[320px] h-[200px] 2xl:w-[58%]  2xl:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl border border-violet-600">
+          <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] 2xl:text-[38px] 2xl:pt-[58px] pb-[10px] border border-blue-500">
             NUESTRO SERVICIO
           </h3>
           <hr className="border-t-1 border-white 2xl:pt-8 2xl:mx-64" />
@@ -285,7 +285,7 @@ const Hero = () => {
         </div>
         
         <Link href="#contacto" className="flex items-center justify-center" >
-          <div className="flex flex-col items-center justify-center  w-[296px] 2xl:w-1/2 2xl:h-[240px] bg-white  -mt-[100px] 2xl:-mt-[-15px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
+          <div className="flex flex-col items-center justify-center  w-[226px] 2xl:w-1/2 2xl:h-[240px] bg-white  -mt-[100px] 2xl:-mt-[-15px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
             <div className="py-4    font-rubik font-semibold text-[15px] uppercase  text-[#012615] 2xl:mt-[140px] ">
               PRUEBA RTK ARGENTINA
             </div>
