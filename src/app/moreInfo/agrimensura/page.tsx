@@ -21,7 +21,7 @@ const page = () => {
     <div className=" bg-black sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
       <div className=" flex  bg-gradient-to-b from-custom-green-start to-custom-green-end text-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]    2xl:h-[290px]   ">
         <div className=" pb-6    ">
-          <span className="    2xl:text-[40px]    ">
+          <span className="   lg:text-[25px] 2xl:text-[40px]    ">
             APLICACIONES EN AGRIMENSURA
           </span>
         </div>
@@ -37,7 +37,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   2xl:text-[23px]">
+            <div className=" font-rubik  font-bold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Relevantamientos Topográficos
             </div>
 
