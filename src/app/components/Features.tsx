@@ -278,7 +278,7 @@ const Features = () => {
   return (
     // <div className="bg-blue-300">
     <div  className="  bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
-      <div  id="aplicaciones" className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[34px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[61%]" >
+      <div  id="aplicaciones" className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[54px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[61%]" >
         
         <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]   2xl:text-[46px]">
           {" "}
@@ -294,7 +294,7 @@ const Features = () => {
             className="hidden w-1/2  sm:block pr-12"
           />
 
-          <div className="sm:w- lg:py-[56px] ">
+          <div className="sm:w-1/2 lg:py-[56px] ">
           {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
             <h3 className=" text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
               {" "}
@@ -334,10 +334,10 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start">
-              <Link href="/moreInfo/agrimensura">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
-                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
+            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start   border border-red-700">
+              <Link href="/moreInfo/agrimensura"  className="   border border-blue-700">
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]     border border-green-600">
                     Mas información
                   </p>
                 </button>
@@ -346,14 +346,14 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[354px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center gap-x-2 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[354px] bg-[#FFFEF0]">
           <Image
             src={drone}
             alt="Feature 1 image"
             className="hidden w-1/2  sm:block pr-12"
           />
           <div className="sm:w-1/2 lg:py-[56px]">
-            <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[8px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+          <h3 className=" text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
               Drones y Tecnología RTK
             </h3>
 
@@ -362,31 +362,31 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] px-12 text-[#36485C] lg:text-[18px] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <p className="py-[24px] px-12 text-[#36485C] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
               RTK garantiza una posición extremadamente precisa y en tiempo real
               para la navegación autónoma de drones.
             </p>
             <div className="px-12">
               <ul className="list-disc px-4">
-                <li className="flex-col  text-[#36485C]  gap-5 lg:text-[18px] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+              <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
                   Permite aterrizajes precisos, del orden de centímetros, en
                   áreas reducidas o móviles.
                 </li>
-                <li className="flex-col text-[#36485C] gap-5  lg:text-[18px]  font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
                   Elimina la necesidad de puntos de control en tierra,
                   agilizando los vuelos.
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 lg:text-[18px]  font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
                   Reduce el tiempo de vuelo y mejora la eficiencia en misiones
                   de inspección y supervisión.
                 </li>
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start">
-              <Link href="/moreInfo/drones">
+            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start   border border-red-700">
+              <Link href="/moreInfo/drones"  className="   border border-blue-700 ">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
-                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
+                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]     border border-green-600">
                     Mas información
                   </p>
                 </button>

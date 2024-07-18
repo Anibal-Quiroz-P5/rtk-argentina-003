@@ -18,7 +18,7 @@ import Agrim008 from "../../../../public/assets/Agrim-008.jpg";
 
 const page = () => {
   return (
-    <div className=" ">
+    <div className=" bg-violet-300 sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
       <div className=" flex  bg-gradient-to-b from-custom-green-start to-custom-green-end text-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]    2xl:h-[290px]   ">
         <div className=" pb-6    ">
           <span className="    2xl:text-[40px]    ">

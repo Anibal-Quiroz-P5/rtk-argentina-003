@@ -151,15 +151,19 @@ const Hero = () => {
 
       </div>
 
-          {/* <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]"> */}
-          {/* <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
+          {/* <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]">
+          <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
 
-            {/*           <Image src={Tablero} alt="..." />
+
+          <div className="pt-[86px] lg:pt-[30px]   2xl:pt-[0px]">
+          <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
+
+          <Image src={Tablero} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
           <Image src={carousel4} alt="..." />
           <Image src={carousel5} alt="..." />
-          <Image src={carousel6} alt="..." /> */}
+          <Image src={carousel6} alt="..." />
 
             {/* <Image src={carousel3} alt="..." />
             <Image src={carousel3} alt="..." />
@@ -170,19 +174,19 @@ const Hero = () => {
 
 
 
-              <div className="w-3/4 h-auto">
+              {/* <div className="w-3/4 h-auto">
                     <Image
                       src={carousel3}
                       alt="Imagen"
                       className="w-full h-auto object-contain"
                       layout="responsive"
-                    />
+                    /> */}
     
 
 
            {/* </div> */}
 
-          {/* </Carousel> */}
+          </Carousel>
         </div>
         {/* </div> */}
 
