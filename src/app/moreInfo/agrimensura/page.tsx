@@ -19,9 +19,9 @@ import Agrim008 from "../../../../public/assets/Agrim-008.jpg";
 const page = () => {
   return (
     <div className=" bg-black sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
-      <div className=" flex  bg-gradient-to-b from-custom-green-start to-custom-green-end text-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]    2xl:h-[290px]   ">
-        <div className=" pb-6    ">
-          <span className="   lg:text-[25px] 2xl:text-[40px]    ">
+      <div className=" pt-[0px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-center xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[75px]  2xl:h-[290px]   ">
+        <div className="   ">
+          <span className="  text-[17px] lg:text-[25px] 2xl:text-[40px]   ">
             APLICACIONES EN AGRIMENSURA
           </span>
         </div>
@@ -66,7 +66,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center    2xl:text-[23px]">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Georreferenciación de Puntos de Control
             </div>
 
@@ -95,7 +95,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center    2xl:text-[23px]">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Creación de Modelos Digitales del Terreno (DTM)
             </div>
 
@@ -122,7 +122,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center    2xl:text-[23px]">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Cálculo de Volúmenes
             </div>
 
@@ -149,7 +149,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center    2xl:text-[23px]">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Monitoreo y Control de Obras
             </div>
 
@@ -176,7 +176,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center    2xl:text-[23px]">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Agricultura de Precisión
             </div>
 
@@ -204,7 +204,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik text-center lg:text-[30px] font-semibold text-[#FFFFFF]      bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center    2xl:text-[23px]">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[30px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
               Cartografía y GIS (Sistemas de Información Geográfica)
             </div>
 
