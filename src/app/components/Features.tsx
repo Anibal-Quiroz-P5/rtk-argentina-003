@@ -306,7 +306,7 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] px-12 text-[#36485C] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <p className="py-[24px] px-12 pl-8 pr-8 text-[#36485C] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
               El sistema RTK se utiliza en agrimensura para mejorar la
               eficiencia y calidad de los trabajos permitiendo a los
               profesionales del campo a obtener datos geoespaciales con una
