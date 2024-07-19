@@ -296,7 +296,7 @@ const Features = () => {
 
           <div className="sm:w-1/2 lg:py-[56px] ">
           {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
               {" "}
               Aplicación en Agrimensura
             </h3>
@@ -306,7 +306,7 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] px-12 pl-8 pr-8 text-[#36485C] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
               El sistema RTK se utiliza en agrimensura para mejorar la
               eficiencia y calidad de los trabajos permitiendo a los
               profesionales del campo a obtener datos geoespaciales con una
@@ -317,27 +317,27 @@ const Features = () => {
             </p>
 
             <div className="px-12">
-              <ul className="list-disc px-4">
-                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+              <ul className="list-disc px-0 2xl:px-4">
+                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
                   Relevamientos topográficos precisos en tiempo real, reduciendo
                   costos y tiempos.
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
                   Delimitación de límites de propiedad.{" "}
                   {/* , garantizando una alta
                 exactitud. */}
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
                   Planificación de infraestructuras y gestión de recursos
                   naturales.
                 </li>
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start   border border-red-700">
-              <Link href="/moreInfo/agrimensura"  className="   border border-blue-700">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg  ">
-                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]     border border-green-600">
+            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
+              <Link href="/moreInfo/agrimensura" >
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
                     Mas información
                   </p>
                 </button>
@@ -348,12 +348,14 @@ const Features = () => {
 
         <div className="flex flex-col items-center gap-x-2 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[354px] bg-[#FFFEF0]">
           <Image
-            src={drone}
+            src={agricolas}
             alt="Feature 1 image"
             className="hidden w-1/2  sm:block pr-12"
           />
-          <div className="sm:w-1/2 lg:py-[56px]">
-          <h3 className=" text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+          <div className="sm:w-1/2 lg:py-[56px] ">
+          {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+              {" "}
               Drones y Tecnología RTK
             </h3>
 
@@ -362,31 +364,31 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] px-12 text-[#36485C] font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
               RTK garantiza una posición extremadamente precisa y en tiempo real
               para la navegación autónoma de drones.
             </p>
             <div className="px-12">
-              <ul className="list-disc px-4">
-              <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <ul className="list-disc px-0 2xl:px-4">
+              <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
                   Permite aterrizajes precisos, del orden de centímetros, en
                   áreas reducidas o móviles.
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
                   Elimina la necesidad de puntos de control en tierra,
                   agilizando los vuelos.
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
                   Reduce el tiempo de vuelo y mejora la eficiencia en misiones
                   de inspección y supervisión.
                 </li>
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] flex justify-center lg:justify-start   border border-red-700">
-              <Link href="/moreInfo/drones"  className="   border border-blue-700 ">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
-                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]     border border-green-600">
+            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
+              <Link href="/moreInfo/drones">
+              <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
                     Mas información
                   </p>
                 </button>
@@ -395,7 +397,58 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-x-4 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[354px] bg-[#FFFEF0]">
+
+        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[354px] bg-[#FFFEF0]">
+          <Image
+            src={agricolas}
+            alt="Feature 1 image"
+            className="hidden w-1/2  sm:block pr-12"
+          />
+          <div className="sm:w-1/2 lg:py-[56px] ">
+          {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+              {" "}
+          Aplicación en Agricultura
+            </h3>
+
+            <Image
+              src={drone}
+              alt="feature 1 image"
+              className="pt-[24px] sm:hidden"
+            />
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+            La tecnología RTK transforma la agricultura al proporcionar datos
+              de posicionamiento precisos que permiten una gestión más eficiente
+              y efectiva de todas las actividades agrícolas.
+            </p>
+            <div className="px-12">
+            <ul className="list-disc px-0 2xl:px-2">
+              <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+              RTK brinda precisión centimétrica para guiar máquinas agrícolas en tareas de siembra, fumigación y cosecha.
+                </li>
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+                Al mejorar la eficiencia y precisión de las actividades agrícolas, se pueden reducir los costos
+                  operativos y de insumos (combustible, semillas, fertilizantes, pesticidas).
+                </li>
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+                Resguarda la salud de los suelos permitiend un uso eficiente del agua.{" "}
+                </li>
+              </ul>
+            </div>
+
+            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
+              <Link href="/moreInfo/agricultura">
+              <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
+                    Mas información
+                  </p>
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="flex flex-col items-center gap-x-4 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[354px] bg-[#FFFEF0]">
           <Image
             src={agricolas}
             alt="Feature 1 image"
@@ -403,7 +456,7 @@ const Features = () => {
           />
 
           <div className="sm:w-1/2 lg:py-[56px]">
-            <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] 2xl:pt-[60px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px]  text-2xl lg:px-12 pt-[34px] lg:pt-[22px] 2xl:pt-[60px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
               Aplicación en Agricultura
             </h3>
 
@@ -412,62 +465,42 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[12px] px-10 2xl:pt-2 text-[#36485C] lg:text-[18px]  font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <p className="py-[24px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
               La tecnología RTK transforma la agricultura al proporcionar datos
               de posicionamiento precisos que permiten una gestión más eficiente
               y efectiva de todas las actividades agrícolas.
             </p>
 
             <div className="px-12">
-              <ul className="list-disc px-4">
-                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+            <ul className="list-disc px-0 2xl:px-4">
+                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular text-[15px]  2xl:text-[12px] 2xl:leading-[18px]">
                   RTK brinda precisión centimétrica para guiar máquinas
                   agrícolas en tareas de siembra, fumigación y cosecha.
                 </li>
-                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular text-[15px]  2xl:text-[12px] 2xl:leading-[18px]">
                   Reducción de costos: Al mejorar la eficiencia y precisión de
                   las actividades agrícolas, se pueden reducir los costos
                   operativos y de insumos (combustible, semillas, fertilizantes,
                   pesticidas).
                 </li>
-                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col  text-[#36485C]  gap-5 font-inter font-regular text-[15px]  2xl:text-[12px] 2xl:leading-[18px]">
                 Resguarda la salud de los suelos permitiend un uso eficiente del agua.{" "}
-                  {/* (semillas,
-                  fertilizantes, pesticidas) y optimiza el uso del agua y otros
-                  recursos */}
+
                 </li>
-                {/*                 <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
-                  Aumento de la Productividad: Mejora la gestión de los cultivos
-                  y del suelo, lo que puede llevar a mayores rendimientos.
-                  Sostenibilidad: Promueve prácticas agrícolas más sostenibles
-                  mediante el uso eficiente de los recursos y la reducción del
-                  impacto ambiental.
-                </li>
-                <li className="flex-col text-[#36485C] lg:text-[18px] gap-5">
-                  Sostenibilidad: Promueve prácticas agrícolas más sostenibles
-                  mediante el uso eficiente de los recursos y la reducción del
-                  impacto ambiental.
-                </li> */}
+
               </ul>
             </div>
 
             <div className="pt-8 px-12 pb-[30px] lg:pb-[15px] 2xl:pb-14 2xl:pt-4 flex justify-center lg:justify-start">
               <Link href="/moreInfo/agricultura">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-blue-950 hover:border-transparent rounded-full shadow-lg">
-                  <p className="flex items-center gap-x-2  text-[#000000] lg:text-[18px] hover:text-white  font-inter font-bold 2xl:text-[12px]">
+              <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
                     Mas información
                   </p>
                 </button>
               </Link>
             </div>
           </div>
-        </div>
-        {/*       <div className="relative flex h-full w-full justify-center">
-        <Image
-          src={Gradient}
-          alt="Gradient"
-          className="min-h-[300px] w-full object-cover lg:h-auto"
-        />
         </div> */}
       </div>
     </div>
