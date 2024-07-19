@@ -280,7 +280,7 @@ const Features = () => {
     <div className="  bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
       <div
         id="aplicaciones"
-        className="flex flex-col px-7 gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[54px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[62%]"
+        className="flex flex-col px-7 gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[74px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[62%]"
       >
         <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]   2xl:text-[46px]">
           {" "}
@@ -288,9 +288,9 @@ const Features = () => {
         </h1>
 
         {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
-        <div className="flex flex-col items-center  gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto  2xl:h-[354px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center  gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto  2xl:h-[414px] bg-[#FFFEF0]">
           <Image
-            src={agrimensora}
+            src={agricolas}
             alt="Feature 1 image"
             /* className="hidden w-1/2 h-1/2 sm:block pr-12" */
             className="hidden w-1/2  sm:block pr-12"
@@ -298,7 +298,7 @@ const Features = () => {
 
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[28px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left ">
               {" "}
               Aplicación en Agrimensura
             </h3>
@@ -308,7 +308,7 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[15px] 2xl:leading-[20px]">
               El sistema RTK se utiliza en agrimensura para mejorar la
               eficiencia y calidad de los trabajos permitiendo a los
               profesionales del campo a obtener datos geoespaciales con una
@@ -320,16 +320,16 @@ const Features = () => {
 
             <div className="px-10  ">
               <ul className="list-disc px-0 2xl:px-4 ">
-                <li className="flex-col   text-[#36485C]  gap-5 font-inter font-regular text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
+                <li className="flex-col   text-[#36485C]  gap-5 font-inter font-regular text-[15px] 2xl:text-[15px] 2xl:leading-[20px]">
                   Relevamientos topográficos precisos en tiempo real, reduciendo
                   costos y tiempos.
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[15px] 2xl:leading-[20px]">
                   Delimitación de límites de propiedad.
                   {/* , garantizando una alta
                 exactitud. */}
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[15px] 2xl:leading-[20px]">
                   Planificación de infraestructuras y gestión de recursos
                   naturales.
                 </li>
@@ -339,7 +339,7 @@ const Features = () => {
             <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
               <Link href="/moreInfo/agrimensura">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
-                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[16px]">
+                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[15px]">
                     Mas información
                   </p>
                 </button>
