@@ -10,10 +10,10 @@ import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
 
 const page = () => {
   return (
-    <div className=" ">
-      <div className=" flex  bg-gradient-to-b from-custom-green-start to-custom-green-end text-center justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]    2xl:h-[290px]   ">
-        <div className=" pb-6    ">
-          <span className="    2xl:text-[40px]    ">
+    <div className="">
+      <div className=" pt-[0px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-center xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[75px]  2xl:h-[290px]   ">
+        <div className="   ">
+          <span className="  text-[17px] lg:text-[25px] 2xl:text-[40px]   ">
             APLICACIONES EN AGRICULTURA
           </span>
         </div>
