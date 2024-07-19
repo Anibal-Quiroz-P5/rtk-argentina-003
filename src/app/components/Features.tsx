@@ -298,7 +298,7 @@ const Features = () => {
 
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[24px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[28px] text-center lg:text-left ">
               {" "}
               Aplicación en Agrimensura
             </h3>
@@ -308,7 +308,7 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
               El sistema RTK se utiliza en agrimensura para mejorar la
               eficiencia y calidad de los trabajos permitiendo a los
               profesionales del campo a obtener datos geoespaciales con una
@@ -320,16 +320,16 @@ const Features = () => {
 
             <div className="px-10  ">
               <ul className="list-disc px-0 2xl:px-4 ">
-                <li className="flex-col   text-[#36485C]  gap-5 font-inter font-regular text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col   text-[#36485C]  gap-5 font-inter font-regular text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
                   Relevamientos topográficos precisos en tiempo real, reduciendo
                   costos y tiempos.
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
                   Delimitación de límites de propiedad.
                   {/* , garantizando una alta
                 exactitud. */}
                 </li>
-                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[12px] 2xl:leading-[18px]">
+                <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[15px] 2xl:text-[16px] 2xl:leading-[18px]">
                   Planificación de infraestructuras y gestión de recursos
                   naturales.
                 </li>
@@ -339,7 +339,7 @@ const Features = () => {
             <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
               <Link href="/moreInfo/agrimensura">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
-                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[12px]">
+                  <p className="flex items-center gap-x-2  text-[#F95901] lg:text-[18px] hover:text-white font-inter font-bold 2xl:text-[16px]">
                     Mas información
                   </p>
                 </button>
