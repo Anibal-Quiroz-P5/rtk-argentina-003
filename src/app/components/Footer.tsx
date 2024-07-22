@@ -94,7 +94,7 @@ export const Footer = () => {
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
           <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
-          <span>+54911-41747989</span>
+          <span className="text-[16px]">+54911-41747989</span>
         </a>
 {/*         <a
           href="https://www.facebook.com"
@@ -112,7 +112,7 @@ export const Footer = () => {
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
           <Image src={X2} alt="Twitter" width={34} height={42} />
-          <span>@rtk-argentina---</span>
+          <span className="text-[16px]">@rtk-argentina---</span>
         </a>
 {/*         <a
           href="https://www.instagram.com"
@@ -131,7 +131,7 @@ export const Footer = () => {
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
           <Image src={Linkedin} alt="Linkedin" width={34} height={42} />
-          <span>@rtk-argentina---</span>
+          <span className="text-[16px]">@rtk-argentina---</span>
         </a>
       </div>
 
@@ -188,7 +188,7 @@ export const Footer = () => {
         </Link>
       </ul> */}
 
-      <p className="pt-[56px] text-center text-[14px] font-medium text[#5F7896] sm:pt-5">
+      <p className="pt-[56px] text-center text-[16px] font-medium text[#5F7896] sm:pt-5">
         © Copyright 2024. RTK-Argentina. All rights reserved.
       </p>
     </div>

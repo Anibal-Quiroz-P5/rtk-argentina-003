@@ -303,10 +303,10 @@ const CorreoContact = () => {
           
 
           <div className=" text-center  ">
-            <h2 className=" font-monserrat font-extrabold text-[#111827] lg:text-[64px]  sm:text-4xl 2xl:text-[43px]   2xl:pt-[30px]">
+            <h2 className=" font-monserrat font-extrabold text-[#111827] text-[16px] 2xl:pt-[16px]">
               CONTACTO
             </h2>
-            <p className=" lg:text-[18px]  text-[#111827]  font-inter font-regular 2xl:text-[12px]   2xl:pt-[10px]">
+            <p className=" lg:text-[18px]  text-[#111827]  font-inter font-regular text-[16px] 2xl:text-[16px]   2xl:pt-[10px]">
               Escribinos tu mensaje, te contestaremos por mail a la brevedad.
             </p>
           </div>
@@ -320,7 +320,7 @@ const CorreoContact = () => {
               <div>
                 <label
                   htmlFor="firstName"
-                  className="block text-sm leading-6 text-gray-900   font-inter font-semibold   2xl:text-[11px] "
+                  className="block text-sm leading-6 text-gray-900   font-inter font-semibold  text-[16px] 2xl:text-[16px] "
                 >
                   Nombre
                 </label>
@@ -338,7 +338,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="company"
-                  className="block text-sm  leading-6 text-gray-900    font-inter font-semibold   2xl:text-[11px]"
+                  className="block text-sm  leading-6 text-gray-900    font-inter font-semibold text-[16px] 2xl:text-[16px]"
                 >
                   Area de aplicación de RTK
                 </label>
@@ -356,7 +356,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm  leading-6 text-gray-900   font-inter font-semibold   2xl:text-[11px]"
+                  className="block text-sm  leading-6 text-gray-900   font-inter font-semibold text-[16px] 2xl:text-[12px]"
                 >
                   Email
                 </label>
@@ -374,7 +374,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm leading-6 text-gray-900    font-inter font-semibold   2xl:text-[11px]"
+                  className="block text-sm leading-6 text-gray-900    font-inter font-semibold text-[16px] 2xl:text-[16px]"
                 >
                   Mensaje
                 </label>
@@ -393,7 +393,7 @@ const CorreoContact = () => {
             <div className="flex justify-center mt-10">
               <button
                 type="submit"
-                className="block lg:w-[176px] lg:h-[50px] rounded-md bg-[#F95901] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#f3915d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="block lg:w-[176px] lg:h-[50px] rounded-md bg-[#F95901] px-3.5 py-2.5 text-center text-[16px] font-semibold text-white shadow-sm hover:bg-[#f3915d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Enviar
               </button>

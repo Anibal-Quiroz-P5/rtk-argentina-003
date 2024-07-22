@@ -34,7 +34,7 @@ const AboutUs = () => {
         <div className="text-center text-[32px] font-montserrat  font-extrabold text-[#F95901] lg:text-[64px] lg:leading-[72px]  2xl:pt-[0px] 2xl:text-[43px]">
           QUIÉNES SOMOS?
         </div>
-        <div className="font-inter font-extrabold lg:text-[18px] text-[#36485C]  text-center  lg:pt-[33px] 2xl:pb-[0px] 2xl:pt-0  2xl:text-[12px]">
+        <div className="font-inter font-extrabold text-[16px] text-[#36485C]  text-center  lg:pt-[33px] 2xl:pb-[0px] 2xl:pt-0  2xl:text-[16px]">
           {" "}
           Somos un grupo de emprendedores provenientes de distintas
           <br />
@@ -47,13 +47,13 @@ const AboutUs = () => {
         <div className="lg:flex justify-between gap-[60px] 2xl:pl-[0px]">
           <div className="flex-1 ">
             <div className="  py-[74px] pb-12 text-[#000000] lg:text-[18px] lg:pl-[78px] 2xl:pt-6  2xl:pl-[0px]">
-              <div className="font-rubik font-semibold lg:text-[35px]    2xl:text-[24px]  2xl:p-0 ">
+              <div className="font-rubik font-semibold text-[16px]    2xl:text-[16px]  2xl:p-0 ">
                 ¿Cómo nace RTK Argentina?
               </div>
               
               
 
-              <p className="font-inter font-regular 2xl:text-[12px] ">
+              <p className="font-inter font-regular text-[16px] 2xl:text-[16px] ">
                 Teniendo la ventaja de vivir en zona rural y dedicándonos
                 profesionalmente al campo de las ciencias duras y la tecnología,
                 pudimos observar las necesidades de nuestra comunidad y comenzar
@@ -70,11 +70,11 @@ const AboutUs = () => {
 
           <div className="lg:flex-1 lg:text-right ">
             <div className=" text-left py-[74px] pt-0 sm:pt-[75px] pb-0 text-[#000000] lg:text-[18px] lg:pr-[78px]  2xl:pt-6  2xl:pr-0">
-              <div className="font-rubik font-semibold lg:text-[35px]   2xl:text-[24px]">
+              <div className="font-rubik font-semibold text-[16px]   2xl:text-[16px]">
                 ¿Me puedo sumar al equipo?
               </div>
               
-              <p className="font-inter font-regular 2xl:text-[12px]">
+              <p className="font-inter font-regular text-[16px] 2xl:text-[16px]">
                 Con este espíritu de arremeter contra los desafíos y crecer
                 hasta el límite de nuestro pensamiento es que invitamos a todos
                 aquellos que tengan este entusiasmo, disposición a desarrollarse

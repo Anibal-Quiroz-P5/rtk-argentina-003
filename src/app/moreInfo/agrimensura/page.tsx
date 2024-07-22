@@ -18,7 +18,7 @@ import Agrim008 from "../../../../public/assets/Agrim-008.jpg";
 
 const page = () => {
   return (
-    // <div className=" bg-black sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 "> 
+    // <div className=" bg-black sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
     <div className="">
       <div className=" pt-[0px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-center xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[75px]  2xl:h-[290px]   ">
         <div className="   ">
@@ -44,7 +44,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
-                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Los drones y equipos de agrimensura equipados con RTK pueden
                   realizar relevamientos topográficos con{" "}
                   <span className="font-bold">precisión centimétrica</span>, lo
@@ -73,7 +73,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
-              <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Los sistemas RTK se utilizan para establecer y georreferenciar
                   puntos de control terrestres con alta precisión. Estos puntos
                   de control son fundamentales para alinear y corregir los datos
@@ -102,7 +102,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-4">
-              <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Con RTK, los agrimensores pueden generar modelos digitales del
                   terreno con gran exactitud. Estos modelos son esenciales para
                   estudios de impacto ambiental, diseño de obras civiles, y
@@ -129,7 +129,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
               <ul className="list-disc px-4">
-              <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   La tecnología RTK permite medir con precisión los volúmenes de
                   material en proyectos de construcción y minería, como pilas de
                   tierra, grava y otros materiales. Esto ayuda a calcular el
@@ -156,7 +156,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-4">
-              <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   En proyectos de construcción, la precisión de RTK es utilizada
                   para el control y monitoreo del progreso de las obras. Esto
                   incluye la verificación de la correcta colocación de elementos
@@ -183,7 +183,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
-              <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Aunque más directamente relacionada con la agricultura, los
                   principios de agrimensura se aplican en la agricultura de
                   precisión mediante el uso de RTK para delinear parcelas,
@@ -211,7 +211,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
-              <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Los datos obtenidos mediante RTK son integrados en sistemas
                   GIS para crear mapas detallados y precisos. Estos mapas son
                   utilizados para la gestión del territorio, planificación

@@ -35,13 +35,13 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+              <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Permite la <span className="font-bold">siembra precisa</span>{" "}
                   de semillas con un espaciamiento exacto. Esto asegura una
                   densidad de plantas óptima y reduce el desperdicio de
                   semillas.
                 </li>
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[16px]  2xl:text-[13px] ">
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Los tractores y equipos de aplicación pueden seguir rutas
                   precisas, asegurando una{" "}
                   <span className="font-bold">
@@ -70,14 +70,14 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-0 lg:px-4">
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+              <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Facilita la planificación y ejecución de{" "}
                   <span className="font-bold">sistemas de riego precisos,</span>{" "}
                   mejorando la eficiencia del uso del agua y garantizando que
                   todas las áreas del campo reciban la cantidad adecuada de
                   agua.
                 </li>
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Permite diseñar y construir{" "}
                   <span className="font-bold">
                     sistemas de drenaje precisos
@@ -106,7 +106,7 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-4">
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+              <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Los drones pueden generar{" "}
                   <span className="font-bold">
                     mapas de alta resolución de los campos,
@@ -119,7 +119,7 @@ const page = () => {
                   identificando variaciones en el terreno y condiciones del
                   cultivo.
                 </li>
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Permite realizar monitoreos de salud de los cultivos
                   detectando problemas en los mismos, como enfermedades o
                   deficiencias nutricionales, de manera temprana y precisa.
@@ -145,13 +145,13 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
               <ul className="list-disc px-4">
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+              <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Se utiliza para realizar{" "}
                   <span className="font-bold">relevamientos topográficos</span>{" "}
                   detallados que ayudan a entender la topografía del campo y
                   planificar las operaciones agrícolas de manera más eficiente.
                 </li>
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Al combinar datos de RTK con{" "}
                   <span className="font-bold">análisis del suelo,</span> los
                   agricultores pueden entender mejor las propiedades del suelo y
@@ -177,14 +177,14 @@ const page = () => {
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
               <ul className="list-disc px-4">
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+              <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Se utiliza para{" "}
                   <span className="font-bold">guiar tractores</span> y
                   maquinaria agrícola de manera automática y precisa, reduciendo
                   la fatiga del operador y aumentando la eficiencia de las
                   operaciones.
                 </li>
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Permite que varias máquinas{" "}
                   <span className="font-bold">
                     trabajen juntas en el campo de manera sincronizada 

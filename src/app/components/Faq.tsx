@@ -123,7 +123,7 @@ const Faq = () => {
           defaultValue={""}
           collapsible
           /* className='flex flex-col gap-y-4 pl-80 pr-80' */
-          className='flex flex-col gap-y-4 lg:pl-80 lg:pr-80 font-inter font-bold  2xl:text-[12px]  2xl:p-0'
+          className='flex flex-col gap-y-4 lg:pl-80 lg:pr-80 font-inter font-bold  text-[16px] 2xl:text-[16px]  2xl:p-0'
         >
           {items.map((item, index) => (
             <div key={index}>
