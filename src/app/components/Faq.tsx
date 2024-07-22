@@ -105,13 +105,13 @@ const items = [
 const Faq = () => {
   return (
     
-  <div className='pt-[58px] 2xl:pt-24 '>
+  <div className='pt-[58px] lg:pt-24 2xl:pt-24 '>
 
     <div className='flex flex-col items-center justify-center mx-auto w-full py-[48px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] '>
       <div>
         <div >
 
-        <h3 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]   2xl:text-[43px]">
+        <h3 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[43px]">
         PREGUNTAS FRECUENTES 
            </h3>
         </div>

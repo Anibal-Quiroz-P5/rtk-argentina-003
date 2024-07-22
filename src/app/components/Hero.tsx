@@ -140,7 +140,7 @@ const Hero = () => {
     <div
       id="servicio"
       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
-      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  4xl:bg-yellow-300">
+      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  4xl:bg-yellow-300">
       <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
           RTK ARGENTINA
@@ -263,7 +263,7 @@ const Hero = () => {
 
       {/* <div className="flex flex-col items-center   lg:h-[600px] bg-[#FFFFFF]  lg:w-[825px] 2xl:w-[898px] pt-[30px] lg:pt-[0px]  "> */}
       <div className="flex flex-col items-center justify-center w-full pb-28  bg-[#FFFFFF]   pt-[0px] lg:pt-20 xl:pt-[100px] ">
-        <div className=" flex flex-col w-[327px] h-[200px] lg:w-[58%] 2xl:w-[58%]  2xl:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
+        <div className=" flex flex-col w-[327px] h-[200px] lg:w-[58%] lg:h-[230px] 2xl:w-[58%]  2xl:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
           <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] 2xl:text-[38px] 2xl:pt-[58px] pb-[4px] ">
             NUESTRO SERVICIO
           </h3>
@@ -277,8 +277,8 @@ const Hero = () => {
           <div></div>
 
           <Link href="#contacto" className="flex items-center justify-center ">
-            <div className="flex flex-col items-center justify-center  w-[226px] 2xl:w-1/2 2xl:h-[240px] bg-white  -mt-[-10px]  pb-2 2xl:-mt-[-23px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
-              <div className="py-4 pb-3   font-rubik font-semibold text-[15px] uppercase  text-[#012615] 2xl:mt-[100px] ">
+            <div className="flex flex-col items-center justify-center  w-[226px] lg:w-[326px] lg:h-[200px] 2xl:w-1/2 2xl:h-[240px] bg-white  -mt-[-10px]  pb-2 2xl:-mt-[-23px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
+              <div className="py-4 pb-3  lg:pt-[140px] 2xl:pt-[20px] font-rubik font-semibold text-[15px] uppercase  text-[#012615] 2xl:mt-[100px] ">
                 PRUEBA RTK ARGENTINA
               </div>
               

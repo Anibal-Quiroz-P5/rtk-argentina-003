@@ -282,7 +282,7 @@ const Features = () => {
         id="aplicaciones"
         className="flex flex-col px-7 gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[74px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[62%]"
       >
-        <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[64px] lg:leading-[72px]   2xl:text-[46px]">
+        <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[46px]">
           {" "}
           APLICACIONES
         </h1>
