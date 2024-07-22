@@ -298,12 +298,12 @@ const CorreoContact = () => {
         visible={alertVisible}
         onClose={() => setAlertVisible(false)}
       />
-      <div id="contacto" className="bg-[purple-100] pt-14 pb-14">
-        <div className="mx-auto  px-6   lg:px-8 bg-[#E3F6E7] 2xl:w-[898px] 2xl:h-[614px] ">
+      <div id="contacto" className="bg-[purple-100] 2xl:pt-14 2xl:pb-14">
+        <div className="mx-auto  px-6   lg:px-8 bg-[#E3F6E7] 2xl:w-[898px] h-[636px] 2xl:h-[682px] ">
           
 
           <div className=" text-center  ">
-            <h2 className=" font-monserrat font-extrabold text-[#111827] text-[16px] 2xl:pt-[16px]">
+            <h2 className=" font-monserrat font-extrabold text-[#111827] text-[16px] pt-10 2xl:pt-[56px]">
               CONTACTO
             </h2>
             <p className=" lg:text-[18px]  text-[#111827]  font-inter font-regular text-[16px] 2xl:text-[16px]   2xl:pt-[10px]">
@@ -390,7 +390,7 @@ const CorreoContact = () => {
               </div>
               <div className="flex gap-x-4 sm:col-span-2"></div>
             </div>
-            <div className="flex justify-center mt-10">
+            <div className="flex justify-center mt-6 2xl:mt-10">
               <button
                 type="submit"
                 className="block lg:w-[176px] lg:h-[50px] rounded-md bg-[#F95901] px-3.5 py-2.5 text-center text-[16px] font-semibold text-white shadow-sm hover:bg-[#f3915d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

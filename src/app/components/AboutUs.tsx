@@ -29,7 +29,7 @@ const AboutUs = () => {
     <div className=" flex flex-col items-center justify-center mx-auto pt-[55px] lg:pt-[177px]  2xl:pb-[80px]">
       <div
         id="quienes-somos"
-        className="py-[74px] text-[#36485C] lg:text-[18px] bg-gray-100 px-12   border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] 2xl:h-[586px] 2xl:pt-10"
+        className="py-[74px] text-[#36485C] lg:text-[18px] bg-gray-100 px-12   border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] 2xl:h-[586px] pt-10 2xl:pt-10"
       >
         <div className="text-center text-[32px] font-montserrat  font-extrabold text-[#F95901] lg:text-[64px] lg:leading-[72px]  2xl:pt-[0px] 2xl:text-[43px]">
           QUIÉNES SOMOS?
@@ -44,10 +44,10 @@ const AboutUs = () => {
         <div className="lg:pl-[75px] lg:pr-[75px]  ">
           <hr className="border-t-1 border border-[#868686]  " />
         </div>
-        <div className="lg:flex  justify-between gap-[60px] 2xl:pl-[0px] ">
+        <div className="lg:flex  justify-between  2xl:gap-[60px] 2xl:pl-[0px] ">
           <div className="flex-1 ">
-            <div className="  py-[74px] pb-12 text-[#000000] lg:text-[18px] lg:pl-[78px] 2xl:pt-6   2xl:pl-[0px]">
-              <div className="font-rubik font-semibold text-[16px]    2xl:text-[16px]  2xl:p-0 ">
+            <div className="  py-[74px] pb-8 pt-10 text-[#000000] lg:text-[18px] lg:pl-[78px] 2xl:pt-6   2xl:pl-[0px]">
+              <div className="font-rubik font-semibold text-[16px]    2xl:text-[16px] 2xl:p-0 ">
                 ¿Cómo nace RTK Argentina?
               </div>
               

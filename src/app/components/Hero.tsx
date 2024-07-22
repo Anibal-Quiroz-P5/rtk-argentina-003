@@ -268,7 +268,7 @@ const Hero = () => {
             NUESTRO SERVICIO
           </h3>
           <hr className="border-t-1 border-white 2xl:pt-0 2xl:mx-64 pb-3 2xl:pb-0 2xl:my-5 mx-[52px]" />
-          <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[15px] text-[#FFFFFF] text-center text-[13px] lg:text-[20px] ">
+          <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[15px] text-[#FFFFFF] text-center text-[15px] lg:text-[20px] ">
             Con nuestro servicio lograrás una precisión
             <br />
             de centímetros en tus dispositivos
@@ -285,10 +285,8 @@ const Hero = () => {
               <hr className="border-t-0 border border-[#868686] w-[180px] 2xl:w-4/5 " />
 
               <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
-                <h1 className="text-gray-800 font-rubik font-regular text-[10px] 2xl:text-[15px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
-                  Contactate para que podamos brindarte
-                  <br />
-                  mas información
+                <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[15px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
+                  Contactate para que podamos brindarte mas información
                 </h1>
 
                 <div className="">
@@ -297,7 +295,7 @@ const Hero = () => {
 
                 <div className="pt-[20px]  ">
                   <button className=" bg-[#F95901]  px-6 py-3 pt-2   rounded-xl  hover:bg-[#f7793f]  ">
-                    <span className="  font-bold font-inter text-xs text-white lg:block">
+                    <span className="  font-bold font-inter text-[13px] text-white lg:block">
                       Obtener prueba
                     </span>
                   </button>
