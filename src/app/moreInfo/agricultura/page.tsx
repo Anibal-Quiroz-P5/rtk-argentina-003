@@ -41,7 +41,7 @@ const page = () => {
                   densidad de plantas óptima y reduce el desperdicio de
                   semillas.
                 </li>
-                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[20px]  2xl:text-[13px] ">
+                <li className="flex-col  text-[#36485C]    font-inter  text-[14px] lg:text-[16px]  2xl:text-[13px] ">
                   Los tractores y equipos de aplicación pueden seguir rutas
                   precisas, asegurando una{" "}
                   <span className="font-bold">
