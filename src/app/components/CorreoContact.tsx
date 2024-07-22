@@ -292,7 +292,7 @@ const CorreoContact = () => {
   };
 
   return (
-    <div className="pt-24 pb-14">
+    <div className=" pt-[55px] pb-[55px]  2xl:pt-24 2xl:pb-14">
       <AlertaPersonalizada
         mensaje={alertMessage}
         visible={alertVisible}

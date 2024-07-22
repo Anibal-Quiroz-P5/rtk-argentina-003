@@ -31,7 +31,7 @@ const AboutUs = () => {
         id="quienes-somos"
         className="py-[74px] text-[#36485C] lg:text-[18px] bg-gray-100 px-12   border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] 2xl:h-[586px] pt-10 2xl:pt-10"
       >
-        <div className="text-center text-[32px] font-montserrat  font-extrabold text-[#F95901] lg:text-[64px] lg:leading-[72px]  2xl:pt-[0px] 2xl:text-[43px]">
+        <div className="text-center  text-[22px] font-montserrat  font-extrabold text-[#F95901] lg:text-[64px] lg:leading-[72px]  pb-3 2xl:pb-0 2xl:pt-[0px] 2xl:text-[43px]">
           QUIÉNES SOMOS?
         </div>
         <div className="font-inter font-extrabold text-[16px] text-[#36485C]  text-center  lg:pt-[33px] 2xl:pb-[0px] 2xl:pt-0  2xl:text-[16px]">

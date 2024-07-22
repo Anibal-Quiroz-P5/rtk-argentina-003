@@ -140,7 +140,7 @@ const Hero = () => {
     <div
       id="servicio"
       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
-      className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  4xl:bg-yellow-300">
+      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  4xl:bg-yellow-300">
       <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
           RTK ARGENTINA
@@ -148,7 +148,7 @@ const Hero = () => {
         </h1>
 
         <h1 className=" text-center  font-rubik font-semibold text-[20px] pb-0 lg:pt-[5px]  2xl:pt-[0px]">
-          Despliega tus alas hacia un futuro preciso...
+          Despliega tus alas hacia un futuro preciso
         </h1>
       </div>
 
