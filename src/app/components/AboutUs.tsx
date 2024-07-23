@@ -26,7 +26,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className=" flex flex-col items-center justify-center mx-auto pt-[55px] lg:pt-[107px]  2xl:pb-[80px]">
+    <div className=" flex flex-col items-center justify-center mx-auto pt-[55px] lg:pt-[107px]  2xl:pb-[10px]">
       <div
         id="quienes-somos"
         className="py-[74px] text-[#36485C] lg:text-[18px] bg-gray-100 px-12   border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] 2xl:h-[586px] pt-10 2xl:pt-10"

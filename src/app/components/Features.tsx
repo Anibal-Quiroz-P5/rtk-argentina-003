@@ -280,7 +280,7 @@ const Features = () => {
     <div className="  bg-gradient-to-b from-custom-green-start to-custom-green-end  ">
       <div
         id="aplicaciones"
-        className="flex flex-col px-7 gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[74px] 2xl:px-[20px] lg:container  lg:mx-auto 2xl:w-[62%]"
+        className="flex flex-col px-7 gap-y-[56px] py-[56px] lg:py-[120px]  lg:gap-y-[80px]   2xl:gap-y-[74px] 2xl:px-[20px] lg:container  lg:w-[92%] 2xl:w-[62%]"
       >
         <h1 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[46px]">
           {" "}
@@ -288,8 +288,7 @@ const Features = () => {
         </h1>
 
         {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
-        <div className="flex flex-col items-center  gap-x-6 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto  2xl:h-[444px] bg-[#FFFEF0]">
-          <Image
+        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0]">          <Image
             src={agricolas}
             alt="Feature 1 image"
             /* className="hidden w-1/2 h-1/2 sm:block pr-12" */
@@ -298,7 +297,7 @@ const Features = () => {
 
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-6 ">
               {" "}
               Aplicación en Agrimensura
             </h3>
@@ -336,10 +335,10 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
-              <Link href="/moreInfo/agrimensura">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
-                  <p className="flex items-center gap-x-2  text-[#F95901] text-[16px] hover:text-white font-inter font-bold 2xl:text-[16px]">
+            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start hover:text-white ">
+              <Link href="/moreInfo/agrimensura" className="hover:text-white ">
+                <button className="flex items-center gap-x-2  bg-transparent  hover:text-white  hover:bg-orange-500 text-[#F95901] font-semibold py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="  text-[16px] hover:text-white font-inter font-bold 2xl:text-[16px]">
                     Mas información
                   </p>
                 </button>
@@ -348,15 +347,14 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-x-2 sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[474px] bg-[#FFFEF0]">
-          <Image
+        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0]">          <Image
             src={agricolas}
             alt="Feature 1 image"
             className="hidden w-1/2  sm:block pr-12"
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-6 ">
               {" "}
               Drones y Tecnología RTK
             </h3>
@@ -387,10 +385,10 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
-              <Link href="/moreInfo/drones">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
-                  <p className="flex items-center gap-x-2  text-[#F95901]  hover:text-white font-inter font-bold text-[16px] 2xl:text-[16px]">
+            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start hover:text-white ">
+              <Link href="/moreInfo/drones" className="hover:text-white ">
+                <button className="flex items-center gap-x-2  bg-transparent  hover:text-white  hover:bg-orange-500 text-[#F95901] font-semibold py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="  text-[16px] hover:text-white font-inter font-bold 2xl:text-[16px]">
                     Mas información
                   </p>
                 </button>
@@ -399,7 +397,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl h-auto 2xl:h-[444px] bg-[#FFFEF0]">
+        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0]">
           <Image
             src={agricolas}
             alt="Feature 1 image"
@@ -407,7 +405,7 @@ const Features = () => {
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-6 ">
               {" "}
               Aplicación en Agricultura
             </h3>
@@ -437,10 +435,10 @@ const Features = () => {
               </ul>
             </div>
 
-            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start">
-              <Link href="/moreInfo/agricultura">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
-                  <p className="flex items-center gap-x-2  text-[#F95901] text-[16px] hover:text-white font-inter font-bold 2xl:text-[16px]">
+            <div className="pt-8 px-12 pb-[30px] 2xl:pb-[32px] flex justify-center lg:justify-start hover:text-white ">
+              <Link href="/moreInfo/agricultura" className="hover:text-white ">
+                <button className="flex items-center gap-x-2  bg-transparent  hover:text-white  hover:bg-orange-500 text-[#F95901] font-semibold py-2 px-4  border border-[#F95901] hover:border-transparent rounded-full shadow-lg  ">
+                  <p className="  text-[16px] hover:text-white font-inter font-bold 2xl:text-[16px]">
                     Mas información
                   </p>
                 </button>

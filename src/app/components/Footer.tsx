@@ -59,7 +59,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="pt-[0px] pb-[40px] lg:pt-12">
+    <div className="pt-[0px] pb-[40px] lg:pt-12 2xl:pt-0">
       {/* <div className='flex items-center justify-center gap-x-[76px] pt-[40px] '> */}
 
       {/* <div className="flex flex-row  justify-center gap-x-40  ">

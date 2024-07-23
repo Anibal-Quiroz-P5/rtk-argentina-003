@@ -292,7 +292,7 @@ const CorreoContact = () => {
   };
 
   return (
-    <div className=" pt-[55px] lg:pt-24 pb-[55px]  2xl:pt-24 2xl:pb-14">
+    <div className=" pt-[55px] lg:pt-24 pb-[55px]  2xl:pt-[46px] 2xl:pb-[40px]">
       <AlertaPersonalizada
         mensaje={alertMessage}
         visible={alertVisible}
@@ -356,7 +356,7 @@ const CorreoContact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm  leading-6 text-gray-900   font-inter font-semibold text-[16px] 2xl:text-[12px]"
+                  className="block text-sm  leading-6 text-gray-900   font-inter font-semibold text-[16px] 2xl:text-[16px]"
                 >
                   Email
                 </label>

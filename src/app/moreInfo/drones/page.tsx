@@ -14,9 +14,9 @@ import Drones007 from "../../../../public/assets/Drones-007.png";
 const page = () => {
   return (
     <div className="">
-    <div className=" pt-[0px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-center xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[75px]  2xl:h-[290px]   ">
-      <div className="   ">
-        <span className="  text-[17px] lg:text-[25px] 2xl:text-[40px]   ">
+      <div className=" lg:pt-[0px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
+        <div className="   ">
+          <span className="  text-[17px] lg:text-[35px] 2xl:text-[40px] pt-12 ">
             APLICACIONES EN DRONES
           </span>
         </div>
@@ -37,7 +37,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-0 lg:px-4">
+              <ul >
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 La tecnología RTK permite obtener datos de posición con precisión centimétrica en tiempo real. Esto es crucial para aplicaciones donde la exactitud es vital, como en cartografía, topografía y creación de modelos 3D detallados.
 
@@ -62,7 +62,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-0 lg:px-4">
+              <ul >
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 En la agricultura, los drones RTK se utilizan para crear mapas de alta resolución de campos agrícolas. Esto ayuda a los agricultores a gestionar mejor sus cultivos, optimizar el uso de fertilizantes y pesticidas, y monitorear el estado de las plantas de manera precisa.
 
@@ -87,7 +87,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-4">
+              <ul >
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Los drones RTK son utilizados para inspeccionar infraestructuras como líneas eléctricas, torres de telecomunicaciones, puentes y edificios. La alta precisión permite detectar y documentar pequeños defectos o daños que podrían no ser visibles con métodos menos precisos.
 
@@ -112,7 +112,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
-              <ul className="list-disc px-4">
+              <ul >
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 En estos sectores, la precisión en la medición del terreno y la volumetría es fundamental. Los drones RTK ayudan a realizar relevamientos topográficos precisos, a calcular volúmenes de tierra movida y a monitorear el progreso de la construcción.
 
@@ -136,7 +136,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-4">
+              <ul >
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 En campos como la arqueología, la investigación medioambiental y otras ciencias naturales, los drones RTK facilitan la recopilación de datos geoespaciales precisos que son esenciales para el análisis y la toma de decisiones informadas.
 
@@ -161,7 +161,7 @@ const page = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-0 lg:px-4">
+              <ul >
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 La tendencia actual es que los vehículos se trasladen de un lugar a otro sin la necesidad de control humano.
                 En el caso de los drones, la precisión de navegación es crucial. Los sistemas RTK mejoran significativamente la capacidad de un dron para seguir rutas predeterminadas con gran exactitud, lo que es importante en misiones de entrega, vigilancia y monitoreo. Permite que el aterrizaje de los drones tenga una precisión centimétrica tanto en áreas reducidas como en plataformas móviles.
