@@ -297,7 +297,7 @@ const Features = () => {
 
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-6 ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-12 ">
               {" "}
               Aplicación en Agrimensura
             </h3>
@@ -307,7 +307,7 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[16px]  2xl:leading-[22px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[16px]  2xl:leading-[22px] lg:pl-12">
               El sistema RTK se utiliza en agrimensura para mejorar la
               eficiencia y calidad de los trabajos permitiendo a los
               profesionales del campo a obtener datos geoespaciales con una
@@ -317,8 +317,8 @@ const Features = () => {
             ejemplo, algunas de las aplicaciones son: */}
             </p>
 
-            <div className="px-10  ">
-              <ul className="list-disc px-0 2xl:px-4 ">
+            <div className="px-12 2xl:px-12  ">
+              <ul className="list-disc px-0 2xl:px-4 lg:px-4 ">
                 <li className="flex-col   text-[#36485C]  gap-5 font-inter font-regular text-[16px] 2xl:text-[16px] 2xl:leading-[22px]">
                   Relevamientos topográficos precisos en tiempo real, reduciendo
                   costos y tiempos.
@@ -354,7 +354,7 @@ const Features = () => {
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-6 ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left  lg:pl-12 ">
               {" "}
               Drones y Tecnología RTK
             </h3>
@@ -364,12 +364,12 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[16px] 2xl:text-[16px] 2xl:leading-[22px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[16px] 2xl:text-[16px] 2xl:leading-[22px] lg:pl-12">
               RTK garantiza una posición extremadamente precisa y en tiempo real
               para la navegación autónoma de drones.
             </p>
-            <div className="px-12">
-              <ul className="list-disc px-0 2xl:px-4">
+            <div className="px-12 2xl:px-12  ">
+              <ul className="list-disc px-0 2xl:px-4 lg:px-4">
                 <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[16px] 2xl:text-[16px] 2xl:leading-[22px]">
                   Permite aterrizajes precisos, del orden de centímetros, en
                   áreas reducidas o móviles.
@@ -405,7 +405,7 @@ const Features = () => {
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-6 ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left  lg:pl-12">
               {" "}
               Aplicación en Agricultura
             </h3>
@@ -415,14 +415,13 @@ const Features = () => {
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
-            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[16px] 2xl:text-[16px] 2xl:leading-[22px]">
+            <p className="py-[24px] 2xl:py-[14px] px-12 pl-5 pr-5 2xl:pl-[39px] text-[#36485C] font-inter font-regular text-[16px] 2xl:text-[16px] 2xl:leading-[22px] lg:pl-12">
               La tecnología RTK transforma la agricultura al proporcionar datos
               de posicionamiento precisos que permiten una gestión más eficiente
               y efectiva de todas las actividades agrícolas.
             </p>
-            <div className="px-12 ">
-              <ul className="list-disc px-0 2xl:px-2">
-          
+            <div className="px-12 2xl:px-12  ">
+              <ul className="list-disc px-0 2xl:px-4 lg:px-4">
                 <li className="flex-col text-[#36485C]  gap-5 font-inter font-regular  text-[16px] 2xl:text-[16px] 2xl:leading-[22px]">
                   Al mejorar la eficiencia y precisión de las actividades
                   agrícolas, se reducen los costos operativos y de
