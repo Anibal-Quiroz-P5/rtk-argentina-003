@@ -21,8 +21,7 @@ const page = () => {
           </span>
         </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[180px]  pb-10 lg:pb-32  2xl:gap-2">
-        <div className="lg:container flex  pt-8 ">
+      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-6  lg:-mt-[180px]  pb-10 lg:pb-32  2xl:gap-2">        <div className="lg:container flex  pt-8 ">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]">
             <div>
               <Image

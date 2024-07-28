@@ -27,9 +27,9 @@ const page = () => {
           </span>
         </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-20   lg:-mt-[180px]  pb-10 lg:pb-32  2xl:gap-2">
+      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:-mt-[180px]  pb-10  2xl:gap-2 ">
         <div className="lg:container flex  pt-8 ">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto    2xl:w-[436px]  ">
             <div>
               <Image
                 src={Agrim001}
@@ -38,12 +38,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
               Relevantamientos Topográficos
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
+              <ul>
                 <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Los drones y equipos de agrimensura equipados con RTK pueden
                   realizar relevamientos topográficos con{" "}
@@ -67,12 +67,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
               Georreferenciación de Puntos de Control
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
+              <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Los sistemas RTK se utilizan para establecer y georreferenciar
                   puntos de control terrestres con alta precisión. Estos puntos
@@ -96,12 +96,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
               Creación de Modelos Digitales del Terreno (DTM)
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
+              <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Con RTK, los agrimensores pueden generar modelos digitales del
                   terreno con gran exactitud. Estos modelos son esenciales para
@@ -123,12 +123,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
               Cálculo de Volúmenes
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
-              <ul >
+              <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   La tecnología RTK permite medir con precisión los volúmenes de
                   material en proyectos de construcción y minería, como pilas de
@@ -150,12 +150,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
               Monitoreo y Control de Obras
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
+              <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   En proyectos de construcción, la precisión de RTK es utilizada
                   para el control y monitoreo del progreso de las obras. Esto
@@ -177,12 +177,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
               Agricultura de Precisión
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
+              <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Aunque más directamente relacionada con la agricultura, los
                   principios de agrimensura se aplican en la agricultura de
@@ -195,7 +195,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl      ml-auto    2xl:w-[436px]">
             <div>
               <Image
@@ -205,12 +205,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
               Cartografía y GIS (Sistemas de Información Geográfica)
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]   text-[#000000]  ">
+              <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Los datos obtenidos mediante RTK son integrados en sistemas
                   GIS para crear mapas detallados y precisos. Estos mapas son
@@ -222,13 +222,13 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="lg:pb-32">
-        <div className=" bg-[#002E1E] p-9 lg:p-16 ">
-          <div className="pb-6 text-center items-center justify-center font-monserrat font-extrabold lg:text-[35px] text-[#FFFFFF]  2xl:text-[40px] ">
+      <div className="lg:pt-4">
+        <div className=" bg-[#002E1E]  p-9 lg:pb-40 lg:pt-[0px]">
+          <div className="pb-6 lg:pt-12 text-center items-center justify-center font-monserrat font-extrabold lg:text-[35px] text-[#FFFFFF]  2xl:text-[40px] ">
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={Agrim008} alt="Feature 1 image" className="  lg:p-10" />
+            <Image src={Agrim008} alt="Feature 1 image" className="   lg:pt-4" />
           </div>
         </div>
       </div>
