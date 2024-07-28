@@ -20,7 +20,7 @@ const page = () => {
   return (
     // <div className=" bg-black sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
     <div className="">
-      <div className=" lg:pt-[0px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
+      <div className=" lg:pt-[0px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[58px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
         <div className="   ">
           <span className="  text-[17px] lg:text-[35px] 2xl:text-[40px] pt-12 ">
             APLICACIONES EN AGRIMENSURA
@@ -38,7 +38,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[58px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
               Relevantamientos Topográficos
             </div>
 
