@@ -303,7 +303,7 @@ const CorreoContact = () => {
           
 
           <div className=" text-center  ">
-            <h2 className=" font-monserrat font-extrabold text-[#111827] text-[16px] pt-10 2xl:pt-[56px]">
+            <h2 className=" font-monserrat font-extrabold text-[#111827] text-[16px] pt-10 2xl:pt-[56px] 2xl:text-[43px]">
               CONTACTO
             </h2>
             <p className=" lg:text-[18px]  text-[#111827]  font-inter font-regular text-[16px] 2xl:text-[16px]   2xl:pt-[10px]">
