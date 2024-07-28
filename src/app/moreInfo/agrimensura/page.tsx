@@ -27,8 +27,8 @@ const page = () => {
           </span>
         </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-0 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
-        <div className="lg:container flex  pt-8  lg:pr-4 lg:pl-[120px]">
+      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
             <div>
               <Image
@@ -42,7 +42,7 @@ const page = () => {
               Relevantamientos Topográficos
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Los drones y equipos de agrimensura equipados con RTK pueden
@@ -57,7 +57,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 lg:pl-4 lg:pr-[120px]">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
             <div>
               <Image
@@ -68,10 +68,12 @@ const page = () => {
             </div>
 
             <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
-              Georreferenciación de Puntos de Control
+              Georreferenciación de Puntos 
+              <br />
+              de Control
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Los sistemas RTK se utilizan para establecer y georreferenciar
@@ -86,7 +88,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    2xl:w-[436px]">
             <div>
               <Image
@@ -97,10 +99,12 @@ const page = () => {
             </div>
 
             <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
-              Creación de Modelos Digitales del Terreno (DTM)
+              Creación de Modelos Digitales 
+              <br />
+              del Terreno (DTM)
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Con RTK, los agrimensores pueden generar modelos digitales del
@@ -113,7 +117,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     2xl:w-[436px]">
             <div>
               <Image
@@ -127,7 +131,7 @@ const page = () => {
               Cálculo de Volúmenes
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   La tecnología RTK permite medir con precisión los volúmenes de
@@ -140,7 +144,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
             <div>
               <Image
@@ -154,7 +158,7 @@ const page = () => {
               Monitoreo y Control de Obras
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   En proyectos de construcción, la precisión de RTK es utilizada
@@ -167,7 +171,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
             <div>
               <Image
@@ -181,7 +185,7 @@ const page = () => {
               Agricultura de Precisión
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Aunque más directamente relacionada con la agricultura, los
@@ -195,7 +199,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl      ml-auto    2xl:w-[436px]">
             <div>
               <Image
@@ -209,7 +213,7 @@ const page = () => {
               Cartografía y GIS (Sistemas de Información Geográfica)
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]   text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul>
                 <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                   Los datos obtenidos mediante RTK son integrados en sistemas
