@@ -288,7 +288,7 @@ const Features = () => {
         </h1>
 
         {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
-        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0] -mt-[40px]">          <Image
+        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0] -mt-[28px]">          <Image
             src={agricolas}
             alt="Feature 1 image"
             /* className="hidden w-1/2 h-1/2 sm:block pr-12" */
@@ -297,7 +297,7 @@ const Features = () => {
 
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[20px]  lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-12 ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[21px]  lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-12 ">
               {" "}
               Aplicación en Agrimensura
             </h3>
