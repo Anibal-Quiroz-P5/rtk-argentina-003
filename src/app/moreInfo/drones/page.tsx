@@ -21,8 +21,9 @@ const page = () => {
           </span>
         </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-6  lg:-mt-[180px]  pb-10 lg:pb-32  2xl:gap-2">        <div className="lg:container flex  pt-8 ">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]">
+      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
             <div>
               <Image
                 src={Drones001}
@@ -31,13 +32,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Precisión Geoespacial
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul>
+                <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 La tecnología RTK permite obtener datos de posición con precisión centimétrica en tiempo real. Esto es crucial para aplicaciones donde la exactitud es vital, como en cartografía, topografía y creación de modelos 3D detallados.
 
                 </li>
@@ -46,7 +47,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
             <div>
               <Image
@@ -56,13 +57,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
             Agricultura de Precisión
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul>
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                 En la agricultura, los drones RTK se utilizan para crear mapas de alta resolución de campos agrícolas. Esto ayuda a los agricultores a gestionar mejor sus cultivos, optimizar el uso de fertilizantes y pesticidas, y monitorear el estado de las plantas de manera precisa.
 
                 </li>
@@ -71,7 +72,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    2xl:w-[436px]">
             <div>
               <Image
@@ -81,13 +82,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
             Inspección y Mantenimiento
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul>
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                 Los drones RTK son utilizados para inspeccionar infraestructuras como líneas eléctricas, torres de telecomunicaciones, puentes y edificios. La alta precisión permite detectar y documentar pequeños defectos o daños que podrían no ser visibles con métodos menos precisos.
 
                 </li>
@@ -96,7 +97,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     2xl:w-[436px]">
             <div>
               <Image
@@ -106,13 +107,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Construcción y Minería
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
-              <ul >
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul>
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                 En estos sectores, la precisión en la medición del terreno y la volumetría es fundamental. Los drones RTK ayudan a realizar relevamientos topográficos precisos, a calcular volúmenes de tierra movida y a monitorear el progreso de la construcción.
 
                 </li>
@@ -120,7 +121,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
             <div>
               <Image
@@ -130,13 +131,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Investigación y Desarrollo
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul>
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                 En campos como la arqueología, la investigación medioambiental y otras ciencias naturales, los drones RTK facilitan la recopilación de datos geoespaciales precisos que son esenciales para el análisis y la toma de decisiones informadas.
 
                 </li>
@@ -145,7 +146,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
             <div>
               <Image
@@ -155,13 +156,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Navegación Autónoma
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul >
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul>
+                <li className="flex-col  text-[#36485C]    font-inter  text-[16px]">
                 La tendencia actual es que los vehículos se trasladen de un lugar a otro sin la necesidad de control humano.
                 En el caso de los drones, la precisión de navegación es crucial. Los sistemas RTK mejoran significativamente la capacidad de un dron para seguir rutas predeterminadas con gran exactitud, lo que es importante en misiones de entrega, vigilancia y monitoreo. Permite que el aterrizaje de los drones tenga una precisión centimétrica tanto en áreas reducidas como en plataformas móviles.
 
@@ -172,9 +173,9 @@ const page = () => {
         </div>
 
       </div>
-      <div className="lg:pb-32">
-        <div className=" bg-[#002E1E] p-9 lg:p-16 ">
-          <div className="pb-6 text-center items-center justify-center font-monserrat font-extrabold lg:text-[35px] text-[#FFFFFF]  2xl:text-[40px] ">
+      <div className="lg:pt-4">
+        <div className=" bg-[#002E1E]  p-9 lg:pb-40 lg:pt-[0px]">
+          <div className="pb-6 lg:pt-12 text-center items-center justify-center font-monserrat font-extrabold lg:text-[35px] text-[#FFFFFF]  2xl:text-[40px] ">
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">

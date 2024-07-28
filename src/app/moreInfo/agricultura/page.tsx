@@ -16,10 +16,11 @@ const page = () => {
           <span className="  text-[17px] lg:text-[35px] 2xl:text-[40px] pt-12 ">
             APLICACIONES EN AGRICULTURA
           </span>
-        </div>
+          </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2  lg:gap-6  lg:-mt-[180px]  pb-10 lg:pb-32  2xl:gap-2">        <div className="lg:container flex  pt-8 ">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]">
+      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
             <div>
               <Image
                 src={MaqAgric}
@@ -28,12 +29,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Manejo de cultivos de precisión
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-0 lg:px-4">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul className="list-disc px-4">
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Permite la <span className="font-bold">siembra precisa</span>{" "}
                   de semillas con un espaciamiento exacto. Esto asegura una
@@ -53,7 +54,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
             <div>
               <Image
@@ -63,12 +64,12 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
             Manejo del agua
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
-              <ul className="list-disc px-0 lg:px-4">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+              <ul className="list-disc px-4">
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Facilita la planificación y ejecución de{" "}
                   <span className="font-bold">sistemas de riego precisos,</span>{" "}
@@ -89,7 +90,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    2xl:w-[436px]">
             <div>
               <Image
@@ -99,11 +100,11 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
             Mapeo y monitoreo de cultivos
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul className="list-disc px-4">
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Los drones pueden generar{" "}
@@ -128,7 +129,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     2xl:w-[436px]">
             <div>
               <Image
@@ -138,11 +139,11 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Manejo del suelo
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]   ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul className="list-disc px-4">
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Se utiliza para realizar{" "}
@@ -160,7 +161,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
             <div>
               <Image
@@ -170,11 +171,11 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px]  lg:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[48px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
             Automatización de maquinaria agrícola
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[53px]    text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul className="list-disc px-4">
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Se utiliza para{" "}
@@ -198,13 +199,13 @@ const page = () => {
 
 
       </div>
-      <div className="lg:pb-32">
-        <div className=" bg-[#002E1E] p-9 lg:p-16 ">
-          <div className="pb-6 text-center items-center justify-center font-monserrat font-extrabold lg:text-[35px] text-[#FFFFFF]  2xl:text-[40px] ">
+      <div className="lg:pt-4">
+        <div className=" bg-[#002E1E]  p-9 lg:pb-40 lg:pt-[0px]">
+          <div className="pb-6 lg:pt-12 text-center items-center justify-center font-monserrat font-extrabold lg:text-[35px] text-[#FFFFFF]  2xl:text-[40px] ">
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={AgricolaNtrip} alt="Feature 1 image" className="  lg:p-10" />
+            <Image src={AgricolaNtrip} alt="Feature 1 image" className="   lg:pt-4" />
           </div>
         </div>
       </div>
