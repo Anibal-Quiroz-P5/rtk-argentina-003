@@ -247,7 +247,7 @@ const Navbar = () => {
 
       {/* Botón de menú (visible solo en pantallas pequeñas) */}
       <div className="flex items-center gap-x-5 lg:hidden">
-        <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} className="w-4/5 h-10"/>
+        <Image src={Menu} alt="Menu Button" onClick={handleMenuClick} className="w-4/5 h-10 md:w-[50px]"/>
       </div>
 
       {showMenu && (
