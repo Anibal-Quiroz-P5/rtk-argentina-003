@@ -111,7 +111,7 @@ const Faq = () => {
       <div>
         <div >
 
-        <h3 className="text-center text-[32px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[43px]">
+        <h3 className="text-center text-[28px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[43px]">
         PREGUNTAS FRECUENTES 
            </h3>
         </div>

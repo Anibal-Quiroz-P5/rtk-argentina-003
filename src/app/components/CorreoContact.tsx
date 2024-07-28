@@ -501,7 +501,7 @@ const CorreoContact = () => {
       <div id="contacto" className="bg-[purple-100] 2xl:pt-14 2xl:pb-14">
         <div className="mx-auto px-6 lg:px-8 bg-[#E3F6E7] 2xl:w-[898px] h-[636px] 2xl:h-[682px] lg:w-[89%] rounded-3xl">
           <div className="text-center">
-            <h2 className="font-monserrat font-extrabold text-[#111827] text-[22px] lg:text-[46px] 2xl:text-[43px] pt-10 2xl:pt-[56px]">
+            <h2 className="font-monserrat font-extrabold text-[#111827] text-[28px] lg:text-[46px] 2xl:text-[43px] pt-10 2xl:pt-[56px]">
               CONTACTO
             </h2>
             <p className="lg:text-[18px] text-[#111827] font-inter font-regular text-[16px] 2xl:text-[16px] 2xl:pt-[10px]">
