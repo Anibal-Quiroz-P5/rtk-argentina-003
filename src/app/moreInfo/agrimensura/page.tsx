@@ -27,9 +27,9 @@ const page = () => {
           </span>
         </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:-mt-[180px]  pb-10  2xl:gap-2 ">
-        <div className="lg:container flex  pt-8 ">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto    2xl:w-[436px]  ">
+      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-0 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
+        <div className="lg:container flex  pt-8  lg:pr-4 lg:pl-[120px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
             <div>
               <Image
                 src={Agrim001}
@@ -57,7 +57,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="lg:container flex  pt-8 ">
+        <div className="lg:container flex  pt-8 lg:pl-4 lg:pr-[120px]">
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
             <div>
               <Image
