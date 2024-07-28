@@ -262,7 +262,7 @@ const Hero = () => {
       {/* ------------------------------------------------------------------------------------------------------------ */}
 
       {/* <div className="flex flex-col items-center   lg:h-[600px] bg-[#FFFFFF]  lg:w-[825px] 2xl:w-[898px] pt-[30px] lg:pt-[0px]  "> */}
-      <div className="flex flex-col items-center justify-center w-full pb-36  bg-[#FFFFFF]   pt-[40px] lg:pt-20 xl:pt-[100px] ">
+      <div className="flex flex-col items-center justify-center w-full pb-[124px]  bg-[#FFFFFF]   pt-[20px] lg:pt-20 xl:pt-[100px] ">
         <div className=" flex flex-col w-[327px] h-[200px] lg:w-[58%] lg:h-[230px] 2xl:w-[58%]  2xl:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
           <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] 2xl:text-[38px] 2xl:pt-[58px] pb-[4px] ">
             NUESTRO SERVICIO
