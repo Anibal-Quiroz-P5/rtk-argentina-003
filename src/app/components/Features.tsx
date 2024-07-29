@@ -354,7 +354,7 @@ const Features = () => {
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left  lg:pl-12 ">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[21px]  lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-12 ">
               {" "}
               Drones y Tecnología RTK
             </h3>
@@ -405,7 +405,7 @@ const Features = () => {
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
-            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left  lg:pl-12">
+            <h3 className=" 2xl:pl-[39px] text-2xl 2xl:px-1 pt-[21px]  lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] 2xl:text-[27px] text-center lg:text-left lg:pl-12 ">
               {" "}
               Aplicación en Agricultura
             </h3>
