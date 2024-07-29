@@ -119,14 +119,16 @@ const Faq = () => {
 
         <div>
           <h3 className="text-center font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">
-          <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">PREGUNTAS</span>
+          <span className="block text-[28px] leading-[33px] lg:inline lg:texkm35cmjpg
+
+Productiont-[46px] lg:leading-[72px] 2xl:text-[43px]">PREGUNTAS</span>
           <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]"> FRECUENTES</span>
           </h3>
         </div>
 
 
       </div>
-      <div className='pt-8 pl-[20px] pr-[20px]'>
+      <div className='pt-[21px] pl-[20px] pr-[20px]'>
         <Accordion.Root
           type="single"
           defaultValue={""}
@@ -142,9 +144,9 @@ const Faq = () => {
               >
                 <Accordion.Trigger className="w-full h-full">
                   <div className="flex flex-col">
-                    <p>{item.question}</p>
+                    <p className="font-bold">{item.question}</p>
                     <Accordion.Content>
-                      <p>{item.answer}</p>
+                      <p className='pt-3'>{item.answer}</p>
                     </Accordion.Content>
                   </div>
                 </Accordion.Trigger>
