@@ -109,12 +109,21 @@ const Faq = () => {
 
     <div className='flex flex-col items-center justify-center mx-auto w-full py-[48px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] lg:w-[89%]'>
       <div>
-        <div >
 
-        <h3 className="text-center text-[28px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[43px]">
-        PREGUNTAS FRECUENTES 
+{/*         <div >
+           <h3 className="text-center text-[28px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[43px]">
+              PREGUNTAS FRECUENTES 
            </h3>
+        </div> */}
+
+
+        <div>
+          <h3 className="text-center font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">
+          <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">PREGUNTAS</span>
+          <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]"> FRECUENTES</span>
+          </h3>
         </div>
+
 
       </div>
       <div className='pt-8 pl-[20px] pr-[20px]'>
