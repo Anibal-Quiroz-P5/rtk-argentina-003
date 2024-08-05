@@ -7,12 +7,12 @@ import MaqDrone from "../../../../public/assets/Maq-Drone.jpg";
 import MaqTeodolito from "../../../../public/assets/Maq-Teodolito.jpg";
 import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
 
-import Agrim001 from "../../../../public/assets/Agrim-001.png";
-import Agrim002 from "../../../../public/assets/Agrim-002.jpg";
-import Agrim003 from "../../../../public/assets/Agrim-003.png";
-import Agrim004 from "../../../../public/assets/Agrim-004.jpg";
-import Agrim005 from "../../../../public/assets/Agrim-005.jpg";
-import Agrim006 from "../../../../public/assets/Agrim-006.jpg";
+import Agrim001 from "../../../../public/assets/RelevTopograf.png";
+import Agrim002 from "../../../../public/assets/GeorrefPtosCntrl.png";
+import Agrim003 from "../../../../public/assets/Dtm.png";
+import Agrim004 from "../../../../public/assets/Volumenes.png";
+import Agrim005 from "../../../../public/assets/MonitYCntrlObras.png";
+import Agrim006 from "../../../../public/assets/AgricultPresic.png";
 import Agrim007 from "../../../../public/assets/Agrim-007.jpg";
 import Agrim008 from "../../../../public/assets/Agrim-008.jpg";
 

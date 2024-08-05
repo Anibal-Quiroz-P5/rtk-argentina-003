@@ -268,9 +268,13 @@ import Feature3 from "../../../public/assets/feature-3.svg";
 import Check from "../../../public/assets/check.svg";
 import bluebutton from "../../../public/assets/blue-button.svg";
 
-import drone from "../../../public/assets/drone1.jpg";
-import agrimensora from "../../../public/assets/agrimensores1.jpg";
-import agricolas from "../../../public/assets/agricolas.webp";
+/* import drone from "../../../public/assets/drone1.jpg"; */
+import drone from "../../../public/assets/MaskGroup6.png";
+
+import agricultura from "../../../public/assets/MaskGroup7.png";
+/* import agricolas from "../../../public/assets/agricolas.webp"; */
+import agricolas from "../../../public/assets/MaskGroup5.png";
+
 import Link from "next/link";
 import Gradient from "../../../public/assets/Gradient.svg";
 
@@ -288,11 +292,11 @@ const Features = () => {
         </h1>
 
         {/* <div className="flex flex-col items-center gap-x-6 sm:flex-row-reverse "> */}
-        <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0] -mt-[28px]">          <Image
+        <div className="flex flex-col items-center   gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0] -mt-[28px]">          <Image
             src={agricolas}
             alt="Feature 1 image"
             /* className="hidden w-1/2 h-1/2 sm:block pr-12" */
-            className="hidden w-1/2  sm:block pr-12"
+            className="hidden w-1/2  sm:block pr-12 "
           />
 
           <div className="sm:w-1/2 lg:py-[56px] ">
@@ -303,7 +307,8 @@ const Features = () => {
             </h3>
 
             <Image
-              src={agrimensora}
+              /* src={agrimensora} */
+              src={agricolas}
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
@@ -348,7 +353,7 @@ const Features = () => {
         </div>
 
         <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0]">          <Image
-            src={agricolas}
+            src={drone}
             alt="Feature 1 image"
             className="hidden w-1/2  sm:block pr-12"
           />
@@ -399,7 +404,7 @@ const Features = () => {
 
         <div className="flex flex-col items-center gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto 2xl:h-[444px] bg-[#FFFEF0]">
           <Image
-            src={agricolas}
+            src={agricultura}
             alt="Feature 1 image"
             className="hidden w-1/2  sm:block pr-12"
           />
@@ -411,7 +416,7 @@ const Features = () => {
             </h3>
 
             <Image
-              src={drone}
+              src={agricultura}
               alt="feature 1 image"
               className="pt-[24px] sm:hidden"
             />
