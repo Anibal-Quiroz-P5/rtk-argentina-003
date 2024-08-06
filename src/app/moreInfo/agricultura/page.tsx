@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import MaqAgric from "../../../../public/assets/Maq-Agric.jpg";
-import MaqRiego from "../../../../public/assets/Maq-Riego.jpg";
-import MaqDrone from "../../../../public/assets/Maq-Drone.jpg";
-import MaqTeodolito from "../../../../public/assets/Maq-Teodolito.jpg";
-import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
+import MaqAgric from "../../../../public/assets/Agro01.png";
+import MaqRiego from "../../../../public/assets/Agro02.png";
+import MaqDrone from "../../../../public/assets/Agro03.png";
+import MaqTeodolito from "../../../../public/assets/Agro04.png";
+import AgricolaNtrip from "../../../../public/assets/Agro05.png";
 
 
 const page = () => {
   return (
     <div className="">
-      <div className="  pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
+      <div className=" lg:pt-[30px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[58px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
         <div className="   ">
           <span className="  text-[17px] lg:text-[35px] 2xl:text-[40px] pt-12 ">
             APLICACIONES EN AGRICULTURA
@@ -160,7 +160,7 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
             <div>
               <Image
-                src={MaqAgric}
+                src={AgricolaNtrip}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />

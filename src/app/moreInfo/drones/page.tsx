@@ -3,10 +3,10 @@ import React from "react";
 import Image from "next/image";
 
 
-import Drones001 from "../../../../public/assets/Drones-001.jpg";
-import Drones002 from "../../../../public/assets/Drones-002.jpg";
-import Drones003 from "../../../../public/assets/Drones-003.png";
-import Drones004 from "../../../../public/assets/Drones-004.jpg";
+import Drones001 from "../../../../public/assets/Drone01.png";
+import Drones002 from "../../../../public/assets/Drone02.png";
+import Drones003 from "../../../../public/assets/Drone03.png";
+import Drones004 from "../../../../public/assets/Drone04.png";
 import Drones005 from "../../../../public/assets/Drones-005.jpg";
 import Drones006 from "../../../../public/assets/Drones-006.jpg";
 import Drones007 from "../../../../public/assets/Drones-007.png";
@@ -14,7 +14,7 @@ import Drones007 from "../../../../public/assets/Drones-007.png";
 const page = () => {
   return (
     <div className="">
-      <div className=" lg:pt-[0px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
+      <div className=" lg:pt-[30px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[58px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
         <div className="   ">
           <span className="  text-[17px] lg:text-[35px] 2xl:text-[40px] pt-12 ">
             APLICACIONES EN DRONES
