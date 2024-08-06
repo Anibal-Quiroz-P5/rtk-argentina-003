@@ -11,7 +11,7 @@ import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
 const page = () => {
   return (
     <div className="">
-      <div className=" lg:pt-[0px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
+      <div className="  pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[68px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
         <div className="   ">
           <span className="  text-[17px] lg:text-[35px] 2xl:text-[40px] pt-12 ">
             APLICACIONES EN AGRICULTURA
@@ -112,12 +112,7 @@ const page = () => {
                     mapas de alta resolución de los campos,
                   </span>{" "}
                   identificando variaciones en el terreno y condiciones del
-                  cultivo.                  Los drones pueden generar{" "}
-                  <span className="font-bold">
-                    mapas de alta resolución de los campos,
-                  </span>{" "}
-                  identificando variaciones en el terreno y condiciones del
-                  cultivo.
+                  cultivo.                  
                 </li>
                 <li className="flex-col text-[#36485C] font-inter text-[16px]">
                   Permite realizar monitoreos de salud de los cultivos
