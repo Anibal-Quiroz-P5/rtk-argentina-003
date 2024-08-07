@@ -126,11 +126,11 @@ import Tablero from "../../../public/assets/Tablero.png";
 import carousela from "../../public/assets/carousel-1.svg";
 
 import carousel1 from "../../../public/assets/carousel-1.svg";
-import carousel2 from "../../../public/assets/drone1.jpg";
-import carousel3 from "../../../public/assets/agrimensores1.jpg";
-import carousel4 from "../../../public/assets/agricolas.webp";
-import carousel5 from "../../../public/assets/drone2.jpg";
-import carousel6 from "../../../public/assets/circulo.jpg";
+import carousel2 from "../../../public/assets/Carrousel01.jpg";
+import carousel3 from "../../../public/assets/Carrousel02.jpg";
+import carousel4 from "../../../public/assets/Carrousel03.jpg";
+import carousel5 from "../../../public/assets/Carrousel04.jpg";
+import carousel6 from "../../../public/assets/Carrousel05.jpg";
 
 import { Carousel } from "flowbite-react";
 import Link from "next/link";
