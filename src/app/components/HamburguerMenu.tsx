@@ -236,15 +236,15 @@ const HamburguerMenu: React.FC<HamburguerMenuProps> = ({
         <ul className="text-center">
           <li>
             <div
-              className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#36485C] transition duration-300"
+              className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#e6f74e] transition duration-300"
               onClick={() => handleLinkClick("#servicio")}
             >
-              Servicio
+              Inicio
             </div>
           </li>
           <li>
             <div
-              className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#36485C] transition duration-300"
+              className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#ee4c46] transition duration-300"
               onClick={() => handleLinkClick("#aplicaciones")}
             >
               Aplicaciones
@@ -252,7 +252,7 @@ const HamburguerMenu: React.FC<HamburguerMenuProps> = ({
           </li>
           <li>
             <div
-              className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#36485C] transition duration-300"
+              className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#3cc7c7] transition duration-300"
               onClick={() => handleLinkClick("#quienes-somos")}
             >
               Quienes somos
