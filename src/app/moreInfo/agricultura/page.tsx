@@ -5,7 +5,8 @@ import MaqAgric from "../../../../public/assets/Agro01.png";
 import MaqRiego from "../../../../public/assets/Agro02.png";
 import MaqDrone from "../../../../public/assets/Agro03.png";
 import MaqTeodolito from "../../../../public/assets/Agro04.png";
-import AgricolaNtrip from "../../../../public/assets/Agro05.png";
+import Automatizacion from "../../../../public/assets/Agro05.png";
+import AgricolaNtrip from "../../../../public/assets/Esq_agricultura.png";
 
 
 const page = () => {
@@ -160,7 +161,7 @@ const page = () => {
           <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
             <div>
               <Image
-                src={AgricolaNtrip}
+                src={Automatizacion}
                 alt="Feature 1 image"
                 className="w-full  sm:block rounded-t-2xl"
               />

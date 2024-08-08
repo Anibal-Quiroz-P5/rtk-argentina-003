@@ -8,8 +8,8 @@ import Drones002 from "../../../../public/assets/Drone02.png";
 import Drones003 from "../../../../public/assets/Drone03.png";
 import Drones004 from "../../../../public/assets/Drone04.png";
 import Drones005 from "../../../../public/assets/Drones-005.jpg";
-import Drones006 from "../../../../public/assets/Drones-006.jpg";
-import Drones007 from "../../../../public/assets/Drones-007.png";
+import Drones006 from "../../../../public/assets/Drone06.png";
+import Drones007 from "../../../../public/assets/Esq_dron.png";
 
 const page = () => {
   return (

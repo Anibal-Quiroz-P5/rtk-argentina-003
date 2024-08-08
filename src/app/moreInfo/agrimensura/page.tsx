@@ -12,9 +12,9 @@ import Agrim002 from "../../../../public/assets/GeorrefPtosCntrl.png";
 import Agrim003 from "../../../../public/assets/Dtm.png";
 import Agrim004 from "../../../../public/assets/Volumenes.png";
 import Agrim005 from "../../../../public/assets/MonitYCntrlObras.png";
-import Agrim006 from "../../../../public/assets/AgricultPresic.png";
+import Agrim006 from "../../../../public/assets/Drones-006.jpg";
 import Agrim007 from "../../../../public/assets/Agrim-007.jpg";
-import Agrim008 from "../../../../public/assets/Agrim-008.jpg";
+import Agrim008 from "../../../../public/assets/Esq_agrimensura.png";
 
 const page = () => {
   return (

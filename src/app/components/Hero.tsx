@@ -125,12 +125,13 @@ import Clutch from "../../../public/assets/Clutch.svg";
 import Tablero from "../../../public/assets/Tablero.png";
 import carousela from "../../public/assets/carousel-1.svg";
 
-import carousel1 from "../../../public/assets/carousel-1.svg";
-import carousel2 from "../../../public/assets/Carrousel01.jpg";
-import carousel3 from "../../../public/assets/Carrousel02.jpg";
-import carousel4 from "../../../public/assets/Carrousel03.jpg";
-import carousel5 from "../../../public/assets/Carrousel04.jpg";
-import carousel6 from "../../../public/assets/Carrousel05.jpg";
+
+import carousel1 from "../../../public/assets/Carrousel01.jpg";
+import carousel2 from "../../../public/assets/Carrousel02.jpg";
+import carousel3 from "../../../public/assets/Carrousel03.jpg";
+import carousel4 from "../../../public/assets/Carrousel04.jpg";
+import carousel5 from "../../../public/assets/Carrousel05.jpg";
+import carousel6 from "../../../public/assets/Carrousel06.jpg";
 
 import { Carousel } from "flowbite-react";
 import Link from "next/link";
@@ -157,7 +158,7 @@ const Hero = () => {
 
       <div className=" lg:pt-[15px]   2xl:pt-[0px]  ">
         <Carousel className="pl-0 pr-0  w-[386px] h-[300px]   sm:w-[400px]   sm:h-[400px] lg:w-[700px]  xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
-          <Image src={Tablero} alt="..." />
+          <Image src={carousel1} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
           <Image src={carousel4} alt="..." />
