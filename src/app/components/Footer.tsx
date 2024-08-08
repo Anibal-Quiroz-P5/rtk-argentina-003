@@ -86,17 +86,38 @@ export const Footer = () => {
       </div> */}
 
       <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-10 ">
-        <a
-          /* href="https://www.whatsapp.com" */
-          href="https://wa.me/5491141747989"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
-        >
+        <div className="flex flex-row  items-center">
+          <div>
+
           <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
-          <span className="text-[16px]">+54911-41747989</span>
-        </a>
-{/*         <a
+          </div>
+          <div className="pl-3 ">
+
+          <a
+            /* href="https://www.whatsapp.com" */
+            href="https://wa.me/5491124940670"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex gap-4 items-center p-0 hover:bg-gray-200 rounded"
+          >
+            {/* <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} /> */}
+            <span className="text-[16px]">+54911-24940670</span>
+          </a>
+
+          <a
+            /* href="https://www.whatsapp.com" */
+            href="https://wa.me/5491151555966"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex gap-4 items-center p-0 hover:bg-gray-200 rounded"
+          >
+            {/* <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} /> */}
+            <span className="text-[16px]">+54911-51555966</span>
+          </a>
+          </div>
+        </div>
+
+        {/*         <a
           href="https://www.facebook.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -114,7 +135,7 @@ export const Footer = () => {
           <Image src={X2} alt="Twitter" width={34} height={42} />
           <span className="text-[16px]">@rtk-argentina---</span>
         </a>
-{/*         <a
+        {/*         <a
           href="https://www.instagram.com"
           target="_blank"
           rel="noopener noreferrer"
