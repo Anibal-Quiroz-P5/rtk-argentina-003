@@ -29,7 +29,7 @@ const page = () => {
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   xl:w-[436px]  ">
             <div>
               <Image
                 src={Agrim001}
@@ -58,7 +58,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    xl:w-[436px]">
             <div>
               <Image
                 src={Agrim002}
@@ -89,7 +89,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    xl:w-[436px]">
             <div>
               <Image
                 src={Agrim003}
@@ -118,7 +118,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     xl:w-[436px]">
             <div>
               <Image
                 src={Agrim004}
@@ -145,7 +145,7 @@ const page = () => {
           </div>
         </div>
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      xl:w-[436px]">
             <div>
               <Image
                 src={Agrim005}
@@ -172,7 +172,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    xl:w-[436px]">
             <div>
               <Image
                 src={Agrim006}
@@ -200,7 +200,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl      ml-auto    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl      ml-auto    xl:w-[436px]">
             <div>
               <Image
                 src={Agrim007}

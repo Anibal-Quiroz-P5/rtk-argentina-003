@@ -211,7 +211,7 @@ const Navbar = () => {
     //     </nav>
 
     // <nav className="sticky top-0 z-50 flex items-center justify-between w-full  bg-[#002E1E] px-4 py-0 lg:px-[195px] lg:w-full">
-    <nav className="sticky top-0 z-50 flex items-center justify-between w-full  bg-[#002E1E] px-4 py-0 lg:px-[70px] 2xl:px-[195px] ">
+    <nav className="sticky top-0 z-50 flex items-center justify-between w-full  bg-[#002E1E] px-4 py-0 lg:px-[70px] xl:px-[195px] ">
       {/* <div className="flex items-center lg:ml-[6px]">
     <Image src={Logo} alt="Logo" width={40} />
   </div> */}

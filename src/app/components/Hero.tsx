@@ -141,7 +141,7 @@ const Hero = () => {
     <div
       id="servicio"
       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
-      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  4xl:bg-yellow-300">
+      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]   sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
       <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
           RTK ARGENTINA
