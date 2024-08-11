@@ -47,7 +47,7 @@ const AboutUs = () => {
         <div className="lg:flex  justify-between   lg:gap-[90px] 2xl:gap-[60px] 2xl:pl-[0px] pl-0 ">
           <div className="flex-1 ">
             <div className="  py-[74px] pb-8 lg:pb-0 pt-10 text-[#000000] lg:text-[18px] lg:pl-[78px] 2xl:pt-6   2xl:pl-[0px]">
-              <div className="font-rubik font-semibold text-[16px]    2xl:text-[16px] pb-2  ">
+              <div className="font-rubik font-semibold text-[16px]    2xl:text-[16px] pb-1  ">
                 ¿Cómo nace RTK Argentina?
               </div>
               

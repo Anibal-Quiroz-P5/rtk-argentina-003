@@ -114,14 +114,12 @@ const Faq = () => {
         </div> */}
 
 
-        <div>
-          <h3 className="text-center font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">
-          <span className="block text-[28px] leading-[33px] lg:inline lg:texkm35cmjpg
-
-Productiont-[46px] lg:leading-[72px] 2xl:text-[43px]">PREGUNTAS</span>
-          <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]"> FRECUENTES</span>
-          </h3>
-        </div>
+<div>
+  <h3 className="text-center font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">
+    <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">PREGUNTAS</span>
+    <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]"> FRECUENTES</span>
+  </h3>
+</div>
 
 
       </div>
