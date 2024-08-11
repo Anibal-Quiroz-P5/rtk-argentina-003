@@ -157,7 +157,7 @@ const Hero = () => {
           <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
 
       <div className=" lg:pt-[15px]   2xl:pt-[0px]  ">
-        <Carousel className="pl-0 pr-0  w-[386px] h-[300px]   sm:w-[400px]   sm:h-[400px] lg:w-[700px]  xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
+        <Carousel className="pl-0 pr-0  w-[386px] h-[300px]   sm:w-[400px]   sm:h-[400px] lg:w-[700px]  xl:w-[1110px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
           <Image src={carousel1} alt="..." />
           <Image src={carousel2} alt="..." />
           <Image src={carousel3} alt="..." />
