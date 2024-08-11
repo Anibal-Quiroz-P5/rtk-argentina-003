@@ -29,7 +29,7 @@ const AboutUs = () => {
     <div className=" flex flex-col items-center justify-center mx-auto pt-[55px] lg:pt-[107px]  2xl:pb-[10px]  ">
       <div
         id="quienes-somos"
-        className="py-[74px] text-[#36485C] lg:text-[18px] bg-gray-100 px-12   border-[3px]  border-[#F95901] rounded-3xl 2xl:w-[898px] 2xl:h-[586px] pt-10 2xl:pt-10  lg:w-[89%] "
+        className="py-[74px] text-[#36485C] lg:text-[18px] bg-gray-100 px-12   border-[3px]  border-[#F95901] rounded-3xl xl:w-[1040px] 2xl:w-[898px] 2xl:h-[586px] pt-10 2xl:pt-10  lg:w-[89%] "
       >
         <div className="text-center  text-[28px] font-montserrat  font-extrabold text-[#F95901] lg:text-[46px] lg:leading-[52px]  lg:pt-5 pb-3 2xl:pb-0 2xl:pt-[0px] 2xl:text-[43px]">
           ¿QUIÉNES SOMOS?

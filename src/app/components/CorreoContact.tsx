@@ -499,7 +499,7 @@ const CorreoContact = () => {
         onClose={() => setAlertVisible(false)}
       />
       <div id="contacto" className="bg-[purple-100] 2xl:pt-14 2xl:pb-14">
-        <div className="mx-auto px-6 lg:px-8 bg-[#E3F6E7] 2xl:w-[898px] h-[636px] 2xl:h-[682px] lg:w-[89%] rounded-3xl">
+        <div className="mx-auto px-6 lg:px-8 bg-[#E3F6E7] 2xl:w-[898px] h-[636px]  xl:w-[1040px]  2xl:h-[682px] lg:w-[89%] rounded-3xl">
           <div className="text-center">
             <h2 className="font-monserrat font-extrabold text-[#111827] text-[28px] lg:text-[46px] 2xl:text-[43px] pt-10 2xl:pt-[56px]">
               CONTACTO
