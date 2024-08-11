@@ -14,7 +14,7 @@ import Agrim004 from "../../../../public/assets/Volumenes.png";
 import Agrim005 from "../../../../public/assets/MonitYCntrlObras.png";
 import Agrim006 from "../../../../public/assets/Drones-006.jpg";
 import Agrim007 from "../../../../public/assets/Agrim-007.jpg";
-import Agrim008 from "../../../../public/assets/Esq_agrimensura.png";
+import Agrim008 from "../../../../public/assets/Esq_agrimensurab.png";
 
 const page = () => {
   return (
@@ -232,7 +232,7 @@ const page = () => {
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={Agrim008} alt="Feature 1 image" className="   lg:pt-4" />
+            <Image src={Agrim008} alt="Feature 1 image" className=" w-[75%]  lg:pt-4" />
           </div>
         </div>
       </div>

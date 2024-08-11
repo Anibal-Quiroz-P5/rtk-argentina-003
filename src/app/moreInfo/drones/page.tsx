@@ -9,10 +9,11 @@ import Drones003 from "../../../../public/assets/Drone03.png";
 import Drones004 from "../../../../public/assets/Drone04.png";
 import Drones005 from "../../../../public/assets/Drones-005.jpg";
 import Drones006 from "../../../../public/assets/Drone06.png";
-import Drones007 from "../../../../public/assets/Esq_dron.png";
+import Drones007 from "../../../../public/assets/Esq_dronb.png";
 
 const page = () => {
   return (
+    // <div className=" bg-black sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
     <div className="">
       <div className=" lg:pt-[30px] pt-[50px] flex  bg-gradient-to-b from-custom-green-start to-custom-green-end items-start xl:items-start justify-center font-monserrat font-extrabold lg:text-[58px] text-[#FFFFFF]  h-[115px] lg:h-[290px]  2xl:h-[290px]  ">
         <div className="   ">
@@ -23,7 +24,7 @@ const page = () => {
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   xl:w-[436px]  ">
             <div>
               <Image
                 src={Drones001}
@@ -48,7 +49,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    xl:w-[436px]">
             <div>
               <Image
                 src={Drones002}
@@ -73,7 +74,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    xl:w-[436px]">
             <div>
               <Image
                 src={Drones003}
@@ -98,7 +99,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     xl:w-[436px]">
             <div>
               <Image
                 src={Drones004}
@@ -122,7 +123,7 @@ const page = () => {
           </div>
         </div>
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      xl:w-[436px]">
             <div>
               <Image
                 src={Drones005}
@@ -147,7 +148,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    xl:w-[436px]">
             <div>
               <Image
                 src={Drones006}
@@ -179,7 +180,7 @@ const page = () => {
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={Drones007} alt="Feature 1 image" className="  lg:p-10" />
+            <Image src={Drones007} alt="Feature 1 image" className=" w-[75%]  lg:p-10" />
           </div>
         </div>
       </div>

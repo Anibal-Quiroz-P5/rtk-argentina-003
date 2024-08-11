@@ -6,7 +6,7 @@ import MaqRiego from "../../../../public/assets/Agro02.png";
 import MaqDrone from "../../../../public/assets/Agro03.png";
 import MaqTeodolito from "../../../../public/assets/Agro04.png";
 import Automatizacion from "../../../../public/assets/Agro05.png";
-import AgricolaNtrip from "../../../../public/assets/Esq_agricultura.png";
+import AgricolaNtrip from "../../../../public/assets/Esq_agriculturab.png";
 
 
 const page = () => {
@@ -21,7 +21,7 @@ const page = () => {
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   2xl:w-[436px]  ">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   xl:w-[436px]  ">
             <div>
               <Image
                 src={MaqAgric}
@@ -56,7 +56,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl    xl:w-[436px]">
             <div>
               <Image
                 src={MaqRiego}
@@ -92,7 +92,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl     ml-auto    xl:w-[436px]">
             <div>
               <Image
                 src={MaqDrone}
@@ -126,7 +126,7 @@ const page = () => {
         </div>
 
         <div className="lg:container flex  pt-8 lg:pl-6 lg:pr-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     xl:w-[436px]">
             <div>
               <Image
                 src={MaqTeodolito}
@@ -158,7 +158,7 @@ const page = () => {
           </div>
         </div>
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      2xl:w-[436px]">
+          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl  shadow-2xl     ml-auto      xl:w-[436px]">
             <div>
               <Image
                 src={Automatizacion}
@@ -201,7 +201,7 @@ const page = () => {
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={AgricolaNtrip} alt="Feature 1 image" className="   lg:pt-4" />
+            <Image src={AgricolaNtrip} alt="Feature 1 image" className=" w-[75%]   lg:pt-4" />
           </div>
         </div>
       </div>
