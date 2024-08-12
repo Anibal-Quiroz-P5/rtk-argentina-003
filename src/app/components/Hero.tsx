@@ -262,31 +262,46 @@ const Hero = () => {
       {/* ------------------------------------------------------------ */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
 
-      {/* <div className="flex flex-col items-center   lg:h-[600px] bg-[#FFFFFF]  lg:w-[825px] 2xl:w-[898px] pt-[30px] lg:pt-[0px]  "> */}
-      <div className="flex flex-col items-center justify-center w-full pb-[124px]  bg-[#FFFFFF]   pt-[20px] lg:pt-20 xl:pt-[100px] ">
-        <div className=" flex flex-col w-[327px] h-[200px] lg:w-[58%] lg:h-[230px] 2xl:w-[58%]  2xl:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
-          <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] 2xl:text-[38px] 2xl:pt-[58px] pb-[4px] ">
+      
+      
+      <div className="flex flex-col items-center justify-center w-full pb-[124px]  bg-[#FFFFFF]   pt-[20px] lg:pt-[100px] xl:pt-[100px] ">
+        <div className=" flex flex-col w-[327px] h-[250px] lg:w-[58%] lg:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
+          <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[38px] lg:pt-[58px] pb-[4px] ">
             NUESTRO SERVICIO
           </h3>
-          <hr className="border-t-1 border-white 2xl:pt-0 2xl:mx-64 pb-3 2xl:pb-0 2xl:my-5 mx-[52px]" />
-          <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[16px] text-[#FFFFFF] text-center text-[15px] lg:text-[20px] ">
+          <hr className="border-t-1 border-white lg:pt-0 lg:mx-64 pb-3 lg:pb-0 lg:my-5 mx-[52px]" />
+          {/* <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[16px] text-[#FFFFFF] text-center text-[15px] lg:text-[20px] ">
             Con nuestro servicio lograrás una precisión
             <br />
             de centímetros en tus dispositivos
-            {/* <div className="text-center pb-[40px]">en tus dispositivos.</div> */}
+          </h5> */}
+
+
+          <h5 className="font-rubik lg:font-bold pl-[10px] pr-[10px] lg:text-[16px] text-[#FFFFFF] text-center text-[15px] ">
+          Entrega mensajes de corrección RTK en tiempo real por medio de internet. 
+          <br />
+          Con ellos obtendrás precisión de centímetros en tus dispositivos GNSS compatibles.
+          
           </h5>
+          
+
+
+
           <div></div>
 
           <Link href="#contacto" className="flex items-center justify-center ">
-            <div className="flex flex-col items-center justify-center  w-[226px] lg:w-[326px] lg:h-[200px] 2xl:w-1/2 2xl:h-[240px] bg-white  -mt-[-10px]  pb-2 2xl:-mt-[-23px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
-              <div className="py-4 pb-3  lg:pt-[140px] 2xl:pt-[20px] font-rubik font-semibold text-[15px] uppercase  text-[#012615] 2xl:mt-[100px] ">
+            <div className="flex flex-col items-center justify-center  w-[226px]  lg:w-1/2 lg:h-[240px] bg-white  -mt-[-10px]  pb-2 lg:-mt-[-23px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
+              <div className="py-4 pb-3  lg:pt-[20px] font-rubik font-semibold text-[15px] uppercase  text-[#012615] lg:mt-[100px] ">
                 PRUEBA RTK ARGENTINA
               </div>
               
               <hr className="border-t-0 border border-[#868686] w-[180px] 2xl:w-4/5 " />
 
               <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
-                <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[16px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
+{/*                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[16px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
+                  Contactate para que podamos brindarte mas información
+                </h1> */}
+                <h1 className="text-gray-800 font-rubik font-regular text-[14px] lg:text-[16px] pb-2 2xl:pb-[10px] lg:pt-[2px] text-center ">
                   Contactate para que podamos brindarte mas información
                 </h1>
 
