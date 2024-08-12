@@ -9,7 +9,8 @@ const config = {
     "src/app/components/Hero.tsx",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/moreInfo/agrimensura/page.tsx",
+    /* "./src/app/moreInfo/agrimensura/page.tsx", */
+    "./src/app/moreInfo/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/moreInfo/layout.tsx",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/flowbite/**/*.js",

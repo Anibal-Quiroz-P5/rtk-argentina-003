@@ -38,7 +38,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Relevantamientos Topográficos
             </div>
 
@@ -67,7 +67,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px]  lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Georreferenciación de Puntos 
               <br />
               de Control
@@ -98,7 +98,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Creación de Modelos Digitales 
               <br />
               del Terreno (DTM)
@@ -127,7 +127,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Cálculo de Volúmenes
             </div>
 
@@ -154,7 +154,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Monitoreo y Control de Obras
             </div>
 
@@ -181,7 +181,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Agricultura de Precisión
             </div>
 
@@ -209,7 +209,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
               Cartografía y GIS (Sistemas de Información Geográfica)
             </div>
 
@@ -232,7 +232,7 @@ const page = () => {
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={Agrim008} alt="Feature 1 image" className=" w-[75%]  lg:pt-4" />
+            <Image src={Agrim008} alt="Feature 1 image" className="  sm:w-[75%]   lg:pt-4" />
           </div>
         </div>
       </div>

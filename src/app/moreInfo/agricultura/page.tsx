@@ -30,7 +30,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px]   2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] xl:h-[115px]  2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
             Manejo de cultivos de precisión
             </div>
 
@@ -65,7 +65,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px]  lg:h-[85px] xl:h-[115px]  2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
             Manejo del agua
             </div>
 
@@ -101,7 +101,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
             Mapeo y monitoreo de cultivos
             </div>
 
@@ -135,7 +135,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
             Manejo del suelo
             </div>
 
@@ -167,7 +167,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[23px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[115px] 2xl:h-[115px] flex justify-center items-center   ">
             Automatización de maquinaria agrícola
             </div>
 
@@ -201,7 +201,7 @@ const page = () => {
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={AgricolaNtrip} alt="Feature 1 image" className=" w-[75%]   lg:pt-4" />
+            <Image src={AgricolaNtrip} alt="Feature 1 image" className=" sm:w-[75%]   lg:pt-4" />
           </div>
         </div>
       </div>
