@@ -141,7 +141,7 @@ const Hero = () => {
     <div
       id="servicio"
       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
-      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  ">
+      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300 ">
       <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
           RTK ARGENTINA
@@ -269,20 +269,20 @@ const Hero = () => {
           <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[38px] lg:pt-[58px] pb-[4px] ">
             NUESTRO SERVICIO
           </h3>
-          <hr className="border-t-1 border-white lg:pt-0 lg:mx-64 pb-3 lg:pb-0 lg:my-5 mx-[52px]" />
-          {/* <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[16px] text-[#FFFFFF] text-center text-[15px] lg:text-[20px] ">
+          <hr className="border-t-1 border-white sm:pt-0 sm:mx-64 pb-3 sm:pb-0 sm:my-5 mx-[52px]" />
+          <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[16px] text-[#FFFFFF] text-center text-[15px] lg:text-[20px] ">
             Con nuestro servicio lograrás una precisión
             <br />
             de centímetros en tus dispositivos
-          </h5> */}
+          </h5>
 
 
-          <h5 className="font-rubik lg:font-bold pl-[10px] pr-[10px] lg:text-[16px] text-[#FFFFFF] text-center text-[15px] ">
+          {/* <h5 className="font-rubik lg:font-bold pl-[10px] pr-[10px] lg:text-[16px] text-[#FFFFFF] text-center text-[15px] ">
           Entrega mensajes de corrección RTK en tiempo real por medio de internet. 
           <br />
           Con ellos obtendrás precisión de centímetros en tus dispositivos GNSS compatibles.
           
-          </h5>
+          </h5> */}
           
 
 
@@ -295,7 +295,7 @@ const Hero = () => {
                 PRUEBA RTK ARGENTINA
               </div>
               
-              <hr className="border-t-0 border border-[#868686] w-[180px] 2xl:w-4/5 " />
+              <hr className="border-t-0 border border-[#868686] w-[180px] sm:w-4/5 " />
 
               <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
 {/*                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[16px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
@@ -306,7 +306,7 @@ const Hero = () => {
                 </h1>
 
                 <div className="">
-                  <hr className="border-t-0 border border-[#868686] w-[180px] 2xl:w-[355px] " />
+                  <hr className="border-t-0 border border-[#868686] w-[180px] sm:w-[240px] xl:w-[355px] " />
                 </div>
 
                 <div className="pt-[20px]  ">

@@ -7,6 +7,7 @@ const config = {
     ".src/app/prueba/page.ts",
     "src/app/page.tsx",
     "src/app/components/Hero.tsx",
+    "src/app/components/Features.tsx",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}",
     /* "./src/app/moreInfo/agrimensura/page.tsx", */
