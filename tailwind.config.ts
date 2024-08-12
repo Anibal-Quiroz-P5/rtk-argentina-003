@@ -69,6 +69,9 @@ const config = {
       fontFamily: {
         rubik: ['Rubik', 'sans-serif', 'inter'],
       },
+      fontSize: {
+        'mixl': '1.6rem', // Define un nombre personalizado para el tamaño de fuente
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

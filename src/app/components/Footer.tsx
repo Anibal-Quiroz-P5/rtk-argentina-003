@@ -85,7 +85,7 @@ export const Footer = () => {
         </div>
       </div> */}
 
-      <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-10 ">
+      <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-20 ">
         <div className="flex flex-row  items-center">
           <div>
 
@@ -104,16 +104,16 @@ export const Footer = () => {
             <span className="text-[16px]">+54911-24940670</span>
           </a>
 
-          <a
-            /* href="https://www.whatsapp.com" */
+          {/* <a
+            
             href="https://wa.me/5491151555966"
             target="_blank"
             rel="noopener noreferrer"
             className="flex gap-4 items-center p-0 hover:bg-gray-200 rounded"
           >
-            {/* <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} /> */}
+            
             <span className="text-[16px]">+54911-51555966</span>
-          </a>
+          </a> */}
           </div>
         </div>
 
@@ -144,8 +144,7 @@ export const Footer = () => {
           <Image src={Instagram} alt="Instagram" width={32} height={42} />
           <span>@rtk-argentina---</span>
         </a> */}
-        <a
-          /* href="https://www.whatsapp.com" */
+        {/* <a
           href="https://www.linkedin.com/in/anibal-quiroz-full-stack-javascript/"
           target="_blank"
           rel="noopener noreferrer"
@@ -153,7 +152,7 @@ export const Footer = () => {
         >
           <Image src={Linkedin} alt="Linkedin" width={34} height={42} />
           <span className="text-[16px]">@rtk-argentina---</span>
-        </a>
+        </a> */}
       </div>
 
       {/* <div className='flex flex-col items-center justify-center gap-y-[40px] pt-[40px]'>

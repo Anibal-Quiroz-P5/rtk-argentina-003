@@ -19,9 +19,9 @@ const page = () => {
           </span>
           </div>
       </div>
-      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  2xl:gap-2 ">
+      <div className="container grid grid-cols-1 lg:grid-cols-2   lg:gap-y-4 lg:-mt-[180px]  pb-10  xl:gap-2 2xl:gap-2 ">
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
-          <div className=" lg:w-650 border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   xl:w-[436px]  ">
+          <div className=" lg:w-[436px] border-[4px] border-[#F95901] rounded-3xl shadow-2xl   ml-auto   xl:w-[436px]  ">
             <div>
               <Image
                 src={MaqAgric}
@@ -30,11 +30,11 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px]   2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] xl:h-[115px]  2xl:h-[115px] flex justify-center items-center   ">
             Manejo de cultivos de precisión
             </div>
 
-            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
+            <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] xl:p-[53px]  2xl:p-[53px]  text-[#000000]  ">
               <ul className="list-disc px-4">
               <li className="flex-col text-[#36485C] font-inter text-[16px]">
                 Permite la <span className="font-bold">siembra precisa</span>{" "}
@@ -65,7 +65,7 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px]  lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px]  lg:h-[85px] xl:h-[115px]  2xl:h-[115px] flex justify-center items-center   ">
             Manejo del agua
             </div>
 
@@ -167,13 +167,13 @@ const page = () => {
               />
             </div>
 
-            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[86px] 2xl:h-[115px] flex justify-center items-center   ">
+            <div className=" font-rubik  font-extrabold sm:font-semibold text-[#FFFFFF] text-center  lg:text-[20px] 2xl:text-[23px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start h-[68px] lg:h-[85px] 2xl:h-[115px] flex justify-center items-center   ">
             Automatización de maquinaria agrícola
             </div>
 
             <div className="flex flex-col justify-center items-center p-8 lg:p-[33px] 2xl:p-[53px]  text-[#000000]  ">
               <ul className="list-disc px-4">
-              <li className="flex-col text-[#36485C] font-inter text-[16px]">
+              <li className="flex-col text-[#36485C] font-inter text-[16px]  ">
                 Se utiliza para{" "}
                   <span className="font-bold">guiar tractores</span> y
                   maquinaria agrícola de manera automática y precisa, reduciendo
