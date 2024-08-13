@@ -180,7 +180,7 @@ const page = () => {
             FUNCIONAMIENTO
           </div>
           <div className="flex justify-center  ">
-            <Image src={Drones007} alt="Feature 1 image" className=" sm:w-[75%]   lg:pt-4" />
+            <Image src={Drones007} alt="Feature 1 image" className=" sm:w-[57%]   lg:pt-4" />
           </div>
         </div>
       </div>
