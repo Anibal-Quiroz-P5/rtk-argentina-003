@@ -166,7 +166,7 @@ const Hero = () => {
           </h5> */}
 
 
-<h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[30px] lg:pt-[58px] pb-[4px] ">
+<h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[28px] lg:pt-[58px] pb-[4px] ">
 Con nuestro servicio lograrás una precisión
 <br />
 de centímetros en tus dispositivos
