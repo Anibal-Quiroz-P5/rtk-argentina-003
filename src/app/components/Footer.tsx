@@ -124,13 +124,13 @@ export const Footer = () => {
           <span>@rtk-argentina---</span>
         </a> */}
         <a
-          href="https://www.twitter.com"
+          href="mailto:soporte@rtkarg.com"
           target="_blank"
           rel="noopener noreferrer"
           className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
         >
           <Image src={X2} alt="Twitter" width={34} height={42} />
-          <span className="text-[16px]">@rtk-argentina---</span>
+          <span className="text-[16px]">soporte@rtkarg.com</span>
         </a>
         {/*         <a
           href="https://www.instagram.com"
