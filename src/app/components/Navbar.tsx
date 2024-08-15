@@ -106,7 +106,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Logo from "../../../public/assets/Logo.png";
 import User from "../../../public/assets/User.svg";
-/* import Menu-orig from "../../../public/assets/Menu.svg"; */
 import Menu from "../../../public/assets/Menu.png";
 import Link from "next/link";
 import { useRouter } from "next/navigation";

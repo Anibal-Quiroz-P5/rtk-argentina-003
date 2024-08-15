@@ -1,17 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import MaqAgric from "../../../../public/assets/Maq-Agric.jpg";
-import MaqRiego from "../../../../public/assets/Maq-Riego.jpg";
-import MaqDrone from "../../../../public/assets/Maq-Drone.jpg";
-import MaqTeodolito from "../../../../public/assets/Maq-Teodolito.jpg";
-import AgricolaNtrip from "../../../../public/assets/AgricolaNtrip.jpg";
 
-import Agrim001 from "../../../../public/assets/RelevTopograf.png";
-import Agrim002 from "../../../../public/assets/GeorrefPtosCntrl.png";
-import Agrim003 from "../../../../public/assets/Dtm.png";
-import Agrim004 from "../../../../public/assets/Volumenes.png";
-import Agrim005 from "../../../../public/assets/MonitYCntrlObras.png";
+import Agrim001 from "../../../../public/assets/RelevTopograf.jpg";
+import Agrim002 from "../../../../public/assets/GeorrefPtosCntrl.jpg";
+import Agrim003 from "../../../../public/assets/Dtm.jpg";
+import Agrim004 from "../../../../public/assets/Volumenes.jpg";
+import Agrim005 from "../../../../public/assets/MonitYCntrlObras.jpg";
 import Agrim006 from "../../../../public/assets/Drones-006.jpg";
 import Agrim007 from "../../../../public/assets/Agrim-007.jpg";
 import Agrim008 from "../../../../public/assets/Esq_agrimensurab.png";

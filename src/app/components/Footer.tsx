@@ -46,15 +46,12 @@
 
 import React from "react";
 import Image from "next/image";
-/* import Logo from '../../../public/assets/Logo.svg' */
 import Logo from "../../../public/assets/Logo.png";
 import Facebook from "../../../public/assets/Facebook.svg";
-/* import X2 from "../../../public/assets/X2.svg"; */
 import X2 from "../../../public/assets/Email.svg";
 import Instagram from "../../../public/assets/Instagram.svg";
 import Whatsapp from "../../../public/assets/Whatsapp.svg";
 import Linkedin from "../../../public/assets/Linkedin.svg";
-/* import Feed from '../../public/assets/Feed.svg' */
 import Link from "next/link";
 
 export const Footer = () => {

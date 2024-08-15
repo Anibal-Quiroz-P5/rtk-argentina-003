@@ -1,20 +1,7 @@
 "use client";
 
 import React from "react";
-import Arrow from "../../../public/assets/Arrow.svg";
 import Image from "next/image";
-import Gradient from "../../../public/assets/Gradient.svg";
-import HeroImage from "../../public/assets/Image.svg";
-
-import Google from "../../../public/assets/Google.svg";
-import Slack from "../../../public/assets/Slack.svg";
-import Trustpilot from "../../../public/assets/Trustpilot.svg";
-import Cnn from "../../../public/assets/CNN.svg";
-import Clutch from "../../../public/assets/Clutch.svg";
-import Tablero from "../../../public/assets/Tablero.png";
-import carousela from "../../public/assets/carousel-1.svg";
-
-
 import carousel1 from "../../../public/assets/Carrousel01.jpg";
 import carousel2 from "../../../public/assets/Carrousel02.jpg";
 import carousel3 from "../../../public/assets/Carrousel03.jpg";
@@ -38,7 +25,7 @@ const Hero = () => {
         </h1>
 
         <h1 className=" text-center  font-rubik font-semibold text-[20px] pb-0 lg:pt-[5px]  2xl:pt-[0px]">
-          Despliega tus alas hacia un futuro preciso
+          Despliega tus alas hacia un futuro preciso...
         </h1>
       </div>
 

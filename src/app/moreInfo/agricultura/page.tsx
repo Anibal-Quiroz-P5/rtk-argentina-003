@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import MaqAgric from "../../../../public/assets/Agro01.png";
-import MaqRiego from "../../../../public/assets/Agro02.png";
-import MaqDrone from "../../../../public/assets/Agro03.png";
-import MaqTeodolito from "../../../../public/assets/Agro04.png";
-import Automatizacion from "../../../../public/assets/Agro05.png";
+import MaqAgric from "../../../../public/assets/Agro01.jpg";
+import MaqRiego from "../../../../public/assets/Agro02.jpg";
+import MaqDrone from "../../../../public/assets/Agro03.jpg";
+import MaqTeodolito from "../../../../public/assets/Agro04.jpg";
+import Automatizacion from "../../../../public/assets/Agro05.jpg";
 import AgricolaNtrip from "../../../../public/assets/Esq_agriculturab.png";
 
 

@@ -3,9 +3,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import agricolas from "../../../public/assets/MaskGroup5.png";
-import drone from "../../../public/assets/MaskGroup6.png";
-import agricultura from "../../../public/assets/MaskGroup7.png";
+import agricolas from "../../../public/assets/MaskGroup5.jpg";
+import drone from "../../../public/assets/MaskGroup6.jpg";
+import agricultura from "../../../public/assets/MaskGroup7.jpg";
 
 
 import Link from "next/link";

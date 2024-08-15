@@ -3,12 +3,12 @@ import React from "react";
 import Image from "next/image";
 
 
-import Drones001 from "../../../../public/assets/Drone01.png";
-import Drones002 from "../../../../public/assets/Drone02.png";
-import Drones003 from "../../../../public/assets/Drone03.png";
-import Drones004 from "../../../../public/assets/Drone04.png";
+import Drones001 from "../../../../public/assets/Drone01.jpg";
+import Drones002 from "../../../../public/assets/Drone02.jpg";
+import Drones003 from "../../../../public/assets/Drone03.jpg";
+import Drones004 from "../../../../public/assets/Drone04.jpg";
 import Drones005 from "../../../../public/assets/Drones-005.jpg";
-import Drones006 from "../../../../public/assets/Drone06.png";
+import Drones006 from "../../../../public/assets/Drone06.jpg";
 import Drones007 from "../../../../public/assets/Esq_dronb.png";
 
 const page = () => {
