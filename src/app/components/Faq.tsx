@@ -86,7 +86,7 @@ const items = [
   },
   {
     question: "¿Qué es GNSS?",
-    answer:     "GNSS (Global Navigation Satellite System) es un sistema que utiliza satélites para proporcionar ubicación y tiempo precisos en cualquier lugar del mundo, como GPS, GLONASS, Galileo y BeiDou."
+    answer:     "GNSS (Global Navigation Satellite System) es un sistema que utiliza satélites para proporcionar ubicación y tiempo precisos en cualquier lugar del mundo. Las redes de satélites utilizadas por el sistema GNSS son: GPS, GLONASS, Galileo y BeiDou."
   },
   {
     question: "Sistema básico RTK",
