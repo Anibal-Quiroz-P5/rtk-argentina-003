@@ -154,7 +154,7 @@ const page = () => {
                   tomar decisiones informadas sobre la gestión del campo.
                 </li>
               </ul>
-            </div>
+            </div>  {/* nada mas */}
           </div>
         </div>
         <div className="lg:container flex  pt-8  lg:pr-6 lg:pl-[96px]">
