@@ -154,7 +154,7 @@ const Hero = () => {
 
 
 <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[28px] lg:pt-[58px] pb-[4px] ">
-Con nuestro servicio lograrás una precisión
+Con nuestro servicio lograrás una precisión de posicionamiento
 <br />
 de centímetros en tus dispositivos
           </h3>
