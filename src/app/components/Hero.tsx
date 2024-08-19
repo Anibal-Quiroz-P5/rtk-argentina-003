@@ -9,16 +9,93 @@ import carousel4 from "../../../public/assets/Carrousel04.jpg";
 import carousel5 from "../../../public/assets/Carrousel05.jpg";
 import carousel6 from "../../../public/assets/Carrousel06.jpg";
 
+// import { Carousel } from "flowbite-react";
+// import Link from "next/link";
+
+// const Hero = () => {
+//   return (
+//     <div
+//       id="servicio"
+//       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
+//       className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px] ">
+//       <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
+//         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
+//           RTK ARGENTINA
+//           <br />
+//         </h1>
+
+//         <h1 className=" text-center  font-rubik font-semibold text-[20px] pb-0 lg:pt-[5px]  2xl:pt-[0px]">
+//           Despliega tus alas hacia un futuro preciso...
+//         </h1>
+//       </div>
+
+//       {/* <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]">
+//           <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
+
+//       <div className=" lg:pt-[15px]   2xl:pt-[0px]  ">
+//         <Carousel className="pl-0 pr-0  w-[386px] h-[300px]   sm:w-[400px]   sm:h-[400px] lg:w-[700px]  xl:w-[1110px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
+//           <Image src={carousel1} alt="..." />
+//           <Image src={carousel2} alt="..." />
+//           <Image src={carousel3} alt="..." />
+//           <Image src={carousel4} alt="..." />
+//           <Image src={carousel5} alt="..." />
+//           <Image src={carousel6} alt="..." />
+//         </Carousel>
+//       </div>
+
 import { Carousel } from "flowbite-react";
 import Link from "next/link";
+
+const images = [
+  carousel1,
+  carousel2,
+  carousel3,
+  carousel4,
+  carousel5,
+  carousel6,
+];
+
+const fixedText = (
+  <>
+    {/* <span className="text-[48px] block pl-20">RTK Argentina</span> */}
+    <span className="text-[40px] block pl-20">Despliega tus alas hacia</span>
+    <span className="text-[40px] block pl-20">un futuro preciso...</span>
+    {/* <span className="text-[48px] block pl-20"> .</span> */}
+    <div className="pt-[20px]"></div>
+    <div className="pt-[20px]"></div>
+
+    <span className="text-[20px] block pl-20">
+      Con nuestro servicio lograrás un posicionamiento{" "}
+    </span>
+    <span className="text-[20px] block pl-20">
+      con precisión de centímetros en tus dispositivos
+    </span>
+    {/* <span className="text-[20px] block">en tus teodolitos</span> */}
+    {/* Líneas vacías */}
+    <div className="pt-[20px]"></div>
+    <div className="pt-[20px]"></div>
+    {/* Botón */}
+    <Link href="#contacto">
+      <div className="pt-[20px] pl-20">
+        <button className="bg-[#F95901] px-6 py-3 pt-2 rounded-xl hover:bg-[#f7793f]">
+          <span className="font-bold font-inter text-[14px] text-white lg:block">
+            Obtener prueba
+          </span>
+        </button>
+      </div>
+    </Link>
+  </>
+);
 
 const Hero = () => {
   return (
     <div
       id="servicio"
       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
-      className="   flex flex-col  items-center pt-8 lg:pt-10 pb-[30px] lg:pb-[121px] 2xl:pb-[181px] ">
-      <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
+      /* className="   flex flex-col  items-center pt-8 lg:pt-0 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  " */
+      className="   flex flex-col  items-center  lg:pt-0 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  "
+    >
+      {/* <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
           RTK ARGENTINA
           <br />
@@ -27,38 +104,31 @@ const Hero = () => {
         <h1 className=" text-center  font-rubik font-semibold text-[20px] pb-0 lg:pt-[5px]  2xl:pt-[0px]">
           Despliega tus alas hacia un futuro preciso...
         </h1>
-      </div>
+      </div> */}
 
       {/* <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]">
           <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
 
-      <div className=" lg:pt-[15px]   2xl:pt-[0px]  ">
-        <Carousel className="pl-0 pr-0  w-[386px] h-[300px]   sm:w-[400px]   sm:h-[400px] lg:w-[700px]  xl:w-[1110px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] ">
-          <Image src={carousel1} alt="..." />
-          <Image src={carousel2} alt="..." />
-          <Image src={carousel3} alt="..." />
-          <Image src={carousel4} alt="..." />
-          <Image src={carousel5} alt="..." />
-          <Image src={carousel6} alt="..." />
-
-          {/* <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." />
-            <Image src={carousel3} alt="..." /> */}
-
-          {/* <div className="w-3/4 h-auto">
-                    <Image
-                      src={carousel3}
-                      alt="Imagen"
-                      className="w-full h-auto object-contain"
-                      layout="responsive"
-                    /> */}
-
-          {/* </div> */}
-        </Carousel>
+<div className="w-full h-screen relative">
+  <Carousel className="w-full h-full">
+    {images.map((image, index) => (
+      <div key={index} className="relative w-full h-full">
+        <Image
+          src={image}
+          alt={`Carousel image ${index + 1}`}
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
+    ))}
+  </Carousel>
+  {/* Capa del gradiente con Tailwind */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#07130f] to-transparent"></div>
+  <div className="absolute top-1/2 left-32 transform -translate-y-1/2 pl-4 text-white">
+    {fixedText}
+  </div>
+</div>
+
       {/* </div> */}
 
       {/* ------------------------------------------------------------------------------------------------------------ */}
@@ -138,11 +208,9 @@ const Hero = () => {
       {/* ------------------------------------------------------------ */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
 
-      
-      
       <div className="flex flex-col items-center justify-center w-full pb-[124px]  bg-[#FFFFFF]   pt-[20px] lg:pt-[100px] xl:pt-[100px] ">
         <div className=" flex flex-col w-[327px] h-[250px] lg:w-[58%] lg:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
-{/*           <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[38px] lg:pt-[58px] pb-[4px] ">
+          {/*           <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[38px] lg:pt-[58px] pb-[4px] ">
             NUESTRO SERVICIO
           </h3>
           <hr className="border-t-1 border-white sm:pt-0 sm:mx-64 pb-3 sm:pb-0 sm:my-5 mx-[52px]" />
@@ -152,14 +220,12 @@ const Hero = () => {
             de centímetros en tus dispositivos
           </h5> */}
 
-
-<h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[28px] lg:pt-[58px] pb-[4px] ">
-Con nuestro servicio lograrás una precisión de posicionamiento
-<br />
-de centímetros en tus dispositivos
+          <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[28px] lg:pt-[58px] pb-[4px] ">
+            Con nuestro servicio lograrás una precisión de
+            <br />
+            posicionamiento de centímetros en tus dispositivos
           </h3>
           <hr className="border-t-1 border-white sm:pt-0 sm:mx-64 pb-3 sm:pb-0 sm:my-5 mx-[52px]" />
-
 
           {/* <h5 className="font-rubik lg:font-bold pl-[10px] pr-[10px] lg:text-[16px] text-[#FFFFFF] text-center text-[15px] ">
           Entrega mensajes de corrección RTK en tiempo real por medio de internet. 
@@ -167,9 +233,6 @@ de centímetros en tus dispositivos
           Con ellos obtendrás precisión de centímetros en tus dispositivos GNSS compatibles.
           
           </h5> */}
-          
-
-
 
           <div></div>
 
@@ -178,11 +241,11 @@ de centímetros en tus dispositivos
               <div className="py-4 pb-3  lg:pt-[20px] font-rubik font-semibold text-[15px] uppercase  text-[#012615] lg:mt-[100px] ">
                 PRUEBA RTK ARGENTINA
               </div>
-              
+
               <hr className="border-t-0 border border-[#868686] w-[180px] sm:w-4/5 " />
 
               <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
-{/*                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[16px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
+                {/*                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[16px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
                   Contactate para que podamos brindarte mas información
                 </h1> */}
                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] lg:text-[16px] pb-2 2xl:pb-[10px] lg:pt-[2px] text-center ">

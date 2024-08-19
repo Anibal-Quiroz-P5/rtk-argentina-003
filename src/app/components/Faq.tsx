@@ -110,14 +110,6 @@ const Faq = () => {
 
     <div className='flex flex-col items-center justify-center mx-auto w-full py-[48px] bg-gradient-to-b from-custom-orange-end to-custom-orange-start border-[3px]  border-[#F95901] rounded-3xl  xl:w-[1040px]  2xl:w-[898px] lg:w-[89%]'>
       <div>
-
-{/*         <div >
-           <h3 className="text-center text-[28px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px]   2xl:text-[43px]">
-              PREGUNTAS FRECUENTES 
-           </h3>
-        </div> */}
-
-
 <div>
   <h3 className="text-center font-extrabold text-[#FFFFFF] lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">
     <span className="block text-[28px] leading-[33px] lg:inline lg:text-[46px] lg:leading-[72px] 2xl:text-[43px]">PREGUNTAS</span>
@@ -139,7 +131,7 @@ const Faq = () => {
             <div key={index}>
               <Accordion.Item 
                 value={`item-${index + 1}`} 
-                className="bg-[#E3F1FF] p-[16px] rounded-[8px]"
+                className="bg-[#E3F1FF] p-[16px] rounded-[8px] hover:bg-orange-200 transition-colors duration-50"
               >
                 <Accordion.Trigger className="w-full h-full">
                   <div className="flex flex-col">
