@@ -58,25 +58,28 @@ const images = [
 const fixedText = (
   <>
     {/* <span className="text-[48px] block pl-20">RTK Argentina</span> */}
-    <span className="text-[40px] block pl-20">Despliega tus alas hacia</span>
-    <span className="text-[40px] block pl-20">un futuro preciso...</span>
+    <span className="text-[40px] block xl:pl-20 leading-tight">
+      Despliega tus alas hacia
+    </span>
+    <span className="text-[40px] block xl:pl-20 leading-tight">
+      un futuro preciso...
+    </span>
     {/* <span className="text-[48px] block pl-20"> .</span> */}
     <div className="pt-[20px]"></div>
-    <div className="pt-[20px]"></div>
 
-    <span className="text-[20px] block pl-20">
+    <span className="text-[20px] block xl:pl-20">
       Con nuestro servicio lograrás un posicionamiento{" "}
     </span>
-    <span className="text-[20px] block pl-20">
+    <span className="text-[20px] block xl:pl-20">
       con precisión de centímetros en tus dispositivos
     </span>
     {/* <span className="text-[20px] block">en tus teodolitos</span> */}
     {/* Líneas vacías */}
     <div className="pt-[20px]"></div>
-    <div className="pt-[20px]"></div>
+    {/* <div className="pt-[20px]"></div> */}
     {/* Botón */}
     <Link href="#contacto">
-      <div className="pt-[20px] pl-20">
+      <div className="pt-[20px] xl:pl-20">
         <button className="bg-[#F95901] px-6 py-3 pt-2 rounded-xl hover:bg-[#f7793f]">
           <span className="font-bold font-inter text-[14px] text-white lg:block">
             Obtener prueba
@@ -93,7 +96,7 @@ const Hero = () => {
       id="servicio"
       // className="   flex flex-col  items-center pt-4 lg:pt-10 pb-[30px] lg:pb-[181px] 2xl:pb-[181px]  sm:bg-red-300 md:bg-purple-300 lg:bg-orange-300 xl:bg-green-300 2xl:bg-blue-300  4xl:bg-yellow-300">
       /* className="   flex flex-col  items-center pt-8 lg:pt-0 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  " */
-      className="   flex flex-col  items-center  lg:pt-0 pb-[30px] lg:pb-[121px] 2xl:pb-[181px]  "
+      className="   flex flex-col  items-center  lg:pt-0   "
     >
       {/* <div className=" lg:pb-[10px] lg:pt-[5px] 2xl:pt-[10px] 2xl:pb-[30px]">
         <h1 className=" font-monserrat text-center text-[30px] leading-[40px] font-extrabold text-[#172026] lg:text-[60px] lg:leading-[72px] ">
@@ -109,25 +112,25 @@ const Hero = () => {
       {/* <div className="pt-[86px] lg:pt-[30px] lg:pb-[162px]  2xl:pt-[0px]">
           <Carousel className="h-56   sm:h-[400px] xl:w-[810px] xl:h-[540px] 2xl:w-[1136px] 2xl:h-[476px] "> */}
 
-<div className="w-full h-screen relative">
-  <Carousel className="w-full h-full">
-    {images.map((image, index) => (
-      <div key={index} className="relative w-full h-full">
-        <Image
-          src={image}
-          alt={`Carousel image ${index + 1}`}
-          layout="fill"
-          objectFit="cover"
-        />
+      <div className="w-full h-[350px] sm:h-screen relative">
+        <Carousel className="w-full h-full">
+          {images.map((image, index) => (
+            <div key={index} className="relative w-full h-full">
+              <Image
+                src={image}
+                alt={`Carousel image ${index + 1}`}
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+          ))}
+        </Carousel>
+        {/* Capa del gradiente con Tailwind */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#07130f] to-transparent hidden sm:block"></div>
+        <div className="absolute top-1/2 left-32 transform -translate-y-1/2 pl-4 text-white hidden sm:block">
+          {fixedText}
+        </div>
       </div>
-    ))}
-  </Carousel>
-  {/* Capa del gradiente con Tailwind */}
-  <div className="absolute inset-0 bg-gradient-to-r from-[#07130f] to-transparent"></div>
-  <div className="absolute top-1/2 left-32 transform -translate-y-1/2 pl-4 text-white">
-    {fixedText}
-  </div>
-</div>
 
       {/* </div> */}
 
@@ -207,32 +210,15 @@ const Hero = () => {
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ------------------------------------------------------------ */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
-
+      <div className="block sm:hidden">
       <div className="flex flex-col items-center justify-center w-full pb-[124px]  bg-[#FFFFFF]   pt-[20px] lg:pt-[100px] xl:pt-[100px] ">
         <div className=" flex flex-col w-[327px] h-[250px] lg:w-[58%] lg:h-[296px]  bg-gradient-to-b from-custom-orange-end to-custom-orange-start  rounded-3xl lg:rounded-3xl ">
-          {/*           <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-extrabold text-[#FFFFFF] lg:text-[38px] lg:pt-[58px] pb-[4px] ">
-            NUESTRO SERVICIO
-          </h3>
-          <hr className="border-t-1 border-white sm:pt-0 sm:mx-64 pb-3 sm:pb-0 sm:my-5 mx-[52px]" />
-          <h5 className="font-rubik 2xl:font-bold pl-[10px] pr-[10px] 2xl:text-[16px] text-[#FFFFFF] text-center text-[15px] lg:text-[20px] ">
-            Con nuestro servicio lograrás una precisión
+          <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[28px] lg:pt-[58px] pb-[4px] ">
+            Con nuestro servicio lograrás un posicionamiento con precisión
             <br />
             de centímetros en tus dispositivos
-          </h5> */}
-
-          <h3 className="font-monserrat  text-center text-[18px] pt-[10px] leading-[40px] font-semibold text-[#FFFFFF] lg:text-[28px] lg:pt-[58px] pb-[4px] ">
-            Con nuestro servicio lograrás una precisión de
-            <br />
-            posicionamiento de centímetros en tus dispositivos
           </h3>
           <hr className="border-t-1 border-white sm:pt-0 sm:mx-64 pb-3 sm:pb-0 sm:my-5 mx-[52px]" />
-
-          {/* <h5 className="font-rubik lg:font-bold pl-[10px] pr-[10px] lg:text-[16px] text-[#FFFFFF] text-center text-[15px] ">
-          Entrega mensajes de corrección RTK en tiempo real por medio de internet. 
-          <br />
-          Con ellos obtendrás precisión de centímetros en tus dispositivos GNSS compatibles.
-          
-          </h5> */}
 
           <div></div>
 
@@ -245,9 +231,6 @@ const Hero = () => {
               <hr className="border-t-0 border border-[#868686] w-[180px] sm:w-4/5 " />
 
               <div className="flex flex-col items-center justify-between py-2 px-3 bg-white ">
-                {/*                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] 2xl:text-[16px] pb-2 2xl:pb-[10px] 2xl:pt-[2px] text-center ">
-                  Contactate para que podamos brindarte mas información
-                </h1> */}
                 <h1 className="text-gray-800 font-rubik font-regular text-[14px] lg:text-[16px] pb-2 2xl:pb-[10px] lg:pt-[2px] text-center ">
                   Contactate para que podamos brindarte mas información
                 </h1>
@@ -267,6 +250,7 @@ const Hero = () => {
             </div>
           </Link>
         </div>
+      </div>
       </div>
     </div>
   );
