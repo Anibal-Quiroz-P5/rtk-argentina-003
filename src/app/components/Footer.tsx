@@ -44,6 +44,7 @@
 //   )
 // }
 
+"use client";
 import React from "react";
 import Image from "next/image";
 import Logo from "../../../public/assets/Logo.png";
@@ -56,7 +57,8 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="pt-[0px] pb-[40px] lg:pt-12 2xl:pt-0">
+    <div className="relative left-1/2 -translate-x-1/2 w-screen ">
+    <div className=" pt-[0px] pb-[40px] lg:pt-12 2xl:pt-0 2xl:pb-[50px] bg-[#002E1E] ">
       {/* <div className='flex items-center justify-center gap-x-[76px] pt-[40px] '> */}
 
       {/* <div className="flex flex-row  justify-center gap-x-40  ">
@@ -82,9 +84,10 @@ export const Footer = () => {
         </div>
       </div> */}
 
-      <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-20 ">
+      {/* <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-20 "> */}
+      <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-6 2xl:gap-x-20 2xl:pt-12">
         <div className="flex flex-row  items-center">
-          <div>
+          <div className="pl-6">
 
           <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
           </div>
@@ -95,10 +98,10 @@ export const Footer = () => {
             href="https://wa.me/5491124940670"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex gap-4 items-center p-0 hover:bg-gray-200 rounded"
+            className="flex gap-4 items-center p-0 pl-0 hover:bg-gray-200 rounded text-white"
           >
             {/* <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} /> */}
-            <span className="text-[16px]">+54911-24940670</span>
+            <span className="text-[16px] pl-[2px]">+54911-24940670</span>
           </a>
 
           {/* <a
@@ -127,10 +130,10 @@ export const Footer = () => {
           href="mailto:soporte@rtkarg.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex gap-4 items-center p-2 hover:bg-gray-200 rounded"
+          className="flex gap-4 items-center p-2   hover:bg-gray-200 rounded pl-6"
         >
           <Image src={X2} alt="Twitter" width={34} height={42} />
-          <span className="text-[16px]">soporte@rtkarg.com</span>
+          <span className="text-[16px] text-white">soporte@rtkarg.com</span>
         </a>
         {/*         <a
           href="https://www.instagram.com"
@@ -183,7 +186,7 @@ export const Footer = () => {
         >
           <div className="flex items-center justify-center gap-x-[12px]  pt-8">
             <Image src={Logo} alt="Logo" width={40} />
-            <p className="font-bold text-[#36485C] text-[17px]">
+            <p className="font-bold  text-[17px] text-white">
               RTK-Argentina
             </p>
           </div>
@@ -205,9 +208,10 @@ export const Footer = () => {
         </Link>
       </ul> */}
 
-      <p className="pt-[56px] text-center text-[16px] font-medium text[#5F7896] sm:pt-5">
+      <p className="pt-[56px] text-center text-[16px] font-medium text[#5F7896] sm:pt-5 text-white">
         © Copyright 2024. RTK-Argentina. All rights reserved.
       </p>
+    </div>
     </div>
   );
 };
