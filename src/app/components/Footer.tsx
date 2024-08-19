@@ -85,10 +85,10 @@ export const Footer = () => {
       </div> */}
 
         {/* <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-20 "> */}
-        <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-7 2xl:gap-x-20 2xl:pt-12">
+        <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-10 2xl:gap-x-20 2xl:pt-12">
           <div className="flex flex-row  items-center">
 
-            <div className="pl-3 pb-1 ">
+            <div className="pl-7 pb-1 ">
               <a
                 /* href="https://www.whatsapp.com" */
                 href="https://wa.me/5491124940670"
@@ -97,7 +97,7 @@ export const Footer = () => {
                 className="flex gap-4 items-center p-0 pl-0 hover:bg-green-700 rounded text-white"
               >
             <div className="pl-3">
-              <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
+              <Image src={Whatsapp} alt="Whatsapp" width={25} height={42} />
             </div>
                 <span className="text-[16px] pl-[2px]">+54911-24940670</span>
               </a>
@@ -129,9 +129,9 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             /* className="flex gap-4 items-center p-2   hover:bg-gray-200 rounded pl-6" */
-            className="flex gap-4 items-center p-2   hover:bg-green-700 rounded pl-6"
+            className="flex gap-4 items-center p-2   hover:bg-green-700 rounded pl-10"
           >
-            <Image src={X2} alt="Twitter" width={34} height={42} />
+            <Image src={X2} alt="Twitter" width={25} height={42} />
             <span className="text-[16px] text-white">soporte@rtkarg.com</span>
           </a>
           {/*         <a
@@ -183,9 +183,9 @@ export const Footer = () => {
             href="/"
             className="font-semibold text-white hover:text-gray-300 "
           >
-            <div className="flex items-center justify-center gap-x-[12px]  pt-8">
-              <Image src={Logo} alt="Logo" width={40} />
-              <p className="font-bold  text-[17px] text-white">RTK-Argentina</p>
+            <div className="flex items-center justify-center gap-x-[12px]  pt-6">
+              <Image src={Logo} alt="Logo" width={25} />
+              <p className="font-semibold  text-[17px] text-white">RTK-Argentina</p>
             </div>
           </Link>
         </nav>
@@ -205,7 +205,7 @@ export const Footer = () => {
         </Link>
       </ul> */}
 
-        <p className="pt-[20px] text-center text-[16px] font-medium text[#5F7896] sm:pt-5 text-white">
+        <p className="pt-[15px] text-center text-[13px] font-light text[#5F7896] sm:pt-5 text-gray-100">
           © Copyright 2024. RTK-Argentina. All rights reserved.
         </p>
       </div>

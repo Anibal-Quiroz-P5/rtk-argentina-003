@@ -79,9 +79,9 @@ const fixedText = (
     {/* <div className="pt-[20px]"></div> */}
     {/* Botón */}
     <Link href="#contacto">
-      <div className="pt-[20px] xl:pl-20">
-        <button className="bg-[#F95901] px-6 py-3 pt-2 rounded-xl hover:bg-[#f7793f]">
-          <span className="font-bold font-inter text-[14px] text-white lg:block">
+      <div className="pt-[20px] xl:pl-20 ">
+        <button className="bg-[#F95901] px-6 py-3 pt-2 rounded-xl hover:bg-[#f7793f] ">
+          <span className="font-bold font-inter text-[14px] text-white lg:block ">
             Obtener prueba
           </span>
         </button>
