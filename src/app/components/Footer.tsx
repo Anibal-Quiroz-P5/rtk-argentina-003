@@ -85,12 +85,10 @@ export const Footer = () => {
       </div> */}
 
         {/* <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-20 "> */}
-        <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-6 2xl:gap-x-20 2xl:pt-12">
+        <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-7 2xl:gap-x-20 2xl:pt-12">
           <div className="flex flex-row  items-center">
-            <div className="pl-6">
-              {/* <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} /> */}
-            </div>
-            <div className="pl-3 ">
+
+            <div className="pl-3 pb-1 ">
               <a
                 /* href="https://www.whatsapp.com" */
                 href="https://wa.me/5491124940670"
@@ -98,7 +96,9 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex gap-4 items-center p-0 pl-0 hover:bg-green-700 rounded text-white"
               >
-                <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
+            <div className="pl-3">
+              <Image src={Whatsapp} alt="Whatsapp" width={34} height={42} />
+            </div>
                 <span className="text-[16px] pl-[2px]">+54911-24940670</span>
               </a>
 
@@ -205,7 +205,7 @@ export const Footer = () => {
         </Link>
       </ul> */}
 
-        <p className="pt-[56px] text-center text-[16px] font-medium text[#5F7896] sm:pt-5 text-white">
+        <p className="pt-[20px] text-center text-[16px] font-medium text[#5F7896] sm:pt-5 text-white">
           © Copyright 2024. RTK-Argentina. All rights reserved.
         </p>
       </div>
