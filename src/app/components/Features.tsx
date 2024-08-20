@@ -35,7 +35,7 @@ const Features = () => {
             alt="Feature 1 image"
             /* className="hidden w-1/2 h-1/2 sm:block pr-12" */
             /* className="hidden w-1/2  sm:block pr-12 " */
-            className="hidden w-1/2  sm:block pr-12 lg:h-[83%]  xl:h-[80%] 2xl:h-[90%]"            //   ESTA IMAGEN "NO" APARECE EN CELULARES, SOLO APARECE EN TAMAÑOS MAYORES A "sm"
+            className="hidden w-1/2  sm:block pr-12 4xl:h-[100%]"            //   ESTA IMAGEN "NO" APARECE EN CELULARES, SOLO APARECE EN TAMAÑOS MAYORES A "sm"
           />
 
           <div className="sm:w-1/2 lg:py-[56px] ">
@@ -95,7 +95,7 @@ const Features = () => {
          <Image
             src={drone}
             alt="Feature 1 image"
-            className="hidden w-1/2  sm:block pr-12 lg:h-[83%]  xl:h-[80%] 2xl:h-[90%]"            //   ESTA IMAGEN "NO" APARECE EN CELULARES, SOLO APARECE EN TAMAÑOS MAYORES A "sm"
+            className="hidden w-1/2  sm:block pr-12  4xl:h-[100%]"            //   ESTA IMAGEN "NO" APARECE EN CELULARES, SOLO APARECE EN TAMAÑOS MAYORES A "sm"
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
@@ -145,7 +145,7 @@ const Features = () => {
         <div className="flex flex-col items-center   gap-x-2  sm:flex-row-reverse border-2 border-[#36485C] rounded-3xl lg:h-[510px] h-auto   2xl:h-[444px] 4xl:h-[523px] bg-[#FFFEF0] -mt-[28px]">          <Image
             src={agricultura}
             alt="Feature 1 image"
-            className="hidden w-1/2  sm:block pr-12 lg:h-[83%]  xl:h-[80%] 2xl:h-[90%]"            //   ESTA IMAGEN "NO" APARECE EN CELULARES, SOLO APARECE EN TAMAÑOS MAYORES A "sm"
+            className="hidden w-1/2  sm:block pr-12  4xl:h-[100%]"            //   ESTA IMAGEN "NO" APARECE EN CELULARES, SOLO APARECE EN TAMAÑOS MAYORES A "sm"
           />
           <div className="sm:w-1/2 lg:py-[56px] ">
             {/* <h3 className=" text-2xl lg:px-12 pt-[34px] lg:pt-[22px] font-rubik font-semibold text-[#FFFFF] lg:text-[35px] text-center lg:text-left "> */}
