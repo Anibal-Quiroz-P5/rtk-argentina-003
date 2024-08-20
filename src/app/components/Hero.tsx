@@ -46,6 +46,15 @@ import carousel6 from "../../../public/assets/Carrousel06.jpg";
 import { Carousel } from "flowbite-react";
 import Link from "next/link";
 
+// función para scroll suave
+const scrollToContact = (e: React.MouseEvent) => {
+  e.preventDefault();
+  const contactoSection = document.querySelector("#contacto");
+  if (contactoSection) {
+    contactoSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const images = [
   carousel1,
   carousel2,
@@ -78,7 +87,7 @@ const fixedText = (
     <div className="pt-[20px]"></div>
     {/* <div className="pt-[20px]"></div> */}
     {/* Botón */}
-    <Link href="#contacto">
+    <Link href="#contacto" onClick={scrollToContact} >
       <div className="pt-[20px] xl:pl-20 ">
         <button className="bg-[#F95901] px-6 py-3 pt-2 rounded-xl hover:bg-[#f7793f] ">
           <span className="font-bold font-inter text-[14px] text-white lg:block ">
@@ -222,7 +231,7 @@ const Hero = () => {
 
           <div></div>
 
-          <Link href="#contacto" className="flex items-center justify-center ">
+          <Link href="#contacto" className="flex items-center justify-center "  onClick={scrollToContact} >
             <div className="flex flex-col items-center justify-center  w-[226px]  lg:w-1/2 lg:h-[240px] bg-white  -mt-[-10px]  pb-2 lg:-mt-[-23px] lg:pb-[137px] shadow-2xl rounded-3xl overflow-hidden ">
               <div className="py-4 pb-3  lg:pt-[20px] font-rubik font-semibold text-[15px] uppercase  text-[#012615] lg:mt-[100px] ">
                 PRUEBA RTK ARGENTINA
