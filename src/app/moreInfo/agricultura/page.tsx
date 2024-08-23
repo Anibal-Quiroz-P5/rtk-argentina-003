@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import Image from "next/image";
 import MaqAgric from "../../../../public/assets/Agro01.jpg";
@@ -8,6 +8,11 @@ import MaqTeodolito from "../../../../public/assets/Agro04.jpg";
 import Automatizacion from "../../../../public/assets/Agro05.jpg";
 import AgricolaNtrip from "../../../../public/assets/Esq_agriculturab.png";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Agricultura"
+};
 
 const page = () => {
   return (

@@ -52,9 +52,12 @@ import Navbar from "./components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "RTK-Argentina",
-  description: "Generada por RTK-Argentina",
-};
+  title:{
+    default: "RTK-Argentina",
+    template: "%s - RTK Argentina",
+  }, 
+  description: "RTK Argentina Despliega tus alas hacia un futuro preciso...",
+};  
 
 export default function RootLayout({
   children,
@@ -64,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/assets/Logo.png" />
+      <link rel="icon" href="/assets/favicon.ico" sizes="any" />
       </head>
       <body className={inter.className}>
         {/* <h1>ESTE TITULOOOOOOOOOO</h1> */}

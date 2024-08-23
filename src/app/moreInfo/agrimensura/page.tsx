@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import Image from "next/image";
 
@@ -10,6 +10,12 @@ import Agrim005 from "../../../../public/assets/MonitYCntrlObras.jpg";
 import Agrim006 from "../../../../public/assets/Drones-006.jpg";
 import Agrim007 from "../../../../public/assets/Agrim-007.jpg";
 import Agrim008 from "../../../../public/assets/Esq_agrimensurab.png";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Agrimensura"
+};
 
 const page = () => {
   return (

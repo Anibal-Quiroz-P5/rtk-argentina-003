@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import Image from "next/image";
 
@@ -10,6 +10,12 @@ import Drones004 from "../../../../public/assets/Drone04.jpg";
 import Drones005 from "../../../../public/assets/Drones-005.jpg";
 import Drones006 from "../../../../public/assets/Drone06.jpg";
 import Drones007 from "../../../../public/assets/Esq_dronb.png";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Drones"
+};
 
 const page = () => {
   return (
