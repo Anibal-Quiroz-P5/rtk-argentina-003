@@ -1,11 +1,10 @@
 // import  Navbar  from "./components/Navbar";
 // import Hero from "./components/Hero";
 // import Features from "./components/Features";
-// import Faq from "./components/Faq"; 
+// import Faq from "./components/Faq";
 // import { Footer } from "./components/Footer";
-// import CorreoContact from "./components/CorreoContact"; 
+// import CorreoContact from "./components/CorreoContact";
 // import AboutUs from "./components/AboutUs";
-
 
 // export default function Home() {
 //   return (
@@ -25,36 +24,34 @@
 //   );
 // }
 
-
-
-import  Navbar  from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import Faq from "./components/Faq"; 
+import Faq from "./components/Faq";
 import { Footer } from "./components/Footer";
-import CorreoContact from "./components/CorreoContact"; 
+import CorreoContact from "./components/CorreoContact";
 import AboutUs from "./components/AboutUs";
-
+import Card from "./components/Card";
+import News from "./components/News";
 
 export default function Home() {
   return (
-   <>
+    <>
+      <Hero />
+
+      <Features />
+
+      <div className="px-[20px] container  mx-auto ">
+        <AboutUs />
+        <Faq />
+        <News />
+        <CorreoContact />
+        <Footer />
+      </div>
 
 
+      {/* <Card /> */}
 
-    <Hero />
-    
-    <Features />
-
-        
-
-        <div className="px-[20px] container  mx-auto ">
-          
-      <AboutUs />
-      <Faq />
-      <CorreoContact />
-      <Footer />
-    </div>
-   </>
+    </>
   );
 }
