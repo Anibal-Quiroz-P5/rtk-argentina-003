@@ -33,6 +33,7 @@ import CorreoContact from "./components/CorreoContact";
 import AboutUs from "./components/AboutUs";
 import Card from "./components/Card";
 import News from "./components/News";
+import Video from "./components/Video";
 
 export default function Home() {
   return (
@@ -45,6 +46,15 @@ export default function Home() {
         <AboutUs />
         <Faq />
         <News />
+
+        {/* Aquí añadimos el video */}
+        <div className="my-8">
+          <h2 className="text-2xl font-bold text-center mb-4">
+            Mira nuestro tutorial
+          </h2>
+          <Video /> {/* Componente del video */}
+        </div>
+
         <CorreoContact />
         <Footer />
       </div>

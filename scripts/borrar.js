@@ -1,3 +1,13 @@
+/* var i=0;
+
+while(i<= 5) {
+  console.log("soy el número" + i);
+  i++;
+}
+console.log("conté hasta " + (i-1));
+console.log("conté " + i + " números"); */
+
+
 const compatibleList = [
   {"category":"SUV y Crossovers","year":2021,"model":"Corolla Cross","version":"XLI","driveline":"","name":"Corolla Cross","sku":"corolla_cross_u_xli_2021"},
   {"category":"SUV y Crossovers","year":2021,"model":"Corolla Cross","version":"XEI","driveline":"","name":"Corolla Cross","sku":"corolla_cross_u_xei_2021"},
