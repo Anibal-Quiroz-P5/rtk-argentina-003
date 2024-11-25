@@ -1,4 +1,4 @@
-/* import React from 'react'
+import React from 'react'
 
 const Video: React.FC = () => {
   return (
@@ -19,10 +19,10 @@ const Video: React.FC = () => {
   );
 }
 
-export default Video */
+export default Video
 
 
-import React from 'react'
+/* import React from 'react'
 
 const Video: React.FC = () => {
   return (
@@ -42,4 +42,4 @@ const Video: React.FC = () => {
   );
 }
 
-export default Video
+export default Video */

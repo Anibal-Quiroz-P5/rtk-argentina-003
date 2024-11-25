@@ -45,12 +45,13 @@ export default function Home() {
       <div className="px-[20px] container  mx-auto ">
         <AboutUs />
         <Faq />
-        <News />
+        
+        {/* <News /> */}           {/* HABILITAR ESTA LINEA SI QUEREMOS VER LAS 3 CARDS DE LAS NOTICIAS */}
 
         {/* Aquí añadimos el video */}
-        <div className="my-8">
-          <h2 className="text-[28px] font-bold text-center mb-4 text-[#F95901]">
-            MIRÁ NUESTRO TUTORIAL
+        <div className="my-8 pt-[58px] lg:pt-24 2xl:pt-24">
+          <h2 className="text-center  text-[28px] font-montserrat  font-extrabold text-[#F95901] lg:text-[46px] lg:leading-[52px]  lg:pt-5 pb-3 2xl:pb-0 2xl:pt-[0px] 2xl:text-[43px]">
+            NUESTRO TUTORIAL
           </h2>
           <Video /> {/* Componente del video */}
           
@@ -65,7 +66,7 @@ export default function Home() {
               Descargar el archivo: <br />
                TUTORIAL DE CONEXION AL NTRIP DEL IGN .pdf
             </a>
-          </div>
+        </div>
 
         <CorreoContact />
         <Footer />
