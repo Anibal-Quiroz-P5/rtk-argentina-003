@@ -49,11 +49,23 @@ export default function Home() {
 
         {/* Aquí añadimos el video */}
         <div className="my-8">
-          <h2 className="text-2xl font-bold text-center mb-4">
-            Mira nuestro tutorial
+          <h2 className="text-[28px] font-bold text-center mb-4 text-[#F95901]">
+            MIRÁ NUESTRO TUTORIAL
           </h2>
           <Video /> {/* Componente del video */}
+          
         </div>
+
+        <div className="text-center mt-6">
+            <a
+              href="/assets/TUTORIAL DE CONEXION AL NTRIP DEL IGN .pdf"
+              download
+              className="inline-block px-6 py-3 bg-[#F95901] text-white font-semibold rounded-lg shadow hover:bg-[#f7793f] transition duration-300"
+            >
+              Descargar el archivo: <br />
+               TUTORIAL DE CONEXION AL NTRIP DEL IGN .pdf
+            </a>
+          </div>
 
         <CorreoContact />
         <Footer />
