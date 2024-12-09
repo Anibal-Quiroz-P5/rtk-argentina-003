@@ -24,6 +24,9 @@
 //   );
 // }
 
+
+export const dynamic = "force-static"; 
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
@@ -34,6 +37,7 @@ import AboutUs from "./components/AboutUs";
 import Card from "./components/Card";
 import News from "./components/News";
 import Video from "./components/Video";
+import MercadoPago from "./components/MercadoPago";
 
 export default function Home() {
   return (
@@ -67,6 +71,9 @@ export default function Home() {
                TUTORIAL DE CONEXION AL NTRIP DEL IGN .pdf
             </a>
         </div>
+
+
+        <MercadoPago />
 
         <CorreoContact />
         <Footer />
