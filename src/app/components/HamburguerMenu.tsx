@@ -186,110 +186,6 @@ export default HamburguerMenu; */
 // export default HamburguerMenu;
 
 
-//---------------------------------------------------------------------------------------------
-//---------------------el siguiente codigo funcionaba OK  ----------------------------------
-//---------------------------------------------------------------------------------------------
-
-
-/* 'use client' */
-
-// import React from "react";
-// import { useRouter } from "next/navigation";
-// import Link from "next/link";
-
-// interface HamburguerMenuProps {
-//   handleNavLinkClick: (link: string) => void;
-//   setShowMenu: (show: boolean) => void;
-//   showMenu: boolean;
-// }
-
-// const HamburguerMenu: React.FC<HamburguerMenuProps> = ({
-//   showMenu,
-//   handleNavLinkClick,
-//   setShowMenu,
-// }) => {
-//   const router = useRouter();
-
-//   const handleLinkClick = (link: string) => {
-//     setShowMenu(false);
-//     if (link.startsWith("#")) {
-//       router.push(`/${link}`);
-//     } else {
-//       router.push(link);
-//     }
-//   };
-
-//   return (
-//     <div
-//       id="hamburguerMenu"
-//       className={`MOBILE-MENU fixed top-0 left-0 w-full h-full bg-white z-50 ${
-//         showMenu ? "block" : "hidden"
-//       }`}
-//     >
-//       <div className="flex items-center justify-end py-4 pr-4">
-//         <div
-//           className="HAMBURGER-ICON"
-//           onClick={() => setShowMenu(!showMenu)}
-//         >
-//           <span className="block h-0.5 w-8 bg-gray-600 mb-1"></span>
-//           <span className="block h-0.5 w-8 bg-gray-600 mb-1"></span>
-//           <span className="block h-0.5 w-8 bg-gray-600"></span>
-//         </div>
-//       </div>
-//       <div className="flex items-center justify-center h-full">
-//         <ul className="text-center">
-//           <li>
-//             <div
-//               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-//               onClick={() => handleLinkClick("#servicio")}
-//             >
-//               Inicio
-//             </div>
-//           </li>
-//           <li>
-//             <div
-//               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-//               onClick={() => handleLinkClick("#aplicaciones")}
-//             >
-//               Aplicaciones
-//             </div>
-//           </li>
-//           <li>
-//             <div
-//               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-//               onClick={() => handleLinkClick("#quienes-somos")}
-//             >
-//               Quienes somos
-//             </div>
-//           </li>
-//           <li>
-//             <div
-//               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-//               onClick={() => handleLinkClick("#cursos")}
-//             >
-//               Novedades
-//             </div>
-//           </li>
-//           <li>
-//             <div
-//               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-//               onClick={() => handleLinkClick("#contacto")}
-//             >
-//               Contacto
-//             </div>
-//           </li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default HamburguerMenu;
-
-//---------------------------------------------------------------------------------------------
-//---------------------------------------------------------------------------------------------
-//---------------------------------------------------------------------------------------------
-
 
 
 /* 'use client' */
@@ -313,7 +209,11 @@ const HamburguerMenu: React.FC<HamburguerMenuProps> = ({
 
   const handleLinkClick = (link: string) => {
     setShowMenu(false);
-    router.push(link); // Navega a la ruta directamente
+    if (link.startsWith("#")) {
+      router.push(`/${link}`);
+    } else {
+      router.push(link);
+    }
   };
 
   return (
@@ -336,49 +236,44 @@ const HamburguerMenu: React.FC<HamburguerMenuProps> = ({
       <div className="flex items-center justify-center h-full">
         <ul className="text-center">
           <li>
-            <Link
-              href="/#servicio"
+            <div
               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-              onClick={() => setShowMenu(false)}
+              onClick={() => handleLinkClick("#servicio")}
             >
               Inicio
-            </Link>
+            </div>
           </li>
           <li>
-            <Link
-              href="/#aplicaciones"
+            <div
               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-              onClick={() => setShowMenu(false)}
+              onClick={() => handleLinkClick("#aplicaciones")}
             >
               Aplicaciones
-            </Link>
+            </div>
           </li>
           <li>
-            <Link
-              href="/#quienes-somos"
+            <div
               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-              onClick={() => setShowMenu(false)}
+              onClick={() => handleLinkClick("#quienes-somos")}
             >
               Quienes somos
-            </Link>
+            </div>
           </li>
           <li>
-            <Link
-              href="/cursos-seminarios"
+            <div
               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-              onClick={() => setShowMenu(false)}
+              onClick={() => handleLinkClick("/cursos-seminarios#cursos")}
             >
               Novedades
-            </Link>
+            </div>
           </li>
           <li>
-            <Link
-              href="/#contacto"
+            <div
               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
-              onClick={() => setShowMenu(false)}
+              onClick={() => handleLinkClick("#contacto")}
             >
               Contacto
-            </Link>
+            </div>
           </li>
         </ul>
       </div>
