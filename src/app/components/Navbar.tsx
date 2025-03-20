@@ -115,7 +115,8 @@ const navLinks = [
   { name: "Servicio", link: "#servicio" },
   { name: "Aplicaciones", link: "#aplicaciones" },
   { name: "Quienes somos", link: "#quienes-somos" },
-  { name: "News", link: "#contacto" },
+  //{ name: "News", link: "#contacto" },
+  { name: "Novedades", link: "/cursos-seminarios" },
   { name: "Contacto", link: "#contacto" },
 ];
 

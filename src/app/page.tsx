@@ -50,7 +50,7 @@ export default function Home() {
         <AboutUs />
         <Faq />
         
-        {/* <News /> */}           {/* HABILITAR ESTA LINEA SI QUEREMOS VER LAS 3 CARDS DE LAS NOTICIAS */}
+        <News />           {/* HABILITAR ESTA LINEA SI QUEREMOS VER LAS 3 CARDS DE LAS NOTICIAS */}
 
         {/* Aquí añadimos el video */}
         <div className="my-8 pt-[58px] lg:pt-24 2xl:pt-24">
