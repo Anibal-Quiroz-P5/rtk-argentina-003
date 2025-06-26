@@ -45,6 +45,7 @@ import carousel6 from "../../../public/assets/Carrousel06.jpg";
 
 import { Carousel } from "flowbite-react";
 import Link from "next/link";
+import Countdown from "./Countdown";
 
 const images = [
   carousel1,
@@ -55,9 +56,13 @@ const images = [
   carousel6,
 ];
 
+
+
 const fixedText = (
   <>
     {/* <span className="text-[48px] block pl-20">RTK Argentina</span> */}
+
+    {/* <Countdown /> */}
     <span className="text-[40px] block xl:pl-20 leading-tight">
       Despliega tus alas hacia
     </span>
@@ -78,7 +83,9 @@ const fixedText = (
     <div className="pt-[20px]"></div>
     {/* <div className="pt-[20px]"></div> */}
     {/* Botón */}
-    <Link href="#contacto">
+
+    {/* el siguiente comentario es el del BOTON ORIGINAL naranja de obtener prueba que tenia originalmente  */} 
+{/*     <Link href="#contacto">
       <div className="pt-[20px] xl:pl-20 ">
         <button className="bg-[#F95901] px-6 py-3 pt-2 rounded-xl hover:bg-[#f7793f] ">
           <span className="font-bold font-inter text-[14px] text-white lg:block ">
@@ -86,9 +93,12 @@ const fixedText = (
           </span>
         </button>
       </div>
-    </Link>
+    </Link> */}
+
   </>
 );
+
+
 
 const Hero = () => {
   return (
@@ -127,9 +137,14 @@ const Hero = () => {
         </Carousel>
         {/* Capa del gradiente con Tailwind */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#07130f] to-transparent hidden sm:block"></div>
-        <div className="absolute top-1/2 left-32 transform -translate-y-1/2 pl-4 text-white hidden sm:block">
+        {/* <div className="absolute top-1/2 left-32 transform -translate-y-1/2 pl-4 text-white hidden sm:block"> */}
+        <div className="absolute 2xl:top-[375px] left-32 transform -translate-y-1/2 pl-4 text-white hidden sm:block">
           {fixedText}
+
         </div>
+               <div className="relative 2xl:bottom-[650px] left-1/2 transform -translate-x-1/2 z-50 2xl:w-[1100px] px-4">
+              <Countdown />
+          </div>   
       </div>
 
       {/* </div> */}
@@ -138,7 +153,7 @@ const Hero = () => {
       {/* ---  NO BORRAR  BOTONES DE RTK AQUÍ (LLEVA AL REGISTRO Y PRECIOS NO LLEVA A NINGUN LADO) --- */}
       {/* ------------------------------------------------------------------------------------------------------------ */}
 
-      {/* <div className="flex w-full pt-8 justify-center gap-x-6 ">
+      <div className="flex w-full pt-8 justify-center gap-x-6 ">
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
             <Link href="/signup">
               <span className=" font-medium text-white lg:block">RTK aquí</span>
@@ -146,11 +161,11 @@ const Hero = () => {
           </button>
           <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit">
             Ver precios.
-            <span>
+            {/* <span>
               <Image src={Arrow} alt="Learn more" />
-            </span>
+            </span> */}
           </button>
-        </div> */}
+        </div>
 
       {/* ------------------------------------------------------------------------------------------------------------ */}
       {/* ------------------------------------------------------------ */}
@@ -239,13 +254,14 @@ const Hero = () => {
                   <hr className="border-t-0 border border-[#868686] w-[180px] sm:w-[240px] xl:w-[355px] " />
                 </div>
 
-                <div className="pt-[20px]  ">
+  
+               <div className="pt-[20px]  ">
                   <button className=" bg-[#F95901]  px-6 py-3 pt-2   rounded-xl  hover:bg-[#f7793f]  ">
                     <span className="  font-bold font-inter text-[14px] text-white lg:block">
                       Obtener prueba
                     </span>
                   </button>
-                </div>
+                </div> 
               </div>
             </div>
           </Link>

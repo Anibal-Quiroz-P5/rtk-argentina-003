@@ -535,6 +535,7 @@ const CorreoContact = () => {
                 </div>
               </div>
 
+
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"

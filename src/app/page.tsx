@@ -38,6 +38,9 @@ import Card from "./components/Card";
 import News from "./components/News";
 import Video from "./components/Video";
 import MercadoPago from "./components/MercadoPago";
+import Link from "next/link";
+
+import Countdown from './components/Countdown';
 
 export default function Home() {
   return (
@@ -74,7 +77,10 @@ export default function Home() {
 
 
         <MercadoPago />
+        <Link href="/products" className="ml-4">Productos</Link>
+        
 
+        {/* Aquí añadimos la sección de contacto */}
         <CorreoContact />
         <Footer />
       </div>

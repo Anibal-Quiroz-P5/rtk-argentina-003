@@ -264,7 +264,7 @@ const HamburguerMenu: React.FC<HamburguerMenuProps> = ({
               className="text-[#002E1E] font-semibold cursor-pointer text-[22px] mb-4 hover:text-[#F95901] transition duration-300"
               onClick={() => handleLinkClick("/cursos-seminarios#cursos")}
             >
-              Novedades
+              Productos
             </div>
           </li>
           <li>

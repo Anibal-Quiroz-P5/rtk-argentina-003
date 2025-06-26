@@ -116,7 +116,7 @@ const navLinks = [
   { name: "Aplicaciones", link: "#aplicaciones" },
   { name: "Quienes somos", link: "#quienes-somos" },
   //{ name: "News", link: "#contacto" },
-  { name: "Novedades", link: "/cursos-seminarios" },
+  { name: "Productos", link: "/diezPrimeros" },
   { name: "Contacto", link: "#contacto" },
 ];
 

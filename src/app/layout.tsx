@@ -39,25 +39,76 @@
 // }
 
 
+// import React from "react";
+// import type { Metadata } from "next";
+// import { Inter } from "next/font/google";
+// import "./globals.css";
+// import { Footer } from "./components/Footer";
+// import Image from 'next/image'
+// import Logo from '../../public/assets/Logo.png'
+// import Navbar from "./components/Navbar";
+
+
+// const inter = Inter({ subsets: ["latin"] });
+
+// export const metadata: Metadata = {
+//   title:{
+//     default: "RTK-Argentina",
+//     template: "%s - RTK Argentina",
+//   }, 
+//   description: "RTK Argentina Despliega tus alas hacia un futuro preciso...",
+// };  
+
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <head>
+//       <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+//       </head>
+//       <body className={inter.className}>
+//         {/* <h1>ESTE TITULOOOOOOOOOO</h1> */}
+       
+
+//         <Navbar /> 
+        
+//         {children}
+//         {/* <Footer/> */}
+// {/*         <footer>
+//         <div className='flex items-center justify-center gap-x-[12px] '>
+//         <Image src={Logo} alt='Logo' width={40}/>
+//         <p className='font-bold text-[#36485C] text-[17px]'>RTK-Argentina</p>
+//       </div>
+//         </footer> */}
+//         </body>
+//     </html>
+//   );
+// }
+
+
+
+
 import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./components/Footer";
-import Image from 'next/image'
-import Logo from '../../public/assets/Logo.png'
+import Image from 'next/image';
+import Logo from '../../public/assets/Logo.png';
 import Navbar from "./components/Navbar";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:{
+  title: {
     default: "RTK-Argentina",
     template: "%s - RTK Argentina",
-  }, 
+  },
   description: "RTK Argentina Despliega tus alas hacia un futuro preciso...",
-};  
+};
 
 export default function RootLayout({
   children,
@@ -65,25 +116,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
-      <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+        <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+
+        {/* Calendly widget script */}
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async
+        ></script>
       </head>
       <body className={inter.className}>
-        {/* <h1>ESTE TITULOOOOOOOOOO</h1> */}
-       
-
-        <Navbar /> 
-        
+        <Navbar />
         {children}
-        {/* <Footer/> */}
-{/*         <footer>
-        <div className='flex items-center justify-center gap-x-[12px] '>
-        <Image src={Logo} alt='Logo' width={40}/>
-        <p className='font-bold text-[#36485C] text-[17px]'>RTK-Argentina</p>
-      </div>
-        </footer> */}
-        </body>
+        {/* <Footer /> */}
+      </body>
     </html>
   );
 }
