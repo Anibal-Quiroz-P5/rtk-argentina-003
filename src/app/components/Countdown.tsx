@@ -398,7 +398,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-const targetDate = new Date('2025-06-28T23:59:00').getTime();
+const targetDate = new Date('2025-07-17T23:59:00').getTime();
 
 const getTimeLeft = () => {
   const now = new Date().getTime();
