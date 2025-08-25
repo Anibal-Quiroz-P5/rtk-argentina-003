@@ -38,7 +38,7 @@ import Card from "./components/Card";
 import News from "./components/News";
 import Video from "./components/Video";
 import MercadoPago from "./components/MercadoPago";
-import Link from "next/link";z
+import Link from "next/link";
 
 import Countdown from './components/Countdown';
 import NtripSuscriptionCards from "./components/NtripSuscriptionCards";
