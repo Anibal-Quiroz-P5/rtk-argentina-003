@@ -38,9 +38,7 @@ import Card from "./components/Card";
 import News from "./components/News";
 import Video from "./components/Video";
 import MercadoPago from "./components/MercadoPago";
-import Link from "next/link";
-import Image from "next/image";
-import MaqAgric from "../../public/assets/Doble _2.png";
+import Link from "next/link";z
 
 import Countdown from './components/Countdown';
 import NtripSuscriptionCards from "./components/NtripSuscriptionCards";
@@ -90,13 +88,6 @@ export default function Home() {
         {/* Aquí añadimos la sección de contacto */}
         <CorreoContact />
         <Footer />
-                    <div>
-                      <Image
-                        src={MaqAgric}
-                        alt="Feature 1 image"
-                        className="w-full  sm:block rounded-t-2xl"
-                      />
-                    </div>
       </div>
 
 
