@@ -42,7 +42,7 @@ const api = {
               id: "message",
               unit_price: 2,
               quantity: 1,
-              title: "Mensaje de muro",
+              title: "Pago suscripción NTRIP",
             },
           ],
           metadata: {
