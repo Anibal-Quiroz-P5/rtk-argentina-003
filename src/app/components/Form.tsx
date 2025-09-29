@@ -124,7 +124,7 @@ export default function Form() {
   return (
     <div className="grid gap-2">
       <button type="button" onClick={handleClick}>
-        Comprar
+        Comprar algo
       </button>
       {error && <p className="text-red-500">{error}</p>}
     </div>
