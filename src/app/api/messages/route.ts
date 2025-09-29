@@ -18,6 +18,10 @@ import api from "../api";
 
 export async function POST() {
   try {
+
+ // 🔹 Verificamos que el token llegue correctamente
+    console.log("MP_ACCESS_TOKEN:", process.env.MP_ACCESS_TOKEN);
+
     const url = await api.payment.createPreference();
     return NextResponse.json({ url });
   } catch (error) {
