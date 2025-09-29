@@ -22,8 +22,9 @@ console.log("MP_ACCESS_TOKEN:", process.env.MP_ACCESS_TOKEN);
 
   try {
 
- // 🔹 Verificamos que el token llegue correctamente
-    console.log("MP_ACCESS_TOKEN:", process.env.MP_ACCESS_TOKEN);
+    if (!process.env.MP_ACCESS_TOKEN) {
+      throw new Error("MP_ACCESS_TOKEN no definido en producción");
+    }
 
     const url = await api.payment.createPreference();
     return NextResponse.json({ url });
