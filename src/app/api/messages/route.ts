@@ -17,6 +17,9 @@ import { NextResponse } from "next/server";
 import api from "../api";
 
 export async function POST() {
+
+console.log("MP_ACCESS_TOKEN:", process.env.MP_ACCESS_TOKEN);
+
   try {
 
  // 🔹 Verificamos que el token llegue correctamente
