@@ -141,7 +141,7 @@ export async function POST(request: Request) {
           failure: "https://www.anibalquiroz.com/",
           pending: "https://www.anibalquiroz.com/",
         },
-        auto_return: "approved", // vuelve automáticamente al éxito
+        //auto_return: "approved", // vuelve automáticamente al éxito
       },
     });
 
