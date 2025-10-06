@@ -107,7 +107,7 @@ export async function POST(request: Request) {
     // Mapeo de productos
     const itemsMap: Record<string, { title: string; price: number }> = {
       default: { title: "Suscripción NTRIP", price: 1000 },
-      prod_1: { title: "Suscripción NTRIP Diaria", price: 10000 },
+      prod_1: { title: "Suscripción NTRIP Diaria", price: 1000 },
       prod_2: { title: "Suscripción NTRIP Mensual", price: 1.2 },
       prod_3: { title: "Suscripción NTRIP Anual", price: 1.3 },
     };
@@ -132,9 +132,9 @@ export async function POST(request: Request) {
           installments: 1, // Máximo de cuotas permitido
         },
         back_urls: {
-          success: "https://www.rtkarg.com/success",
-          failure: "https://www.rtkarg.com/failure",
-          pending: "https://www.rtkarg.com/pending",
+          success: "https://www.anibalquiroz.com/success",
+          failure: "https://www.anibalquiroz.com/failure",
+          pending: "https://www.anibalquiroz.com/pending",
         },
         auto_return: "approved", // vuelve automáticamente al éxito
       },
