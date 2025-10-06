@@ -405,15 +405,15 @@ export default function Form({ planType }: FormProps) {
   // 🔹 Determinamos el texto y el ID del producto según el plan
   const planInfo = {
     diario: {
-      label: "🟨 Comprar Suscripción NTRIP DIARIA",
+      label: "Comprar Suscripción NTRIP DIARIA",
       id: "prod_1",
     },
     mensual: {
-      label: "🟨 Comprar Suscripción NTRIP MENSUAL",
+      label: "Comprar Suscripción NTRIP MENSUAL",
       id: "prod_2",
     },
     anual: {
-      label: "🟨 Comprar Suscripción NTRIP ANUAL",
+      label: "Comprar Suscripción NTRIP ANUAL",
       id: "prod_3",
     },
   }[planType];
