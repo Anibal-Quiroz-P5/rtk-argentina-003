@@ -296,16 +296,88 @@
 
 
 
+// "use client";
+
+// import React, { useState } from "react";
+
+// export default function Form() {
+//   const [error, setError] = useState("");
+
+//   const createPreference = async (productId: string) => {
+//     try {
+//       // Llamamos a tu backend para crear la preferencia
+//       const res = await fetch("/api/messages", {
+//         method: "POST",
+//         headers: { "Content-Type": "application/json" },
+//         body: JSON.stringify({ productId }),
+//       });
+
+//       const data = await res.json();
+
+//       if (!res.ok) throw new Error(data.error || "Error al crear preferencia");
+
+//       // ✅ Redirigimos al Checkout Pro (botón amarillo)
+//       if (data.init_point) {
+//         window.location.href = data.init_point;
+//       } else {
+//         throw new Error("No se recibió el init_point de Mercado Pago");
+//       }
+
+//       setError("");
+//     } catch (err) {
+//       console.error(err);
+//       setError("Error al iniciar el pago");
+//     }
+//   };
+
+//   return (
+//     <div className="flex flex-col gap-4 items-center">
+//       <h2 className="text-xl font-semibold mb-2">Seleccioná tu suscripción</h2>
+
+//       <div className="grid gap-3 w-full max-w-sm">
+//         <button
+//           className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 rounded-lg transition duration-300"
+//           onClick={() => createPreference("prod_1")}
+//         >
+//           🟨 Comprar Suscripción NTRIP DIARIA
+//         </button>
+
+//         <button
+//           className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 rounded-lg transition duration-300"
+//           onClick={() => createPreference("prod_2")}
+//         >
+//           🟨 Comprar Suscripción NTRIP MENSUAL
+//         </button>
+
+//         <button
+//           className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 rounded-lg transition duration-300"
+//           onClick={() => createPreference("prod_3")}
+//         >
+//           🟨 Comprar Suscripción NTRIP ANUAL
+//         </button>
+//       </div>
+
+//       {error && <p className="text-red-500 mt-3">{error}</p>}
+//     </div>
+//   );
+// }
+
+
+
+
 "use client";
 
 import React, { useState } from "react";
 
-export default function Form() {
+interface FormProps {
+  planType: "diario" | "mensual" | "anual";
+}
+
+export default function Form({ planType }: FormProps) {
   const [error, setError] = useState("");
 
   const createPreference = async (productId: string) => {
     try {
-      // Llamamos a tu backend para crear la preferencia
       const res = await fetch("/api/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -316,7 +388,7 @@ export default function Form() {
 
       if (!res.ok) throw new Error(data.error || "Error al crear preferencia");
 
-      // ✅ Redirigimos al Checkout Pro (botón amarillo)
+      // ✅ Redirige al Checkout Pro (botón amarillo)
       if (data.init_point) {
         window.location.href = data.init_point;
       } else {
@@ -330,32 +402,30 @@ export default function Form() {
     }
   };
 
+  // 🔹 Determinamos el texto y el ID del producto según el plan
+  const planInfo = {
+    diario: {
+      label: "🟨 Comprar Suscripción NTRIP DIARIA",
+      id: "prod_1",
+    },
+    mensual: {
+      label: "🟨 Comprar Suscripción NTRIP MENSUAL",
+      id: "prod_2",
+    },
+    anual: {
+      label: "🟨 Comprar Suscripción NTRIP ANUAL",
+      id: "prod_3",
+    },
+  }[planType];
+
   return (
-    <div className="flex flex-col gap-4 items-center">
-      <h2 className="text-xl font-semibold mb-2">Seleccioná tu suscripción</h2>
-
-      <div className="grid gap-3 w-full max-w-sm">
-        <button
-          className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 rounded-lg transition duration-300"
-          onClick={() => createPreference("prod_1")}
-        >
-          🟨 Comprar Suscripción NTRIP DIARIA
-        </button>
-
-        <button
-          className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 rounded-lg transition duration-300"
-          onClick={() => createPreference("prod_2")}
-        >
-          🟨 Comprar Suscripción NTRIP MENSUAL
-        </button>
-
-        <button
-          className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 rounded-lg transition duration-300"
-          onClick={() => createPreference("prod_3")}
-        >
-          🟨 Comprar Suscripción NTRIP ANUAL
-        </button>
-      </div>
+    <div className="flex flex-col items-center w-full">
+      <button
+        className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 px-5 rounded-lg transition duration-300 w-full max-w-sm"
+        onClick={() => createPreference(planInfo.id)}
+      >
+        {planInfo.label}
+      </button>
 
       {error && <p className="text-red-500 mt-3">{error}</p>}
     </div>

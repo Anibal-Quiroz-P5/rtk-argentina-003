@@ -52,7 +52,7 @@ const NtripSuscriptionCards = () => {
                                 <span>Atención al cliente de 8 a 16 hs.</span>
                             </li>
                         </ul>
-                        <a href="javascript:;"  className="py-2.5 px-5 bg-indigo-50 shadow-sm rounded-full transition-all duration-500 text-base text-indigo-600 font-semibold text-center w-fit mx-auto group-hover:bg-indigo-600 group-hover:text-white "><Form /> </a>
+                        <a href="javascript:;"  className="py-2.5 px-5 bg-indigo-50 shadow-sm rounded-full transition-all duration-500 text-base text-indigo-600 font-semibold text-center w-fit mx-auto group-hover:bg-indigo-600 group-hover:text-white "><Form planType="diario" /> </a>
                         {/* List End */}
                     </div> 
                     {/* Pricing Card */}
@@ -94,7 +94,7 @@ const NtripSuscriptionCards = () => {
                                 <span>Atención al cliente de 8 a 16 hs.</span>
                             </li>
                         </ul>
-                        <a href="javascript:;"  className="py-2.5 px-5 bg-indigo-50 shadow-sm rounded-full transition-all duration-500 text-base text-indigo-600 font-semibold text-center w-fit mx-auto group-hover:bg-indigo-600 group-hover:text-white "><Form /></a>
+                        <a href="javascript:;"  className="py-2.5 px-5 bg-indigo-50 shadow-sm rounded-full transition-all duration-500 text-base text-indigo-600 font-semibold text-center w-fit mx-auto group-hover:bg-indigo-600 group-hover:text-white "><Form planType="mensual" /></a>
                         {/* List End */}
                     </div> 
                     {/* Pricing Card */}
@@ -135,7 +135,7 @@ const NtripSuscriptionCards = () => {
                             <span>Atención al cliente de 8 a 16 hs.</span>
                         </li>
                     </ul>
-                    <a href="javascript:;"  className="py-2.5 px-5 bg-indigo-50 shadow-sm rounded-full transition-all duration-500 text-base text-indigo-600 font-semibold text-center w-fit mx-auto group-hover:bg-indigo-600 group-hover:text-white "><Form /></a>
+                    <a href="javascript:;"  className="py-2.5 px-5 bg-indigo-50 shadow-sm rounded-full transition-all duration-500 text-base text-indigo-600 font-semibold text-center w-fit mx-auto group-hover:bg-indigo-600 group-hover:text-white "><Form planType="anual" /></a>
                     {/* List End */}
                 </div> 
                 </div>
