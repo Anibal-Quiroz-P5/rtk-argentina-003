@@ -131,10 +131,15 @@ export async function POST(request: Request) {
           excluded_payment_types: [],
           installments: 1, // Máximo de cuotas permitido
         },
-        back_urls: {
-          success: "https://www.anibalquiroz.com/success",
-          failure: "https://www.anibalquiroz.com/failure",
-          pending: "https://www.anibalquiroz.com/pending",
+        // back_urls: {
+        //   success: "https://www.anibalquiroz.com/success",
+        //   failure: "https://www.anibalquiroz.com/failure",
+        //   pending: "https://www.anibalquiroz.com/pending",
+        // },
+                back_urls: {
+          success: "https://www.anibalquiroz.com/",
+          failure: "https://www.anibalquiroz.com/",
+          pending: "https://www.anibalquiroz.com/",
         },
         auto_return: "approved", // vuelve automáticamente al éxito
       },
