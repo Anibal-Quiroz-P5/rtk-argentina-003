@@ -97,17 +97,14 @@
 
 
 import { NextResponse } from "next/server";
-import { MercadoPagoConfig, Preference } from "mercadopago";
-
-// Inicializamos el cliente
-const client = new MercadoPagoConfig({
-  accessToken: process.env.MP_ACCESS_TOKEN!,
-});
+import { Preference } from "mercadopago";
+import { mercadopago } from "../api";
 
 export async function POST(request: Request) {
   try {
     const { productId } = await request.json();
 
+    // Mapeo de productos
     const itemsMap: Record<string, { title: string; price: number }> = {
       default: { title: "Suscripción NTRIP", price: 1000 },
       prod_1: { title: "Suscripción NTRIP Diaria", price: 1.1 },
@@ -117,31 +114,34 @@ export async function POST(request: Request) {
 
     const product = itemsMap[productId] || itemsMap["default"];
 
-    const preference = await new Preference(client).create({
+    // ✅ Crear la preferencia con todos los medios habilitados
+    const preference = await new Preference(mercadopago).create({
       body: {
         items: [
           {
             id: productId,
             title: product.title,
-            quantity: 1,
             unit_price: product.price,
+            quantity: 1,
           },
         ],
         payment_methods: {
+          // No excluimos nada: se permiten tarjetas, efectivo, cuenta, etc.
           excluded_payment_methods: [],
           excluded_payment_types: [],
-          installments: 1,
+          installments: 1, // Máximo de cuotas permitido
         },
         back_urls: {
           success: "https://www.rtkarg.com/success",
           failure: "https://www.rtkarg.com/failure",
           pending: "https://www.rtkarg.com/pending",
         },
-        auto_return: "approved",
+        auto_return: "approved", // vuelve automáticamente al éxito
       },
     });
 
-    // Enviamos ambos: id (para Wallet) y init_point (para Checkout Pro)
+    // ✅ Devolvemos tanto el preferenceId (para el Wallet amarillo)
+    // como el init_point (para el botón verde Checkout Pro)
     return NextResponse.json({
       preferenceId: preference.id,
       init_point: preference.init_point,
@@ -154,4 +154,3 @@ export async function POST(request: Request) {
     );
   }
 }
-
