@@ -77,7 +77,7 @@ export default function Home() {
         </div>
 
 
-        <MercadoPago />
+        {/*<MercadoPago /> */}
         <Link href="/products" className="ml-4">Productos</Link>
 
         <NtripSuscriptionCards />
