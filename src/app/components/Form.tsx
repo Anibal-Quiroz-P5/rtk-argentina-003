@@ -421,7 +421,7 @@ export default function Form({ planType }: FormProps) {
   return (
     <div className="flex flex-col items-center w-full">
       <button
-        className="bg-[#009EE3] hover:bg-[#0077B6] text-white font-semibold py-3 px-5 rounded-lg transition duration-300 w-full max-w-sm"
+        className="bg-[#4f46e5] hover:bg-[#4f46e5] text-white font-semibold py-3 px-5 rounded-lg transition duration-300 w-full max-w-sm"
         onClick={() => createPreference(planInfo.id)}
       >
         {planInfo.label}
