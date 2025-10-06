@@ -99,6 +99,7 @@
 import { NextResponse } from "next/server";
 import { MercadoPagoConfig, Preference } from "mercadopago";
 
+// Inicializamos el cliente
 const client = new MercadoPagoConfig({
   accessToken: process.env.MP_ACCESS_TOKEN!,
 });
@@ -140,10 +141,17 @@ export async function POST(request: Request) {
       },
     });
 
-    // 🧩 Enviamos el init_point (URL del Checkout Pro)
-    return NextResponse.json({ init_point: preference.init_point });
+    // Enviamos ambos: id (para Wallet) y init_point (para Checkout Pro)
+    return NextResponse.json({
+      preferenceId: preference.id,
+      init_point: preference.init_point,
+    });
   } catch (error) {
     console.error("Error creando preferencia:", error);
-    return NextResponse.json({ error: "Error creando preferencia" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Error creando preferencia" },
+      { status: 500 }
+    );
   }
 }
+

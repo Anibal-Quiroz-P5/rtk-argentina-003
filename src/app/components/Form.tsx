@@ -131,13 +131,15 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { initMercadoPago } from "@mercadopago/sdk-react";
+import { initMercadoPago, Wallet } from "@mercadopago/sdk-react";
 
 export default function Form() {
+  const [preferenceId, setPreferenceId] = useState<string | null>(null);
+  const [checkoutUrl, setCheckoutUrl] = useState<string | null>(null);
   const [error, setError] = useState("");
 
   useEffect(() => {
-    // Inicializá el SDK (para buenas prácticas)
+    // Inicializamos Mercado Pago (solo frontend)
     initMercadoPago(process.env.NEXT_PUBLIC_MP!, { locale: "es-AR" });
   }, []);
 
@@ -150,14 +152,13 @@ export default function Form() {
       });
 
       const data = await res.json();
+
       if (!res.ok) throw new Error(data.error || "Error al crear preferencia");
 
-      // 🧭 Redirigimos al checkout oficial de Mercado Pago
-      if (data.init_point) {
-        window.location.href = data.init_point;
-      } else {
-        throw new Error("No se recibió la URL de pago");
-      }
+      // Guardamos ambas variables
+      setPreferenceId(data.preferenceId);
+      setCheckoutUrl(data.init_point);
+      setError("");
     } catch (err) {
       console.error(err);
       setError("Error al iniciar el pago");
@@ -191,7 +192,28 @@ export default function Form() {
         </button>
       </div>
 
+      {/* ✅ Mostrar las opciones de pago */}
+      {checkoutUrl && (
+        <div className="flex flex-col items-center mt-6 gap-3">
+          <a
+            href={checkoutUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+          >
+            Ir al Checkout Pro
+          </a>
+
+          {preferenceId && (
+            <div className="mt-2">
+              <Wallet initialization={{ preferenceId }} />
+            </div>
+          )}
+        </div>
+      )}
+
       {error && <p className="text-red-500">{error}</p>}
     </div>
   );
 }
+
