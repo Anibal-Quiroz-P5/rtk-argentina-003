@@ -107,9 +107,9 @@ export async function POST(request: Request) {
     // Mapeo de productos
     const itemsMap: Record<string, { title: string; price: number }> = {
       default: { title: "Suscripción NTRIP", price: 1000 },
-      prod_1: { title: "Suscripción NTRIP Diaria", price: 10 },
-      prod_2: { title: "Suscripción NTRIP Mensual", price: 10.1 },
-      prod_3: { title: "Suscripción NTRIP Anual", price: 10.2 },
+      prod_1: { title: "Suscripción NTRIP Diaria", price: 50 },
+      prod_2: { title: "Suscripción NTRIP Mensual", price: 50.1 },
+      prod_3: { title: "Suscripción NTRIP Anual", price: 50.2 },
     };
 
     const product = itemsMap[productId] || itemsMap["default"];
