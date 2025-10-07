@@ -1,89 +1,60 @@
 
 
 // import { NextResponse } from "next/server";
-// import api from "../api";
-
-// export async function POST(request: Request) {
-//   console.log("MP_ACCESS_TOKEN:", process.env.MP_ACCESS_TOKEN);
-
-//   try {
-//     if (!process.env.MP_ACCESS_TOKEN) {
-//       throw new Error("MP_ACCESS_TOKEN no definido en producción");
-//     }
-
-//     const { productId } = await request.json();
-
-//     const url = await api.payment.createPreference(productId || "default");
-//     return NextResponse.json({ url });
-//   } catch (error) {
-//     console.error(error);
-//     return NextResponse.json(
-//       { error: "Failed to create preference" },
-//       { status: 500 }
-//     );
-//   }
-// }
-
-
-
-
-
-
-
-// import { NextResponse } from "next/server";
-// import { MercadoPagoConfig, Preference } from "mercadopago";
-
-// // 🔐 Inicializamos el cliente de Mercado Pago con tu Access Token del backend
-// const client = new MercadoPagoConfig({
-//   accessToken: process.env.MP_ACCESS_TOKEN!,
-// });
+// import { Preference } from "mercadopago";
+// import { mercadopago } from "../api";
 
 // export async function POST(request: Request) {
 //   try {
 //     const { productId } = await request.json();
 
-//     // 🛍️ Mapeo de productos disponibles
+//     // Mapeo de productos
 //     const itemsMap: Record<string, { title: string; price: number }> = {
 //       default: { title: "Suscripción NTRIP", price: 1000 },
-//       prod_1: { title: "Suscripción NTRIP Diaria", price: 1.1 },
-//       prod_2: { title: "Suscripción NTRIP Mensual", price: 1.2 },
-//       prod_3: { title: "Suscripción NTRIP Anual", price: 1.3 },
+//       prod_1: { title: "Suscripción NTRIP Diaria", price: 50 },
+//       prod_2: { title: "Suscripción NTRIP Mensual", price: 50.1 },
+//       prod_3: { title: "Suscripción NTRIP Anual", price: 50.2 },
 //     };
 
 //     const product = itemsMap[productId] || itemsMap["default"];
 
-//     // 🧩 Creamos la preferencia con opciones recomendadas
-//     const preference = await new Preference(client).create({
+//     // ✅ Crear la preferencia con todos los medios habilitados
+//     const preference = await new Preference(mercadopago).create({
 //       body: {
 //         items: [
 //           {
 //             id: productId,
 //             title: product.title,
-//             quantity: 1,
 //             unit_price: product.price,
+//             quantity: 1,
 //           },
 //         ],
-//         // 💳 Configuración opcional de medios de pago
 //         payment_methods: {
-//           excluded_payment_methods: [
-//             { id: "cabal" },
-//             { id: "cmr" },
-//           ],
+//           // No excluimos nada: se permiten tarjetas, efectivo, cuenta, etc.
+//           excluded_payment_methods: [],
 //           excluded_payment_types: [],
-//           installments: 1, // Solo 1 cuota
+//           installments: 1, // Máximo de cuotas permitido
 //         },
-//         // 🔁 Opcional: URLs de redirección
-//         back_urls: {
-//           success: "https://anibalquiroz.com/success",
-//           failure: "https://anibalquiroz.com/failure",
-//           pending: "https://anibalquiroz.com/pending",
+//         // back_urls: {
+//         //   success: "https://www.anibalquiroz.com/success",
+//         //   failure: "https://www.anibalquiroz.com/failure",
+//         //   pending: "https://www.anibalquiroz.com/pending",
+//         // },
+//                 back_urls: {
+//           success: "https://www.anibalquiroz.com/",
+//           failure: "https://www.anibalquiroz.com/",
+//           pending: "https://www.anibalquiroz.com/",
 //         },
-//         auto_return: "approved", // Vuelve automáticamente tras pago aprobado
+//         //auto_return: "approved", // vuelve automáticamente al éxito
 //       },
 //     });
 
-//     // 📤 Devolvemos solo el ID de la preferencia al frontend
-//     return NextResponse.json({ preferenceId: preference.id });
+//     // ✅ Devolvemos tanto el preferenceId (para el Wallet amarillo)
+//     // como el init_point (para el botón verde Checkout Pro)
+//     return NextResponse.json({
+//       preferenceId: preference.id,
+//       init_point: preference.init_point,
+//     });
 //   } catch (error) {
 //     console.error("Error creando preferencia:", error);
 //     return NextResponse.json(
@@ -104,12 +75,23 @@ export async function POST(request: Request) {
   try {
     const { productId } = await request.json();
 
-    // Mapeo de productos
-    const itemsMap: Record<string, { title: string; price: number }> = {
+    // 🔹 Mapeo de productos
+    const itemsMap: Record<
+      string,
+      { title: string; price: number; description?: string }
+    > = {
       default: { title: "Suscripción NTRIP", price: 1000 },
       prod_1: { title: "Suscripción NTRIP Diaria", price: 50 },
       prod_2: { title: "Suscripción NTRIP Mensual", price: 50.1 },
       prod_3: { title: "Suscripción NTRIP Anual", price: 50.2 },
+
+      // 🔹 NUEVO PRODUCTO: Base GNSS RTK (Primeros Diez)
+      base: {
+        title: "Base GNSS RTK - Primeros Diez",
+        description:
+          "Pago de la base fija GNSS RTK (oferta exclusiva para los primeros 10 usuarios)",
+        price: 3500,
+      },
     };
 
     const product = itemsMap[productId] || itemsMap["default"];
@@ -121,32 +103,28 @@ export async function POST(request: Request) {
           {
             id: productId,
             title: product.title,
+            description: product.description || "",
             unit_price: product.price,
             quantity: 1,
+            currency_id: "ARS",
           },
         ],
         payment_methods: {
-          // No excluimos nada: se permiten tarjetas, efectivo, cuenta, etc.
           excluded_payment_methods: [],
           excluded_payment_types: [],
-          installments: 1, // Máximo de cuotas permitido
+          installments: 1,
         },
-        // back_urls: {
-        //   success: "https://www.anibalquiroz.com/success",
-        //   failure: "https://www.anibalquiroz.com/failure",
-        //   pending: "https://www.anibalquiroz.com/pending",
-        // },
-                back_urls: {
-          success: "https://www.anibalquiroz.com/",
-          failure: "https://www.anibalquiroz.com/",
-          pending: "https://www.anibalquiroz.com/",
+        back_urls: {
+          success: "https://www.rtkarg.com/success",
+          failure: "https://www.rtkarg.com/failure",
+          pending: "https://www.rtkarg.com/pending",
         },
-        //auto_return: "approved", // vuelve automáticamente al éxito
+        auto_return: "approved",
       },
     });
 
-    // ✅ Devolvemos tanto el preferenceId (para el Wallet amarillo)
-    // como el init_point (para el botón verde Checkout Pro)
+    // ✅ Devolvemos tanto el preferenceId (para el widget amarillo)
+    // como el init_point (para abrir el Checkout Pro directamente)
     return NextResponse.json({
       preferenceId: preference.id,
       init_point: preference.init_point,

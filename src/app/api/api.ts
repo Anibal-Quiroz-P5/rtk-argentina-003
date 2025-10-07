@@ -150,7 +150,7 @@ const api = {
               "Pago de la base fija GNSS RTK (oferta exclusiva para los primeros 10 usuarios)",
             quantity: 1,
             currency_id: "ARS",
-            unit_price: 3500,
+            unit_price: 1.5,
           };
           break;
 
