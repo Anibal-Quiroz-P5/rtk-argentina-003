@@ -40,7 +40,7 @@
 
 
 export const metadata = {
-  title: "RTKArg B10 – Estación Base GNSS de Alto Rendimiento | RTK Argentina",
+  title: "RTKArg B10 – Estación Base GNSS de Alto Rendimiento | RTK",
   description:
     "Brochure técnico de la estación base GNSS RTKArg B10: características, especificaciones de rendimiento y datos ambientales del servicio RTK Argentina.",
 };
