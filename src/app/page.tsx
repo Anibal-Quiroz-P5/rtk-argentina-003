@@ -88,7 +88,7 @@ export default function Home() {
         {/* Aquí añadimos la sección de contacto */}
         <CorreoContact />
 
-<div style={{ display: "none" }}>
+{/* <div style={{ display: "none" }}>
 
   <h2>¿Qué es RTK?</h2>
   <p>
@@ -115,7 +115,7 @@ export default function Home() {
     Las aplicaciones mas comunes de GNSS RTK incluyen topografía de alta precisión, monitoreo en construcción, aterruzaje de drones, agricultura de precisión, gestión de minas, transporte y logística eficiente, así como planificación y desarrollo urbano.
   </p>
 
-</div>
+</div> */}
 
 
         <Footer />
