@@ -92,6 +92,7 @@ const NtripSuscriptionCards = () => {
                 <Form planType="diario" />{" "}
               </a>
               {/* List End */}
+              <h1>Contactanos</h1>
             </div>
 
 
@@ -153,6 +154,7 @@ const NtripSuscriptionCards = () => {
                 <Form planType="diario" />{" "}
               </a>
               {/* List End */}
+              <h1>Quiero pMas Información</h1>
             </div>
 
 
@@ -215,6 +217,7 @@ const NtripSuscriptionCards = () => {
                 <Form planType="mensual" />
               </a>
               {/* List End */}
+              <h1>Contactanos para resolver tus dudas</h1>
             </div>
             {/* Pricing Card */}
             <div className="group relative flex flex-col mx-auto w-full max-w-sm bg-white rounded-2xl shadow-2xl transition-all duration-300  p-8 xl:p-12  ">
@@ -274,6 +277,7 @@ const NtripSuscriptionCards = () => {
                 <Form planType="anual" />
               </a>
               {/* List End */}
+              <h1>Contacto por dudas</h1>
             </div>
           </div>
           {/* Grid End */}

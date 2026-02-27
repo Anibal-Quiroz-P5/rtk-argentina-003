@@ -87,7 +87,6 @@ export const Footer = () => {
         {/* <div className="flex flex-col lg:flex lg:flex-row justify-center items-center sm:gap-x-10 2xl:gap-x-20 "> */}
         <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-10 2xl:gap-x-20 2xl:pt-12">
           <div className="flex flex-row  items-center">
-
             <div className="pl-7 pb-1 ">
               <a
                 /* href="https://www.whatsapp.com" */
@@ -96,9 +95,9 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex gap-4 items-center p-0 pl-0 hover:bg-green-700 rounded text-white"
               >
-            <div className="pl-3">
-              <Image src={Whatsapp} alt="Whatsapp" width={25} height={42} />
-            </div>
+                <div className="pl-3">
+                  <Image src={Whatsapp} alt="Whatsapp" width={25} height={42} />
+                </div>
                 <span className="text-[16px] pl-[2px]">+54911-24940670</span>
               </a>
 
@@ -110,7 +109,7 @@ export const Footer = () => {
             className="flex gap-4 items-center p-0 hover:bg-gray-200 rounded"
            >
             
-            <span className="text-[16px]">+54911-51555966</span>
+            <span className="text-[16px]">-51555966</span>
            </a> */}
             </div>
           </div>
@@ -185,7 +184,9 @@ export const Footer = () => {
           >
             <div className="flex items-center justify-center gap-x-[12px]  pt-6">
               <Image src={Logo} alt="Logo" width={25} />
-              <p className="font-semibold  text-[17px] text-white">RTK-Argentina</p>
+              <p className="font-semibold  text-[17px] text-white">
+                RTK-Argentina
+              </p>
             </div>
           </Link>
         </nav>

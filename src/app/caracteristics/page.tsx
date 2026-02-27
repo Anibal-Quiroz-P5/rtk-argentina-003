@@ -12,7 +12,7 @@
 //         </h1>
 
 //         <p className="text-lg mb-6">
-//           Nuestro servicio NTRIP ofrece correcciones RTCM en tiempo real para usuarios con receptores GNSS compatibles. 
+//           Nuestro servicio NTRIP ofrece correcciones RTCM en tiempo real para usuarios con receptores GNSS compatibles.
 //           Ideal para aplicaciones en agricultura de precisión, topografía y georreferenciación de alta exactitud.
 //         </p>
 
@@ -37,7 +37,8 @@
 //   );
 // }
 
-
+import Whatsapp from "../../../public/assets/Whatsapp.svg";
+import Image from "next/image";
 
 export const metadata = {
   title: "RTKArg B10 – Estación Base GNSS de Alto Rendimiento | RTK",
@@ -55,12 +56,15 @@ export default function CaracteristicsPage() {
         <br />
 
         {/* Sección: Características */}
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Características</h2>
+        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+          Características
+        </h2>
         <ul className="list-disc pl-8 space-y-3">
           <li>
-            <strong>Sistemas GNSS compatibles:</strong> Compatible con 7 sistemas de navegación por
-            satélite y 25 bandas de frecuencia, mejorando la precisión del posicionamiento, la
-            confiabilidad de la señal y la disponibilidad de satélites. Incorpora un motor RTK
+            <strong>Sistemas GNSS compatibles:</strong> Compatible con 7
+            sistemas de navegación por satélite y 25 bandas de frecuencia,
+            mejorando la precisión del posicionamiento, la confiabilidad de la
+            señal y la disponibilidad de satélites. Incorpora un motor RTK
             multiconstelación y multifrecuencia de última generación.
           </li>
           <li>
@@ -83,12 +87,12 @@ export default function CaracteristicsPage() {
             </ul>
           </li>
           <li>
-            <strong>Autonomía de batería:</strong> Hasta 8 horas de operación continua con batería
-            interna.
+            <strong>Autonomía de batería:</strong> Hasta 8 horas de operación
+            continua con batería interna.
           </li>
           <li>
-            <strong>Rango de temperatura operativa:</strong> Funcionamiento confiable en condiciones
-            extremas, con un rango de −40°C a +85°C.
+            <strong>Rango de temperatura operativa:</strong> Funcionamiento
+            confiable en condiciones extremas, con un rango de −40°C a +85°C.
           </li>
         </ul>
 
@@ -113,11 +117,12 @@ export default function CaracteristicsPage() {
             </ul>
           </li>
           <li>
-            <strong>Precisión RTK (RMS):</strong> Horizontal 0,8 cm + 1 ppm / Vertical 1,5 cm + 1
-            ppm.
+            <strong>Precisión RTK (RMS):</strong> Horizontal 0,8 cm + 1 ppm /
+            Vertical 1,5 cm + 1 ppm.
           </li>
           <li>
-            <strong>Datos diferenciales:</strong> Compatible con el estándar RTCM v3.x.
+            <strong>Datos diferenciales:</strong> Compatible con el estándar
+            RTCM v3.x.
           </li>
         </ul>
 
@@ -133,17 +138,50 @@ export default function CaracteristicsPage() {
             <strong>Temperatura de almacenamiento:</strong> −55°C a +95°C.
           </li>
           <li>
-            <strong>Resistencia a la humedad:</strong> Hasta 95% sin condensación.
+            <strong>Resistencia a la humedad:</strong> Hasta 95% sin
+            condensación.
           </li>
         </ul>
-        <br />
-        <br />
-                <h2 className="text-2xl font-semibold text-indigo-700 mt-10 mb-4">
-          Por cobertura del servicio, contáctese a nuestro email o Whatsapp
-        </h2>
-        <br />
-        <br />
+
+
         {/* Botón de regreso */}
+
+        <div className="flex flex-col lg:flex lg:flex-row justify-center  sm:gap-x-10 pt-10 2xl:gap-x-20 2xl:pt-12">
+          <div className="flex flex-row  items-center">
+            <div className="pl-7 pb-1 ">
+<h2 className="text-2xl font-semibold text-indigo-700 mt-10 mb-4">
+  Por cobertura del servicio,&nbsp;
+  
+  <a
+    href="https://wa.me/5491124940670"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-2 py-1 rounded 
+               text-indigo-700 border border-indigo-700
+               hover:bg-indigo-700 hover:text-white 
+               transition-colors duration-300"
+  >
+    haga click aquí
+  </a>
+
+  &nbsp;y contáctese a nuestro Whatsapp
+</h2>
+              {/* <a
+            
+                href="https://wa.me/5491151555966"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex gap-4 items-center p-0 hover:bg-gray-200 rounded"
+              >
+            
+              < span className="text-[16px]">-51555966</span>
+              </a> */}
+            </div>
+          </div>
+        </div>
+
+        <br />
+
         <div className="text-center mt-14">
           <a
             href="/#precios"
