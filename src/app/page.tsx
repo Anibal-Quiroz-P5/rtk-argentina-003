@@ -88,9 +88,12 @@ export default function Home() {
         {/* Aquí añadimos la sección de contacto */}
         <CorreoContact />
 
- <div style={{ display: "none" }}>
+<div style={{ display: "none" }}>
 
   <h2>¿Qué es RTK?</h2>
+  <p>
+    RTK, (Real-Time Kinematic) o Cinemática en Tiempo Real, es una tecnología avanzada que permite obtener posiciones (coordenadas geográficas) muy precisas usando señales de satélites GNSS. <br /><br/>  A diferencia de los sistemas GNSS comunes, como los que se encuentran en teléfonos móviles, dispositivos de navegación para automóviles y relojes deportivos, que pueden tener un margen de error de varios metros, <strong>RTK reduce ese margen a solo unos pocos centímetros.</strong>
+  </p>
 
 </div> 
 
